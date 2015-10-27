@@ -1,0 +1,35 @@
+{% if page.section %}
+<div class="band header--secondary">
+    <nav class="band__inner-container">
+
+        {% if page.section == "language" %}
+        <!-- Language secondary nav -->
+        <ul>
+            <li><a href="{{ site.baseurl }}/language/colour.html" {% if page.subsection == "colour" %} class="active" {% endif %}>Colour</a></li>
+            <li><a href="{{ site.baseurl }}/language/type.html" {% if page.subsection == "type" %} class="active" {% endif %}>Type</a></li>
+            <li><a href="{{ site.baseurl }}/language/icons.html" {% if page.subsection == "icons" %} class="active" {% endif %}>Icons</a></li>
+        </ul>
+        {% endif %}
+
+        {% if page.section == "components" %}
+        <!-- Components secondary nav -->
+        <ul>
+            <li><a href="{{ site.baseurl }}/components/buttons.html" {% if page.subsection == "buttons" %} class="active" {% endif %}>Buttons</a></li>
+            <li><a href="{{ site.baseurl }}/components/controls.html" {% if page.subsection == "controls" %} class="active" {% endif %}>Controls</a></li>
+            <li><a href="{{ site.baseurl }}/components/tables.html" {% if page.subsection == "tables" %} class="active" {% endif %}>Tables (Data)</a></li>
+            <li><a href="{{ site.baseurl }}/components/header.html" {% if page.subsection == "header" %} class="active" {% endif %}>Header</a></li>
+            <li><a href="{{ site.baseurl }}/components/messaging.html" {% if page.subsection == "messaging" %} class="active" {% endif %}>Messaging</a></li>
+        </ul>
+        {% endif %}
+
+        {% if page.section == "webtoolkit" %}
+        <!-- Toolkit secondary nav -->
+        <ul>
+            <li><a href="{{ site.baseurl }}/toolkit/" {% if page.subsection == "webtoolkit" %} class="active" {% endif %}>Web Toolkit</a></li>
+            <li><a href="{{ site.baseurl }}/toolkit/getting-started.html" {% if page.subsection == "getting-started" %} class="active" {% endif %}>Getting started</a></li>
+        </ul>
+        {% endif %}
+
+    </nav>
+</div>
+{% endif %}

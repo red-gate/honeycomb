@@ -1,0 +1,7 @@
+baseurl: "" # Was '/honeycomb' before when being served from red-gate.github.io/honeycomb.
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: "page"

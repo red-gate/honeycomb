@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }} - Honeycomb</title>
+
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/honeycomb.css">
+        
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/Redgate-icon-font/style.css">
+
+        <script src="{{ site.baseurl }}/assets/js/modernizr.min.js"></script>
+    </head>
+
+    <body>
+
+        {% include nav--primary.html %}
+        {% include nav--secondary.html %}
+
+        {{ content }}
+
+        <footer class="band scheme--lightest-grey">
+            <div class="band__inner-container band__inner-container--tight">
+                <p>Honeycomb</p>
+            </div>
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/honeycomb.min.js"></script>
+    </body>
+</html>
