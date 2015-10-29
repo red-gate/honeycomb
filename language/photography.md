@@ -54,7 +54,7 @@ subsection: "photography"
       <h3>Full colour</h3>
 <p>Real life is in colour. </p>
 
-   <img src="{{ site.baseurl }}/assets/images/SQL-in-the-City-2014-from-above.png" alt="SQL in the City 2014 from above" title="SQL in the City 2014 from above" class="js-svg">
+   <img src="{{ site.baseurl }}/assets/images/Redgate-day-out.png" alt="Redgate day out" title="Redgate day out" class="js-svg">
    
    <br>
    <br>
