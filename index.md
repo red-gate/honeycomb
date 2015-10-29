@@ -23,6 +23,10 @@ title: "Home"
                 <li><a href="{{ site.baseurl }}/language/colour.html">Colour</a></li>
                 <li><a href="{{ site.baseurl }}/language/type.html">Type</a></li>
                 <li><a href="{{ site.baseurl }}/language/icons.html">Icons</a></li>
+<<<<<<< HEAD
+                <li><a href="{{ site.baseurl }}/language/photography.html">Photography</a></li>
+=======
+>>>>>>> 00e16332a93ec10660badb1e5b30f2fd8ea46efb
             </ul>
         </div>
 
