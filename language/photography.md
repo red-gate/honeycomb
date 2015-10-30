@@ -56,12 +56,22 @@ subsection: "photography"
 
    <img src="{{ site.baseurl }}/assets/images/Redgate-day-out.png" alt="Redgate day out" title="Redgate day out" class="js-svg">
    
+   
+   <br>
+      <br>
+   <br>
+   <br>
+   
+         <h3>Put a name to a face</h3>
+<p>Whenever possible call out the names of the people in the photos. This will make them even more real, and recognisable.</p>
    <br>
    <br>
    <br>
    
          <h3>Made by Redgate</h3>
 <p>There are tons of talented photographers at Redgate, so many we have a photo club. We always prefer photos to be taken by a Redgater.</p>
+   <br>
+   <br>
 
 
 
