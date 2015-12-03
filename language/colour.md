@@ -69,7 +69,7 @@ subsection: "colour"
 <ul class="list--bullet">               
 <li>Along with colour use shape, tone and position</li>
 <li>The design should work in greyscale</li>
-<li>Colour should add to the usability rather than being crutial</li>
+<li>Colour should add to the usability rather than being crucial</li>
 </ul>
 
                          
