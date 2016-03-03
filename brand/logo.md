@@ -28,21 +28,23 @@ subsection: "logo"
         <h3 class="padded-top">Horizontal</h3>
         <img src="/assets/brand/logo-horizontal-on-white.png" alt="">
         <img src="/assets/brand/logo-horizontal-on-red.png" alt="">
-        <p class="padded-top--tight">This is our main Redgate logo and should be used in most cases.</p>
+        <p class="padded-top--tight">This is the main Redgate logo and should be used in most cases.</p>
 
         <h3 class="padded-top">Square/vertical</h3>
         <img src="/assets/brand/logo-vertical-on-white.png" alt="">
         <img src="/assets/brand/logo-vertical-on-red.png" alt="">
-        <p class="padded-top--tight">When struggling with horizontal space and legibility or visability is suffering, use this version.</p>
+        <p class="padded-top--tight">When struggling with horizontal space and legibility or visibility is suffering, use this version.</p>
 
 
         <h3 class="padded-top">Just the Gatebase</h3>
         <img src="/assets/brand/gatebase-on-white.png" alt="">
         <img src="/assets/brand/gatebase-on-red.png" alt="">
         <p class="padded-top--tight">Use the Gatebase logo on its own when:</p>
-        <p>Theres no space for the logotype - the favicon icon being an obvious example.</p>
-        <p>When the word Redgate will appear in a different form e.g. on twitter when it displays the account name next to the profile picture.</p>
-        <p>When you need to be subtle, like on the front of some polo shirts.</p>
+        <ul class="list--tight">
+            <li>There's no space for the logotype, e.g. a favicon</li>
+            <li>The word Redgate will appear in some other form e.g. on Twitter where you always have the '@redgate' account name</li>
+            <li>You need to be subtle, like on the front of some polo shirts</li>
+        </ul>
 
 
         <h3 class="padded-top">Just the logotype</h3>
@@ -56,7 +58,7 @@ subsection: "logo"
             <div class="grid__col grid__col--span-6-of-12">
                 <img src="/assets/brand/logo-horizontal-on-white.png" alt="">
                 <h4 class="padded-top--tight">On light backgrounds</h4>
-                <p>Use the full colour version</p>
+                <p>Use the full colour version.</p>
             </div>
             <div class="grid__col grid__col--span-6-of-12">
                 <img src="/assets/brand/logo-horizontal-on-red.png" alt="">
