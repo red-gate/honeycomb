@@ -31,6 +31,12 @@
         </ul>
         {% endif %}
 
+        {% if page.section == "brand" %}
+        <!-- Toolkit secondary nav -->
+        <ul>
+            <li><a href="{{ site.baseurl }}/brand/logo" {% if page.subsection == "logo" %} class="active" {% endif %}>Logo</a></li>
+        </ul>
+        {% endif %}
     </nav>
 </div>
 {% endif %}
