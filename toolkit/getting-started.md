@@ -6,7 +6,7 @@ subsection: "getting-started"
 
 <div class="grid">
 
-    <div class="grid__col grid__col--span-1-of-4 padded-right">
+    <div class="grid__col grid__col--span-3-of-12 padded-right">
 
         <nav class="nav--vertical">
             <h1 class="delta">Honeycomb</h1>
@@ -28,7 +28,7 @@ subsection: "getting-started"
 
     </div>
 
-    <div class="grid__col grid__col--span-3-of-4">
+    <div class="grid__col grid__col--span-9-of-12">
 
         <h1>Getting started with the Web Toolkit</h1>
 

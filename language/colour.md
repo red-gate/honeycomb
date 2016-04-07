@@ -6,7 +6,7 @@ subsection: "colour"
 
 <div class="grid">
 
-    <div class="grid__col grid__col--span-1-of-4 padded-right">
+    <div class="grid__col grid__col--span-3-of-12 padded-right">
         <nav class="nav--vertical">
             <ul>
                 <li><a href="#downloads" class="js-scroll-to">Downloads</a></li>
@@ -17,7 +17,7 @@ subsection: "colour"
         </nav>
     </div>
 
-    <div class="grid__col grid__col--span-3-of-4">
+    <div class="grid__col grid__col--span-9-of-12">
 
         <h1>COLOUR</h1>
         
@@ -159,21 +159,21 @@ subsection: "colour"
 <br>
 
 
-        <div class="grid__col grid__col--span-1-of-3 padded text--center">
+        <div class="grid__col grid__col--span-4-of-12 padded text--center">
             <img src="{{ site.baseurl }}/assets/images/squint.png" class=" spaced-bottom">
             <h2>Squint</h2>
             <p>If anything disappears, think about the contrast.</p>
 
         </div>
 
-        <div class="grid__col grid__col--span-1-of-3 padded text--center">
+        <div class="grid__col grid__col--span-4-of-12 padded text--center">
             <img src="{{ site.baseurl }}/assets/images/stand-back.png" class="js-svg spaced-bottom">
             <h2>Stand back</h2>
             <p>Stand back from the design and you'll be able to judge the overall hierarchy and flow better.</p>
 
         </div>
 
-        <div class="grid__col grid__col--span-1-of-3 padded text--center">
+        <div class="grid__col grid__col--span-4-of-12 padded text--center">
             <img src="{{ site.baseurl }}/assets/images/use-a-tool.png" class="js-svg spaced-bottom">
             <h2>Use a tool</h2>
             <p>There are plenty of tools to test contrast. Try this one:</p>

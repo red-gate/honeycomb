@@ -10,12 +10,12 @@
             <li><a href="{{ site.baseurl }}/brand/logo" {% if page.section == "brand" %}class="active"{% endif %}>Brand</a></li>
         </ul>
 
-        <ul class="float-right">
-            <li><a href="{{ site.baseurl }}/toolkit/" {% if page.section == "webtoolkit" %}class="active"{% endif %}>Web Toolkit</a></li>
-        </ul>
-
-        <div class="header--primary__company-logo-container">
+        <div class="header--primary__company-logo-container float-right">
             <img src="{{ site.baseurl }}/assets/images/redgate.png" width="75" class="js-svg">
         </div>
+
+        <ul class="float-right">
+            <li><a href="{{ site.baseurl }}/toolkit/" {% if page.section == "webtoolkit" %}class="active"{% endif %}>Web Toolkit</a></li>
+        </ul>    
     </nav>
 </div>

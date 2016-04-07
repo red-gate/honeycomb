@@ -6,7 +6,7 @@ subsection: "icons"
 
 <div class="grid">
 
-    <div class="grid__col grid__col--span-1-of-4 padded-right">
+    <div class="grid__col grid__col--span-3-of-12 padded-right">
         <nav class="nav--vertical">
             <ul>
              <li><a href="#Downloads" class="js-scroll-to">Downloads</a></li>
@@ -17,7 +17,7 @@ subsection: "icons"
         </nav>
     </div>
 
-    <div class="grid__col grid__col--span-3-of-4">
+    <div class="grid__col grid__col--span-9-of-12">
 
 <h1>ICONS</h1>
 

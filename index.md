@@ -15,7 +15,7 @@ title: "Home"
 <div class="band">
     <div class="band__inner-container band__inner-container--tight grid">
 
-        <div class="grid__col grid__col--span-1-of-3 padded">
+        <div class="grid__col grid__col--span-4-of-12 padded">
             <img src="{{ site.baseurl }}/assets/images/jar.png" class="js-svg spaced-bottom">
             <h2>Language</h2>
             <p>Learn the fundamentals of Redgate's design language.</p>
@@ -29,7 +29,7 @@ title: "Home"
 
 
 
-        <div class="grid__col grid__col--span-1-of-3 padded">
+        <div class="grid__col grid__col--span-4-of-12 padded">
             <img src="{{ site.baseurl }}/assets/images/honeycombs.png" class="js-svg spaced-bottom">
             <h2>Components</h2>
             <p>Apply Honeycomb to websites and applications.</p>
@@ -43,7 +43,7 @@ title: "Home"
         </div>
 
 
-        <div class="grid__col grid__col--span-1-of-3 padded">
+        <div class="grid__col grid__col--span-4-of-12 padded">
             <img src="{{ site.baseurl }}/assets/images/hive.png" class="js-svg spaced-bottom">
             <h2>Web Toolkit</h2>
             <p>Everything you need to get building.</p>

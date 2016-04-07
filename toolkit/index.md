@@ -6,7 +6,7 @@ subsection: "webtoolkit"
 
 <div class="grid">
 
-    <div class="grid__col grid__col--span-1-of-4 padded-right">
+    <div class="grid__col grid__col--span-3-of-12 padded-right">
         <h1 class="delta">Language</h1>
         <nav class="nav--vertical">
             <ul>
@@ -38,7 +38,7 @@ subsection: "webtoolkit"
 
     </div>
 
-    <div class="grid__col grid__col--span-3-of-4">
+    <div class="grid__col grid__col--span-9-of-12">
 
         <h1>Web Toolkit</h1>
 
@@ -1071,14 +1071,14 @@ subsection: "webtoolkit"
                                 <li><a href="#">Report</a></li>
                             </ul>
 
+                            <div class="header--primary__company-logo-container float-right">
+                                <img src="{{ site.baseurl }}/assets/images/redgate.png" width="75" class="js-svg">
+                            </div>
+
                             <ul class="float-right">
                                 <li><a href="#">Help</a></li>
                                 <li><a href="#">Give feedback</a></li>
                             </ul>
-
-                            <div class="header--primary__company-logo-container">
-                                <img src="{{ site.baseurl }}/assets/images/redgate.png" width="75" class="js-svg">
-                            </div>
                         </nav>
                     </div>
                     <div class="band header--secondary">
@@ -1105,7 +1105,7 @@ subsection: "webtoolkit"
                                 <li><a href="#">Report</a></li>
                             </ul>
 
-                            <div class="header--primary__company-logo-container">
+                            <div class="header--primary__company-logo-container float-right">
                                 <img src="{{ site.baseurl }}/assets/images/redgate.png" width="75" class="js-svg">
                             </div>
                         </nav>
@@ -1160,14 +1160,14 @@ subsection: "webtoolkit"
                                 <li><a href="#">Report</a></li>
                             </ul>
 
+                            <div class="header--primary__company-logo-container float-right">
+                                <img src="{{ site.baseurl }}/assets/images/redgate.png" width="75" class="js-svg">
+                            </div>
+
                             <ul class="float-right">
                                 <li><a href="#">Help</a></li>
                                 <li><a href="#">Give feedback</a></li>
                             </ul>
-
-                            <div class="header--primary__company-logo-container">
-                                <img src="{{ site.baseurl }}/assets/images/redgate.png" width="75" class="js-svg">
-                            </div>
                         </nav>
                     </div>
                     <div class="band header--secondary">

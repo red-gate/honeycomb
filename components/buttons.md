@@ -6,7 +6,7 @@ subsection: "buttons"
 
 <div class="grid">
 
-    <div class="grid__col grid__col--span-1-of-4 padded-right">
+    <div class="grid__col grid__col--span-3-of-12 padded-right">
         <nav class="nav--vertical">
             <ul>
                 <li><a href="#webbuttonstates" class="js-scroll-to">Web button states</a></li>
@@ -20,7 +20,7 @@ subsection: "buttons"
         </nav>
     </div>
 
-    <div class="grid__col grid__col--span-3-of-4">
+    <div class="grid__col grid__col--span-9-of-12">
 
         <h1 class="padded-bottom">BUTTONS</h1>
 
@@ -35,28 +35,28 @@ subsection: "buttons"
         <p>All states have a corner radius of 5px and a bottom border of 2px.</p>
         <h3>Primary buttons</h3>
 
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/button_primary_default.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Default</p>
             <p style="font-size:smaller">Background: BLUE4
                 <br> Border: BLUE7
                 <br> Text: WHITE</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/button_primary_hover.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Hover</p>
             <p style="font-size:smaller">Background: BLUE5
                 <br> Border: BLUE7
                 <br> Text: WHITE</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/button_primary_active.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Active</p>
             <p style="font-size:smaller">Background: BLUE6
                 <br> Border: BLUE6
                 <br> Text: WHITE</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4">
+        <div class="grid__col grid__col--span-3-of-12">
             <img src="{{ site.baseurl }}/assets/images/button_primary_disabled.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Disabled</p>
             <p style="font-size:smaller">Background: GREY2
@@ -66,28 +66,28 @@ subsection: "buttons"
 
         <h3>Secondary buttons</h3>
 
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/button_default.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Default</p>
             <p style="font-size:smaller">Background: GREY3
                 <br> Border: GREY4
                 <br> Text: GREY6</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/button_hover.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Hover</p>
             <p style="font-size:smaller">Background: GREY4
                 <br> Border: GREY5
                 <br> Text: GREY6</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/button_active.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Active</p>
             <p style="font-size:smaller">Background: GREY5
                 <br> Border: GREY5
                 <br> Text: GREY6</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4">
+        <div class="grid__col grid__col--span-3-of-12">
             <img src="{{ site.baseurl }}/assets/images/button_disabled.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Disabled</p>
             <p style="font-size:smaller">Background: GREY2
@@ -97,21 +97,21 @@ subsection: "buttons"
 
         <h3>Purchase buttons (website only)</h3>
 
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/button_buy_default.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Default</p>
             <p style="font-size:smaller">Background: GREEN4
                 <br> Border: GREEN5
                 <br> Text: WHITE</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/button_buy_hover.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Hover</p>
             <p style="font-size:smaller">Background: GREEN5
                 <br> Border: GREEN6
                 <br> Text: WHITE</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4 padded-right padded-bottom">
+        <div class="grid__col grid__col--span-3-of-12 padded-right padded-bottom">
             <img src="{{ site.baseurl }}/assets/images/button_buy_active.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Active</p>
             <p style="font-size:smaller">Background: GREEN6
@@ -122,28 +122,28 @@ subsection: "buttons"
         <h2 style="clear:both" class="padded-top" id="winformsbuttonstates">Winforms button states</h2>
         <h3>Primary buttons</h3>
 
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/win_primary_default.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Default</p>
             <p style="font-size:smaller">Background: BLUE4
                 <br> Border: BLUE7
                 <br> Text: WHITE</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/win_primary_hover.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Hover</p>
             <p style="font-size:smaller">Background: BLUE5
                 <br> Border: BLUE7
                 <br> Text: WHITE</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/win_primary_active.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Active</p>
             <p style="font-size:smaller">Background: BLUE6
                 <br> Border: None
                 <br> Text: WHITE</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4">
+        <div class="grid__col grid__col--span-3-of-12">
             <img src="{{ site.baseurl }}/assets/images/win_primary_disabled.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Disabled</p>
             <p style="font-size:smaller">Background: GREY2
@@ -153,28 +153,28 @@ subsection: "buttons"
 
         <h3>Secondary buttons</h3>
 
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/win_default.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Default</p>
             <p style="font-size:smaller">Background: GREY3
                 <br> Border: GREY4
                 <br> Text: GREY6</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/win_hover.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Hover</p>
             <p style="font-size:smaller">Background: GREY4
                 <br> Border: GREY5
                 <br> Text: GREY6</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/win_active.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Active</p>
             <p style="font-size:smaller">Background: GREY5
                 <br> Border: None
                 <br> Text: GREY6</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4">
+        <div class="grid__col grid__col--span-3-of-12">
             <img src="{{ site.baseurl }}/assets/images/win_disabled.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Disabled</p>
             <p style="font-size:smaller">Background: GREY2
@@ -251,22 +251,22 @@ subsection: "buttons"
 
         <h2 style="clear:both" class="padded-top" id="inlineactions">Inline actions</h2>
 
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/inline_buttons_default.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Default</p>
             <p style="font-size:smaller">Fill: BLUE4</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/inline_buttons_hover.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Hover</p>
             <p style="font-size:smaller">Fill: BLUE5</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4 padded-right">
+        <div class="grid__col grid__col--span-3-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/inline_buttons_active.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Active</p>
             <p style="font-size:smaller">Fill: BLUE6</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-4">
+        <div class="grid__col grid__col--span-3-of-12">
             <img src="{{ site.baseurl }}/assets/images/inline_buttons_disabled.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Disabled</p>
             <p style="font-size:smaller">Fill: GREY2</p>
@@ -281,17 +281,17 @@ subsection: "buttons"
 
         <h2 style="clear:both" class="padded-top" id="togglebuttons">Toggle buttons</h2>
 
-        <div class="grid__col grid__col--span-1-of-3 padded-right">
+        <div class="grid__col grid__col--span-4-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/toggle_on.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">On</p>
             <p style="font-size:smaller">Fill: BLUE4</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-3 padded-right">
+        <div class="grid__col grid__col--span-4-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/toggle_off.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Off</p>
             <p style="font-size:smaller">Fill: GREY5</p>
         </div>
-        <div class="grid__col grid__col--span-1-of-3 padded-right">
+        <div class="grid__col grid__col--span-4-of-12 padded-right">
             <img src="{{ site.baseurl }}/assets/images/toggle_disabled.png" class="spaced-bottom--tight">
             <p class="spaced-bottom--tight">Disabled</p>
             <p style="font-size:smaller">Fill: GREY3</p>

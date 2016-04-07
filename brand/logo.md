@@ -6,7 +6,7 @@ subsection: "logo"
 
 <div class="grid">
 
-    <div class="grid__col grid__col--span-1-of-4 padded-right">
+    <div class="grid__col grid__col--span-3-of-12 padded-right">
         <nav class="nav--vertical">
             <ul>
                 <li><a href="#downloads" class="js-scroll-to">Download</a></li>
@@ -16,7 +16,7 @@ subsection: "logo"
         </nav>
     </div>
 
-    <div class="grid__col grid__col--span-3-of-4">
+    <div class="grid__col grid__col--span-9-of-12">
 
         <h1 class="padded-bottom">REDGATE LOGO</h1>
 
