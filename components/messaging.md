@@ -8,6 +8,7 @@ subsection: "messaging"
 
     <div class="grid__col grid__col--span-3-of-12 padded-right">
         <nav class="nav--vertical">
+            <h2>Messaging</h2>
             <ul>
                 <li><a href="#notifications" class="js-scroll-to">Notifications</a></li>
                 <li><a href="#errors" class="js-scroll-to">Errors</a></li>

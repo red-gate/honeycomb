@@ -1,21 +1,23 @@
-<div class="band header--primary header--primary--light">
-    <nav class="band__inner-container">
+<div class="band header--primary">
+    <nav>
+        <a href="/" class="header--primary__app-logo-container">
+            <img src="{{ site.baseurl }}/assets/images/gatebase-white.png" class="js-svg" width="25" alt="">
+        </a>
 
-        <div class="header--primary__app-logo-container">
-            <a href="{{ site.baseurl }}/" class="link-image display--block"><img src="{{ site.baseurl }}/assets/images/honeycomb.png" alt="" height="32" class="js-svg header--primary__img"></a>
-        </div>
+        <a href="/" class="header--primary__app-name-container">
+            Honeycomb
+        </a>
+
         <ul>
             <li><a href="{{ site.baseurl }}/language/colour.html" {% if page.section == "language" %}class="active"{% endif %}>Language</a></li>
             <li><a href="{{ site.baseurl }}/components/buttons.html" {% if page.section == "components" %}class="active"{% endif %}>Components</a></li>
             <li><a href="{{ site.baseurl }}/brand/logo" {% if page.section == "brand" %}class="active"{% endif %}>Brand</a></li>
         </ul>
 
-        <div class="header--primary__company-logo-container float-right">
-            <img src="{{ site.baseurl }}/assets/images/redgate.png" width="75" class="js-svg">
-        </div>
-
-        <ul class="float-right">
-            <li><a href="{{ site.baseurl }}/toolkit/" {% if page.section == "webtoolkit" %}class="active"{% endif %}>Web Toolkit</a></li>
-        </ul>    
+        <span class="float-right hide-on-medium">
+            <ul>
+                <li><a href="{{ site.baseurl }}/toolkit/" {% if page.section == "webtoolkit" %}class="active"{% endif %}>Web Toolkit</a></li>
+            </ul>
+        </span>
     </nav>
 </div>

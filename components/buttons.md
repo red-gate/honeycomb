@@ -8,6 +8,7 @@ subsection: "buttons"
 
     <div class="grid__col grid__col--span-3-of-12 padded-right">
         <nav class="nav--vertical">
+            <h2>Buttons</h2>
             <ul>
                 <li><a href="#webbuttonstates" class="js-scroll-to">Web button states</a></li>
                 <li><a href="#winformsbuttonstates" class="js-scroll-to">Winforms button states</a></li>

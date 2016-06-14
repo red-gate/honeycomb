@@ -8,6 +8,7 @@ subsection: "icons"
 
     <div class="grid__col grid__col--span-3-of-12 padded-right">
         <nav class="nav--vertical">
+            <h2>Icons</h2>
             <ul>
              <li><a href="#Downloads" class="js-scroll-to">Downloads</a></li>
                 <li><a href="#Library" class="js-scroll-to">Library</a></li>
@@ -22,18 +23,18 @@ subsection: "icons"
 <h1>ICONS</h1>
 
   <h2 id="Downloads">Downloads</h2>
-  
- 
-  
+
+
+
   <a class="button button--download" href="/assets/All%20Honeycomb%20icons.ai">All in one Illustrator file</a>  <a class="button button--download" href="/assets/Redgate-icon-font.zip">Icon Font</a>  <a class="button button--download" href="/assets/Honeycomb%20icons%20PNGs.zip">pngs</a>  <a class="button button--download" href="/assets/Honeycomb%20icons%20SVGs.zip">SVGs</a>
-  
+
 <br>
 <br>
 
 
 
         <h2 id="Library">Library</h2>
-        
+
 
 
 
@@ -55,8 +56,8 @@ subsection: "icons"
     <h3>Choose commonly recognised icons whenever possible</h3>
 
     <img src="{{ site.baseurl }}/assets/images/commonly-used-iconography.png" alt="Commonly used icons" title="Commonly used icons" class="js-svg">
-    
-    
+
+
 
 <br>
 <br>
@@ -68,13 +69,13 @@ subsection: "icons"
     <h3>Use padding of at least a quarter icon width, ideally use half width</h3>
 
     <img src="{{ site.baseurl }}/assets/images/icon-padding.png" alt="Icon padding" title="Icon padding" class="js-svg">
-    
-    
+
+
 
 <br>
 <br>
 <br>
-    
+
         <h3>Provide a text equivalent for accessibility</h3>
 
     <img src="{{ site.baseurl }}/assets/images/alt-text.png" alt="Use alt text" title="Use alt text" class="js-svg">
@@ -111,15 +112,15 @@ subsection: "icons"
             <li><a href="#tabs-buttons">Buttons</a></li>
 		</ul>
 	</nav>
-    
-    
-    
+
+
+
         <div class="tabbed__content js-tab" id="tabs-lists">
     <br>
 		<h3>Icons work great as bullet points</h3>
-        
+
         <br>
-        
+
 <ul class="list--bullet">
                     <li>Bullet points are great for regular lists</li>
                 </ul>
@@ -132,15 +133,15 @@ subsection: "icons"
                     <li>Stars are used for magical out of this world lists</li>
                 </ul>
 
-            
 
-              
+
+
 </ul>
 	</div>
 
 	<div class="tabbed__content js-tab" id="tabs-buttons">
 		<h3>Buttons with icons</h3>
-        
+
 <br>
 <a class="button button--buy" href="#">Buy now</a>
 
@@ -153,7 +154,7 @@ subsection: "icons"
 
 
 </div>
-	
+
 	<div class="tabbed__content js-tab" id="tabs-notifications">
 		<h3>Notification examples below need updating</h3>
         <br>
@@ -193,9 +194,9 @@ subsection: "icons"
                     </div>
                 </div>
 	</div>
-    
 
-    
+
+
 </div>
 
 

@@ -8,6 +8,7 @@ subsection: "logo"
 
     <div class="grid__col grid__col--span-3-of-12 padded-right">
         <nav class="nav--vertical">
+            <h2>Logo</h2>
             <ul>
                 <li><a href="#downloads" class="js-scroll-to">Download</a></li>
                 <li><a href="#colour" class="js-scroll-to">Which colour?</a></li>

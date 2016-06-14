@@ -8,6 +8,7 @@ subsection: "photography"
 
     <div class="grid__col grid__col--span-3-of-12 padded-right">
         <nav class="nav--vertical">
+            <h2>Photography</h2>
             <ul>
                 <li><a href="#fundamentals" class="js-scroll-to">Fundamentals</a></li>
                 <li><a href="#stock-images" class="js-scroll-to">Stock images</a></li>
@@ -19,17 +20,17 @@ subsection: "photography"
     <div class="grid__col grid__col--span-9-of-12">
 
         <h1>PHOTOGRAPHY</h1>
-        
+
         <h1> Real life. Real photos of real people doing real stuff.</h1>
 <br>      
 <br>
         <h2 id="fundamentals">Fundamentals</h2>
-        
-      
 
 
-  
-  
+
+
+
+
 <br>      
 <br>
 
@@ -37,37 +38,37 @@ subsection: "photography"
 <p>The best photos tell a story, and the best stories are human stories. </p>
 
    <img src="{{ site.baseurl }}/assets/images/SQL-in-the-City-2014-from-above.png" alt="SQL in the City 2014 from above" title="SQL in the City 2014 from above" class="js-svg">
-   
+
    <br>
    <br>
    <br>
-   
+
    <h3>Keep it natural</h3>
 <p>The best photos feel natural. No fakery, photoshoppery or fancy filters.</p>
 
    <img src="{{ site.baseurl }}/assets/images/Friend-of-Redgate.png" alt="Friend of Redgate" title="Friend of Redgate" class="js-svg">
-   
+
    <br>
    <br>
    <br>
-   
+
       <h3>Full colour</h3>
 <p>Real life is in colour. </p>
 
    <img src="{{ site.baseurl }}/assets/images/Redgate-day-out.png" alt="Redgate day out" title="Redgate day out" class="js-svg">
-   
-   
+
+
    <br>
       <br>
    <br>
    <br>
-   
+
          <h3>Put a name to a face</h3>
 <p>Whenever possible call out the names of the people in the photos. This will make them even more real, and recognisable.</p>
    <br>
    <br>
    <br>
-   
+
          <h3>Made by Redgate</h3>
 <p>There are tons of talented photographers at Redgate, so many we have a photo club. We always prefer photos to be taken by a Redgater.</p>
    <br>
@@ -75,12 +76,12 @@ subsection: "photography"
 
 
 
-        
-        
-        
+
+
+
         <h2 id="stock-images">Stock images</h2>
-        
-        
+
+
                         <div class="notification notification--block notification--fail">
                     <div class="notification--block__inner-container">
                         <figure class="notification__icon">
@@ -90,9 +91,9 @@ subsection: "photography"
                          <h2>We avoid stock images, and NEVER use stock images with people in them</h2>
                             <p>We avoid stock photography and illustration. They’re not real and don’t allow us to tell real stories. </p>
                             <br>
-                            
+
                             <h3>A few exceptions</h3>
-                            
+
                             <br>
                             <ul class="list--bullet">               
 <li>Images of objects / animals / effects that we can't take ourselves. </li>
@@ -102,25 +103,25 @@ subsection: "photography"
 
 <br>
 
-                         
+
                             <br>
                 </div>
-                        
+
                </div>
                 </div>
-        
+
         <br>
          <br>
           <br>
 
-   
+
 <h2 id="examples">Examples</h2>
 
 
 
 
 
-        
+
 
    <br>
    <br>
@@ -130,11 +131,11 @@ subsection: "photography"
 
 
    <img src="{{ site.baseurl }}/assets/images/UX-team-flyer.png" alt="UX team from above" title="UX team from above" class="js-svg">
-   
+
    <br>
    <br>
-   
-<h3>Real</h3> 
+
+<h3>Real</h3>
 <p>The UX team's weekly meeting - although this was a staged photo it was still a real UX team weekly meeting. The meeting was held in a place where there was better lighting and a more interesting angle could be achieved.</p>
 <h3>Story</h3>
 <p>You can tell there is plenty of discussion and thinking going on, everyone looks engaged.</p>
@@ -145,7 +146,7 @@ subsection: "photography"
 
  <br>
    <br>
-   
+
    <h2>Events webpage</h2>
 
 
@@ -153,8 +154,8 @@ subsection: "photography"
 
    <br>
    <br>
-        
-<h3>Real</h3> 
+
+<h3>Real</h3>
 <p>From SQL in the City 2014</p>
 <h3>Story</h3>
 <p>There are several stories in one photo, lots going on, but there's still a focal point. </p>
@@ -178,8 +179,8 @@ subsection: "photography"
 
    <br>
    <br>
-        
-<h3>Real</h3> 
+
+<h3>Real</h3>
 <p>From SQL in the City 2014</p>
 <h3>Story</h3>
 <p>Lots of people crowding to get a tool demo.</p>
@@ -203,19 +204,19 @@ subsection: "photography"
 
    <br>
    <br>
-        
-<h3>Stock images exception</h3> 
+
+<h3>Stock images exception</h3>
 <p>These pictures of animals are stock images. We couldn't reasonably have taken these ourselves and if we did they would have turned out the same.</p>
 
-        
-        
-        
 
 
-           
 
 
-  
+
+
+
+
+
 
     </div>
 </div>
@@ -223,14 +224,3 @@ subsection: "photography"
 
 <br>
 <br>
-
-
-
-
-
-
-
-
-
-
-
