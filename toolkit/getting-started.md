@@ -9,14 +9,16 @@ subsection: "getting-started"
     <div class="grid__col grid__col--span-3-of-12 padded-right">
 
         <nav class="nav--vertical">
-            <h1 class="delta">Honeycomb</h1>
+            <h2>Honeycomb</h2>
             <ul>
                 <li><a href="#getting-honeycomb" class="js-scroll-to">Getting Honeycomb</a></li>
                 <li><a href="#building-honeycomb" class="js-scroll-to">Building Honeycomb</a></li>
                 <li><a href="#using-honeycomb" class="js-scroll-to">Using Honeycomb</a></li>
             </ul>
+        </nav>
 
-            <h1 class="delta">Working practices</h1>
+        <nav class="nav--vertical">
+            <h2>Working practices</h2>
             <ul>
                 <li><a href="#html" class="js-scroll-to">HTML</a></li>
                 <li><a href="#css" class="js-scroll-to">CSS</a></li>

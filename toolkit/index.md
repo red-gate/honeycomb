@@ -7,16 +7,16 @@ subsection: "webtoolkit"
 <div class="grid">
 
     <div class="grid__col grid__col--span-3-of-12 padded-right">
-        <h1 class="delta">Language</h1>
         <nav class="nav--vertical">
+            <h2>Language</h2>
             <ul>
-                <li><a href="#colour-schemes" class="js-scroll-to">Colour schemes</a></li>
+                <li><a href="#colours" class="js-scroll-to">Colours</a></li>
                 <li><a href="#icons" class="js-scroll-to">Icons</a></li>
             </ul>
         </nav>
 
-        <h1 class="delta">Components</h1>
         <nav class="nav--vertical">
+            <h2>Components</h2>
             <ul>
                 <li><a href="#band" class="js-scroll-to">Band</a></li>
                 <li><a href="#blockquote" class="js-scroll-to">Blockquote</a></li>
@@ -43,356 +43,171 @@ subsection: "webtoolkit"
         <h1>Web Toolkit</h1>
 
         <!-- Colour schemes -->
-        <h2 id="colour-schemes">Colour schemes</h2>
+        <h2 id="colours">Colours</h2>
         <p>Introduction goes here.</p>
 
         <div class="tabbed js-tabbed">
             <nav class="tabbed__nav">
                 <ul class="tabs lozenge-nav">
-                    <li><a href="#colour-schemes-example">Example</a></li>
-                    <li><a href="#colour-schemes-html">HTML</a></li>
+                    <li><a href="#colours-example">Example</a></li>
+                    <li><a href="#colours-html">HTML</a></li>
                 </ul>
             </nav>
 
             <!-- Example -->
-            <div class="tabbed__content js-tab" id="colour-schemes-example">
+            <div class="tabbed__content js-tab" id="colours-example">
+
+                <div class="grid">
+                    <div class="grid__col grid__col--span-2-of-12 grid__col--no-gutter">
+                        <h2>Yellows</h2>
+                        <div class="padded background-color--yellow--1 color-code--yellow--1">
+                            <p>Yellow 1</p>
+                        </div>
+                        <div class="padded background-color--yellow--2 color-code--yellow--2">
+                            <p>Yellow 2</p>
+                        </div>
+                        <div class="padded background-color--yellow--3 color-code--yellow--3">
+                            <p>Yellow 3</p>
+                        </div>
+                        <div class="padded background-color--yellow color-code--yellow">
+                            <p>Yellow 4 (Base)</p>
+                        </div>
+                        <div class="padded background-color--yellow--5 color-code--yellow--5">
+                            <p>Yellow 5</p>
+                        </div>
+                        <div class="padded background-color--yellow--6 color-code--yellow--6">
+                            <p>Yellow 6</p>
+                        </div>
+                    </div>
+
+                    <div class="grid__col grid__col--span-2-of-12 grid__col--no-gutter">
+                        <h2>Oranges</h2>
+                        <div class="padded background-color--orange--1 color-code--orange--1">
+                            <p>Orange 1</p>
+                        </div>
+                        <div class="padded background-color--orange--2 color-code--orange--2">
+                            <p>Orange 2</p>
+                        </div>
+                        <div class="padded background-color--orange--3 color-code--orange--3">
+                            <p>Orange 3</p>
+                        </div>
+                        <div class="padded background-color--orange color-code--orange">
+                            <p>Orange 4 (Base)</p>
+                        </div>
+                        <div class="padded background-color--orange--5 color-code--orange--5">
+                            <p>Orange 5</p>
+                        </div>
+                        <div class="padded background-color--orange--6 color-code--orange--6">
+                            <p>Orange 6</p>
+                        </div>
+                    </div>
+
+                    <div class="grid__col grid__col--span-2-of-12 grid__col--no-gutter">
+                        <h2>Greens</h2>
+                        <div class="padded background-color--green--1 color-code--green--1">
+                            <p>Green 1</p>
+                        </div>
+                        <div class="padded background-color--green--2 color-code--green--2">
+                            <p>Green 2</p>
+                        </div>
+                        <div class="padded background-color--green--3 color-code--green--3">
+                            <p>Green 3</p>
+                        </div>
+                        <div class="padded background-color--green color-code--green">
+                            <p>Green 4 (Base)</p>
+                        </div>
+                        <div class="padded background-color--green--5 color-code--green--5">
+                            <p>Green 5</p>
+                        </div>
+                        <div class="padded background-color--green--6 color-code--green--6 color--white">
+                            <p>Green 6</p>
+                        </div>
+                    </div>
+
+                    <div class="grid__col grid__col--span-2-of-12 grid__col--no-gutter">
+                        <h2>Reds</h2>
+                        <div class="padded background-color--red--1 color-code--red--1">
+                            <p>Red 1</p>
+                        </div>
+                        <div class="padded background-color--red--2 color-code--red--2">
+                            <p>Red 2</p>
+                        </div>
+                        <div class="padded background-color--red--3 color-code--red--3">
+                            <p>Red 3</p>
+                        </div>
+                        <div class="padded background-color--red color-code--red">
+                            <p>Red 4 (Base)</p>
+                        </div>
+                        <div class="padded background-color--red--5 color-code--red--5">
+                            <p>Red 5</p>
+                        </div>
+                        <div class="padded background-color--red--6 color-code--red--6">
+                            <p>Red 6</p>
+                        </div>
+                        <div class="padded background-color--red--brand color-code--red--brand">
+                            <p>Red (Brand)</p>
+                        </div>
+                    </div>
+
+                    <div class="grid__col grid__col--span-2-of-12 grid__col--no-gutter">
+                        <h2>Blues</h2>
+                        <div class="padded background-color--blue--1 color-code--blue--1">
+                            <p>Blue 1</p>
+                        </div>
+                        <div class="padded background-color--blue--2 color-code--blue--2">
+                            <p>Blue 2</p>
+                        </div>
+                        <div class="padded background-color--blue--3 color-code--blue--3">
+                            <p>Blue 3</p>
+                        </div>
+                        <div class="padded background-color--blue color-code--blue">
+                            <p>Blue 4 (Base)</p>
+                        </div>
+                        <div class="padded background-color--blue--5 color-code--blue--5 color--white">
+                            <p>Blue 5</p>
+                        </div>
+                        <div class="padded background-color--blue--6 color-code--blue--6">
+                            <p>Blue 6</p>
+                        </div>
+                        <div class="padded background-color--blue--7 color-code--blue--7">
+                            <p>Blue 7</p>
+                        </div>
+                    </div>
+
+                    <div class="grid__col grid__col--span-2-of-12 grid__col--no-gutter">
+                        <h2>Greys</h2>
+                        <div class="padded background-color--grey--1 color-code--grey--1">
+                            <p>Grey 1</p>
+                        </div>
+                        <div class="padded background-color--grey--2 color-code--grey--2">
+                            <p>Grey 2</p>
+                        </div>
+                        <div class="padded background-color--grey--3 color-code--grey--3">
+                            <p>Grey 3</p>
+                        </div>
+                        <div class="padded background-color--grey color-code--grey">
+                            <p>Grey 4 (Base)</p>
+                        </div>
+                        <div class="padded background-color--grey--5 color-code--grey--5 color--white">
+                            <p>Grey 5</p>
+                        </div>
+                        <div class="padded background-color--grey--6 color-code--grey--6">
+                            <p>Grey 6</p>
+                        </div>
+                        <div class="padded background-color--grey--7 color-code--grey--7">
+                            <p>Grey 7</p>
+                        </div>
+                        <div class="padded background-color--grey--8 color-code--grey--8">
+                            <p>Grey 8</p>
+                        </div>
+                    </div>
 
-                <h3>Default (White)</h3>
-
-                <h1>A First level heading</h1>
-                <h2>Secondary heading</h2>
-                <h3>Third level heading</h3>
-                <p>Quite simply, <a href="#">they enable organizations to proactively manage the processes</a> involved in the application and database lifecycle, including planning, development, release, and maintenance.</p>
-
-                <ul>
-                    <li>Generic list item</li>
-                </ul>
-
-                <ul class="list--bullet">
-                    <li>list--bullet</li>
-                </ul>
-
-                <ul class="list--tick">
-                    <li>list--tick</li>
-                </ul>
-
-                <ul class="list--tick--large">
-                    <li>list--tick--large</li>
-                </ul>
-
-                <ul class="list--chevron">
-                    <li>list--chevron</li>
-                </ul>
-
-                <ul class="list--chevron--large">
-                    <li>list--chevron--large</li>
-                </ul>
-
-                <ul class="list--chevron-down">
-                    <li>list--chevron-down</li>
-                </ul>
-
-                <ul class="list--chevron-down--large">
-                    <li>list--chevron-down--large</li>
-                </ul>
-
-                <ul class="list--bare">
-                    <li class="icon--email">Some example text.</li>
-                    <li class="icon--pdf">Some example text.</li>
-                    <li class="icon--phone">Some example text.</li>
-                </ul>
-
-
-
-
-                <div class="padded scheme--lightest-grey">
-                    <h3>Lightest Grey</h3>
-
-                    <h1>A First level heading</h1>
-                    <h2>Secondary heading</h2>
-                    <h3>Third level heading</h3>
-                    <p>Quite simply, <a href="#">they enable organizations to proactively manage the processes</a> involved in the application and database lifecycle, including planning, development, release, and maintenance.</p>
-
-                    <ul>
-                        <li>Generic list item</li>
-                    </ul>
-
-                    <ul class="list--bullet">
-                        <li>list--bullet</li>
-                    </ul>
-
-                    <ul class="list--tick">
-                        <li>list--tick</li>
-                    </ul>
-
-                    <ul class="list--tick--large">
-                        <li>list--tick--large</li>
-                    </ul>
-
-                    <ul class="list--chevron">
-                        <li>list--chevron</li>
-                    </ul>
-
-                    <ul class="list--chevron--large">
-                        <li>list--chevron--large</li>
-                    </ul>
-
-                    <ul class="list--chevron-down">
-                        <li>list--chevron-down</li>
-                    </ul>
-
-                    <ul class="list--chevron-down--large">
-                        <li>list--chevron-down--large</li>
-                    </ul>
-
-                    <ul class="list--bare">
-                        <li class="icon--email">Some example text.</li>
-                        <li class="icon--pdf">Some example text.</li>
-                        <li class="icon--phone">Some example text.</li>
-                    </ul>
-                </div>
-
-
-                <div class="padded scheme--lightest-blue">
-                    <h3>Lightest Blue</h3>
-
-                    <h1>A First level heading</h1>
-                    <h2>Secondary heading</h2>
-                    <h3>Third level heading</h3>
-                    <p>Quite simply, <a href="#">they enable organizations to proactively manage the processes</a> involved in the application and database lifecycle, including planning, development, release, and maintenance.</p>
-
-                    <ul>
-                        <li>Generic list item</li>
-                    </ul>
-
-                    <ul class="list--bullet">
-                        <li>list--bullet</li>
-                    </ul>
-
-                    <ul class="list--tick">
-                        <li>list--tick</li>
-                    </ul>
-
-                    <ul class="list--tick--large">
-                        <li>list--tick--large</li>
-                    </ul>
-
-                    <ul class="list--chevron">
-                        <li>list--chevron</li>
-                    </ul>
-
-                    <ul class="list--chevron--large">
-                        <li>list--chevron--large</li>
-                    </ul>
-
-                    <ul class="list--chevron-down">
-                        <li>list--chevron-down</li>
-                    </ul>
-
-                    <ul class="list--chevron-down--large">
-                        <li>list--chevron-down--large</li>
-                    </ul>
-
-                    <ul class="list--bare">
-                        <li class="icon--email">Some example text.</li>
-                        <li class="icon--pdf">Some example text.</li>
-                        <li class="icon--phone">Some example text.</li>
-                    </ul>
-                </div>
-
-
-                <div class="padded scheme--darkest-grey">
-                    <h3>Darkest Grey</h3>
-
-                    <h1>A First level heading</h1>
-                    <h2>Secondary heading</h2>
-                    <h3>Third level heading</h3>
-                    <p>Quite simply, <a href="#">they enable organizations to proactively manage the processes</a> involved in the application and database lifecycle, including planning, development, release, and maintenance.</p>
-
-                    <ul>
-                        <li>Generic list item</li>
-                    </ul>
-
-                    <ul class="list--bullet">
-                        <li>list--bullet</li>
-                    </ul>
-
-                    <ul class="list--tick">
-                        <li>list--tick</li>
-                    </ul>
-
-                    <ul class="list--tick--large">
-                        <li>list--tick--large</li>
-                    </ul>
-
-                    <ul class="list--chevron">
-                        <li>list--chevron</li>
-                    </ul>
-
-                    <ul class="list--chevron--large">
-                        <li>list--chevron--large</li>
-                    </ul>
-
-                    <ul class="list--chevron-down">
-                        <li>list--chevron-down</li>
-                    </ul>
-
-                    <ul class="list--chevron-down--large">
-                        <li>list--chevron-down--large</li>
-                    </ul>
-
-                    <ul class="list--bare">
-                        <li class="icon--email">Some example text.</li>
-                        <li class="icon--pdf">Some example text.</li>
-                        <li class="icon--phone">Some example text.</li>
-                    </ul>
-                </div>
-
-                <div class="padded scheme--darkest-blue">
-                    <h3>Darkest Blue</h3>
-
-                    <h1>A First level heading</h1>
-                    <h2>Secondary heading</h2>
-                    <h3>Third level heading</h3>
-                    <p>Quite simply, <a href="#">they enable organizations to proactively manage the processes</a> involved in the application and database lifecycle, including planning, development, release, and maintenance.</p>
-
-                    <ul>
-                        <li>Generic list item</li>
-                    </ul>
-
-                    <ul class="list--bullet">
-                        <li>list--bullet</li>
-                    </ul>
-
-                    <ul class="list--tick">
-                        <li>list--tick</li>
-                    </ul>
-
-                    <ul class="list--tick--large">
-                        <li>list--tick--large</li>
-                    </ul>
-
-                    <ul class="list--chevron">
-                        <li>list--chevron</li>
-                    </ul>
-
-                    <ul class="list--chevron--large">
-                        <li>list--chevron--large</li>
-                    </ul>
-
-                    <ul class="list--chevron-down">
-                        <li>list--chevron-down</li>
-                    </ul>
-
-                    <ul class="list--chevron-down--large">
-                        <li>list--chevron-down--large</li>
-                    </ul>
-
-                    <ul class="list--bare">
-                        <li class="icon--email">Some example text.</li>
-                        <li class="icon--pdf">Some example text.</li>
-                        <li class="icon--phone">Some example text.</li>
-                    </ul>
-                </div>
-
-                <div class="padded scheme--near-black">
-                    <h3>Near Black</h3>
-
-                    <h1>A First level heading</h1>
-                    <h2>Secondary heading</h2>
-                    <h3>Third level heading</h3>
-                    <p>Quite simply, <a href="#">they enable organizations to proactively manage the processes</a> involved in the application and database lifecycle, including planning, development, release, and maintenance.</p>
-
-                    <ul>
-                        <li>Generic list item</li>
-                    </ul>
-
-                    <ul class="list--bullet">
-                        <li>list--bullet</li>
-                    </ul>
-
-                    <ul class="list--tick">
-                        <li>list--tick</li>
-                    </ul>
-
-                    <ul class="list--tick--large">
-                        <li>list--tick--large</li>
-                    </ul>
-
-                    <ul class="list--chevron">
-                        <li>list--chevron</li>
-                    </ul>
-
-                    <ul class="list--chevron--large">
-                        <li>list--chevron--large</li>
-                    </ul>
-
-                    <ul class="list--chevron-down">
-                        <li>list--chevron-down</li>
-                    </ul>
-
-                    <ul class="list--chevron-down--large">
-                        <li>list--chevron-down--large</li>
-                    </ul>
-
-                    <ul class="list--bare">
-                        <li class="icon--email">Some example text.</li>
-                        <li class="icon--pdf">Some example text.</li>
-                        <li class="icon--phone">Some example text.</li>
-                    </ul>
-                </div>
-
-                <div class="padded scheme--black">
-                    <h3>Black</h3>
-
-                    <h1>A First level heading</h1>
-                    <h2>Secondary heading</h2>
-                    <h3>Third level heading</h3>
-                    <p>Quite simply, <a href="#">they enable organizations to proactively manage the processes</a> involved in the application and database lifecycle, including planning, development, release, and maintenance.</p>
-
-                    <ul>
-                        <li>Generic list item</li>
-                    </ul>
-
-                    <ul class="list--bullet">
-                        <li>list--bullet</li>
-                    </ul>
-
-                    <ul class="list--tick">
-                        <li>list--tick</li>
-                    </ul>
-
-                    <ul class="list--tick--large">
-                        <li>list--tick--large</li>
-                    </ul>
-
-                    <ul class="list--chevron">
-                        <li>list--chevron</li>
-                    </ul>
-
-                    <ul class="list--chevron--large">
-                        <li>list--chevron--large</li>
-                    </ul>
-
-                    <ul class="list--chevron-down">
-                        <li>list--chevron-down</li>
-                    </ul>
-
-                    <ul class="list--chevron-down--large">
-                        <li>list--chevron-down--large</li>
-                    </ul>
-
-                    <ul class="list--bare">
-                        <li class="icon--email">Some example text.</li>
-                        <li class="icon--pdf">Some example text.</li>
-                        <li class="icon--phone">Some example text.</li>
-                    </ul>
                 </div>
 
             </div>
 
             <!-- HTML -->
-            <div class="tabbed__content js-tab" id="colour-schemes-html">
+            <div class="tabbed__content js-tab" id="colours-html">
                 <script src="https://gist.github.com/edwardcasbon/1c3211ba3d85a4fdf20e.js"></script>
             </div>
         </div>
@@ -413,25 +228,217 @@ subsection: "webtoolkit"
 
             <!-- Example -->
             <div class="tabbed__content js-tab" id="icons-example">
-                <p class="icon--email">Email</p>
-                <p class="icon--phone">Phone</p>
-                <p class="icon--pdf">PDF</p>
-                <p class="icon--external">External link</p>
-                <p class="icon--video">Video link</p>
-                <p class="icon--chevron-down">Chevron - Down</p>
-                <p class="icon--chevron-up">Chevron - Up</p>
-                <p class="icon--chevron-left">Chevron - Left</p>
-                <p class="icon--chevron-right">Chevron - Right</p>
-                <p class="icon--plus">Plus</p>
-                <p class="icon--minus">Minus</p>
-                <p class="icon--star">Star</p>
-                <p class="icon--comments">Comments</p>
-                <p class="icon--bullhorn">Bullhorn</p>
-                <p class="icon--tick">Tick</p>
-                <p class="icon--cross">Cross</p>
-                <p class="icon--success big">Success</p>
-                <p class="icon--fail">Fail</p>
-                <p class="icon--info">Info</p>
+
+                <div class="grid">
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--email">Email</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--phone">Phone</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--pdf">PDF</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--external">External</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--video">Video</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--download">Download</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--chevron-down">Chevron down</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--chevron-up">Chevron up</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--chevron-left">Chevron left</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--chevron-right">Chevron-right</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--plus">Plus</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--plus-circle">Plus circle</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--minus">Minus</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--comments">Comments</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--tick">Tick</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--cross">Cross</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--success">Success</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--fail">Fail</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--info">Info</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--calendar">Calendar</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--settings">Settings</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--user">user</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--users">Users</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--globe">Globe</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--arrow-left">Arrow left</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--arrow-right">Arrow right</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--play-circle">Play circle</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--warning">Warning</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--bullet">Bullet</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--shopping-cart">Shopping cart</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--server">Server</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--more-actions-horizontal">More actions horizontal</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--more-actions-vertical">More actions vertical</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--alert-silence">Alert silence</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--maintenance">Maintenance</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--print">Print</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--hide">Hide</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--warning-octagon">Warning octagon</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--tag">Tag</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--flag">Flag</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--minimize">Minimize</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--expand">Expand</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--import">Import</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--export">Export</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--zoom-in">Zoom in</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--zoom-out">Zoom out</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--show">Show</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--play">Play</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--copydoc">Copydoc</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--dock">Dock</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--test-data">Test data</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--add-ons">Add ons</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--pipeline">Pipeline</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--alert">Alert</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--clear-cross-circle">Clear cross circle</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--instance">Instance</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--database">Database</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--delete">Delete</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--edit">Edit</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--filter">Filter</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--folder-open">Folder open</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--folder">Folder</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--history">History</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--message-tick">Message tick</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--refresh">Refresh</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--save">Save</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--search">Search</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--help-circle">Help circle</p>
+                  </div>
+                  <div class="grid__col grid__col--span-3-of-12">
+                      <p class="icon--new">New</p>
+                  </div>
+              </div>
+
             </div>
 
             <!-- HTML -->
@@ -1058,128 +1065,57 @@ subsection: "webtoolkit"
             <!-- Example -->
             <div class="tabbed__content js-tab" id="header-example">
 
-                <div class="spaced-bottom--loose">
-                    <div class="band header--primary header--primary--light">
-                        <nav class="band__inner-container">
+                <div class="band header--primary">
+                    <nav>
+                        <a href="/" class="header--primary__app-logo-container">
+                            <img src="{{ site.baseurl }}/assets/images/gatebase-white.png" class="js-svg" width="25" alt="">
+                        </a>
 
-                            <div class="header--primary__app-logo-container">
-                                <img src="{{ site.baseurl }}/assets/images/redgate.png" alt="" width="36" class="js-svg header--primary__img">
-                            </div>
-                            <ul class="">
-                                <li><a href="#">Warnings</a></li>
-                                <li><a href="#" class="active">Overview</a></li>
-                                <li><a href="#">Report</a></li>
-                            </ul>
+                        <a href="/" class="header--primary__app-name-container">
+                            Honeycomb
+                        </a>
 
-                            <div class="header--primary__company-logo-container float-right">
-                                <img src="{{ site.baseurl }}/assets/images/redgate.png" width="75" class="js-svg">
-                            </div>
+                        <ul class="hide-on-medium">
+                            <li><a href="#">List item 1</a></li>
+                            <li><a href="#" class="active">List item 2</a></li>
+                            <li><a href="#">List item 3</a></li>
+                            <li><a href="#">List item 4</a></li>
+                        </ul>
 
-                            <ul class="float-right">
-                                <li><a href="#">Help</a></li>
-                                <li><a href="#">Give feedback</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="band header--secondary">
-                        <nav class="band__inner-container">
+                        <span class="float-right hide-on-medium">
                             <ul>
-                                <li><a href="#">Changes</a></li>
-                                <li><a href="#" class="active">Alerts</a></li>
-                                <li><a href="#">Script</a></li>
+                                <li><a href="#">List item 5</a></li>
+                                <li><a href="#">List item 6</a></li>
                             </ul>
-                        </nav>
-                    </div>
+                        </span>
+
+                        <span class="hide-on-large show-on-medium float-right">
+                            <ul>
+                                <li><a href="#menu" class="header--primary__icon header--primary__menu-button">Menu</a></li>
+                            </ul>
+                        </span>
+
+                        <ul class="header--primary__menu--mobile js-dropdown">
+                            <li><a href="#">List item 1</a></li>
+                            <li class="active"><a href="#">List item 2</a></li>
+                            <li><a href="#">List item 3</a></li>
+                            <li><a href="#">List item 4</a></li>
+                            <li><a href="#">List item 5</a></li>
+                            <li><a href="#">List item 6</a></li>
+                        </ul>
+                    </nav>
                 </div>
 
-                <div class="spaced-bottom--loose">
-                    <div class="band header--primary header--primary--light">
-                        <nav class="band__inner-container">
-
-                            <div class="header--primary__app-logo-container">
-                                <img src="{{ site.baseurl }}/assets/images/redgate.png" alt="" width="36" class="js-svg header--primary__img">
-                            </div>
-                            <ul class="">
-                                <li><a href="#">Warnings</a></li>
-                                <li><a href="#" class="active">Overview</a></li>
-                                <li><a href="#">Report</a></li>
-                            </ul>
-
-                            <div class="header--primary__company-logo-container float-right">
-                                <img src="{{ site.baseurl }}/assets/images/redgate.png" width="75" class="js-svg">
-                            </div>
-                        </nav>
+                <nav class="nav-bar">
+                    <div class="band__inner-container padded--none">
+                        <ul>
+                            <li><a href="#">Nav bar item 1</a></li>
+                            <li class="active"><a href="#">Nav bar item 2</a></li>
+                            <li><a href="#">Nav bar item 3</a></li>
+                            <li><a href="#">Nav bar item 4</a></li>
+                        </ul>
                     </div>
-                    <div class="band header--secondary">
-                        <nav class="band__inner-container">
-                            <ul>
-                                <li><a href="#">Changes</a></li>
-                                <li><a href="#" class="active">Alerts</a></li>
-                                <li><a href="#">Script</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-
-                <div class="spaced-bottom--loose">
-                    <div class="band header--primary header--primary--dark">
-                        <nav class="band__inner-container">
-
-                            <div class="header--primary__app-logo-container">
-                                <img src="{{ site.baseurl }}/assets/images/redgate.png" alt="" width="75" class="js-svg header--primary__img">
-                            </div>
-                            <ul class="">
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#" class="active">Training</a></li>
-                                <li><a href="#">Support</a></li>
-                                <li><a href="#">Our company</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="band header--secondary">
-                        <nav class="band__inner-container">
-                            <ul>
-                                <li><a href="#">Changes</a></li>
-                                <li><a href="#" class="active">Alerts</a></li>
-                                <li><a href="#">Script</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-
-                <div class="spaced-bottom--loose">
-                    <div class="band header--primary header--primary--dark">
-                        <nav class="band__inner-container">
-
-                            <div class="header--primary__app-logo-container">
-                                <img src="{{ site.baseurl }}/assets/images/redgate.png" alt="" width="36" class="js-svg header--primary__img">
-                            </div>
-                            <ul class="">
-                                <li><a href="#">Warnings</a></li>
-                                <li><a href="#" class="active">Overview</a></li>
-                                <li><a href="#">Report</a></li>
-                            </ul>
-
-                            <div class="header--primary__company-logo-container float-right">
-                                <img src="{{ site.baseurl }}/assets/images/redgate.png" width="75" class="js-svg">
-                            </div>
-
-                            <ul class="float-right">
-                                <li><a href="#">Help</a></li>
-                                <li><a href="#">Give feedback</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="band header--secondary">
-                        <nav class="band__inner-container">
-                            <ul>
-                                <li><a href="#">Changes</a></li>
-                                <li><a href="#" class="active">Alerts</a></li>
-                                <li><a href="#">Script</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+                </nav>
 
             </div>
 

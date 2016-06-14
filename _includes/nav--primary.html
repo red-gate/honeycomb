@@ -8,7 +8,7 @@
             Honeycomb
         </a>
 
-        <ul>
+        <ul class="hide-on-medium">
             <li><a href="{{ site.baseurl }}/language/colour.html" {% if page.section == "language" %}class="active"{% endif %}>Language</a></li>
             <li><a href="{{ site.baseurl }}/components/buttons.html" {% if page.section == "components" %}class="active"{% endif %}>Components</a></li>
             <li><a href="{{ site.baseurl }}/brand/logo" {% if page.section == "brand" %}class="active"{% endif %}>Brand</a></li>
@@ -19,5 +19,18 @@
                 <li><a href="{{ site.baseurl }}/toolkit/" {% if page.section == "webtoolkit" %}class="active"{% endif %}>Web Toolkit</a></li>
             </ul>
         </span>
+
+        <span class="hide-on-large show-on-medium float-right">
+            <ul>
+                <li><a href="#menu" class="header--primary__icon header--primary__menu-button">Menu</a></li>
+            </ul>
+        </span>
+
+        <ul class="header--primary__menu--mobile js-dropdown">
+            <li><a href="{{ site.baseurl }}/language/colour.html" {% if page.section == "language" %}class="active"{% endif %}>Language</a></li>
+            <li><a href="{{ site.baseurl }}/components/buttons.html" {% if page.section == "components" %}class="active"{% endif %}>Components</a></li>
+            <li><a href="{{ site.baseurl }}/brand/logo" {% if page.section == "brand" %}class="active"{% endif %}>Brand</a></li>
+            <li><a href="{{ site.baseurl }}/toolkit/" {% if page.section == "webtoolkit" %}class="active"{% endif %}>Web Toolkit</a></li>
+        </ul>
     </nav>
 </div>
