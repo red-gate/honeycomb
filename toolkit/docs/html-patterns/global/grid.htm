@@ -1,182 +1,185 @@
-<!--#include virtual="/docs/includes/head/head-start.htm" -->
-<title>Honeycomb - HTML pattern library - Global - Grid</title>
-<meta name="description" content="Front-end Web Development and Design Guidelines for redgate.com.">
-<!--#include virtual="/docs/includes/head/head-end.htm" -->
+---
+title: "Grid"
+section: "webtoolkit"
+subsection: "webtoolkit"
+---
 
-<body class="guide" id="top-of-page">
-    <div class="page-wrapper">
+<div class="grid">
+
+	<div class="grid__col grid__col--span-3-of-12 padded-right">
+		{% include toolkit/side-nav.htm %}
+	</div>
+
+	<div class="grid__col grid__col--span-9-of-12">
+
+		<div class="band band--honeycomb">
+			<div class="band__inner-container--tight">
+				<h1 class="section-heading--honeycomb">Grid</h1>
+				<h2>A 12 column grid with gutters</h2>
+
+				<div class="grid spaced-bottom">
+					<div class="grid__col grid__col--span-1-of-12">
+						<p>1 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-1-of-12">
+						<p>1 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-1-of-12">
+						<p>1 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-1-of-12">
+						<p>1 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-1-of-12">
+						<p>1 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-1-of-12">
+						<p>1 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-1-of-12">
+						<p>1 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-1-of-12">
+						<p>1 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-1-of-12">
+						<p>1 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-1-of-12">
+						<p>1 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-1-of-12">
+						<p>1 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-1-of-12">
+						<p>1 of 12</p>
+					</div>
+				</div>
+
+				<div class="grid spaced-bottom">
+					<div class="grid__col grid__col--span-2-of-12">
+						<p>2 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-6-of-12">
+						<p>6 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-4-of-12">
+						<p>4 of 12</p>
+					</div>
+				</div>
+
+				<h2>A 12 column grid with no gutters</h2>
+				<p>(add 'grid__col--no-gutter' class to the column element)</p>
+
+				<div class="grid spaced-bottom">
+					<div class="grid__col grid__col--span-2-of-12 grid__col--no-gutter">
+						<p>2 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-6-of-12 grid__col--no-gutter">
+						<p>6 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
+						<p>4 of 12</p>
+					</div>
+				</div>
+
+				<h2>A 12 column grid with push</h2>
+
+				<div class="grid spaced-bottom">
+					<div class="grid__col grid__col--span-2-of-12">
+						<p>2 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-4-of-12 grid__col--push-6-of-12">
+						<p>4 of 12</p>
+					</div>
+				</div>
+
+				<h2>A 12 column grid with push (no gutter)</h2>
+
+				<div class="grid spaced-bottom">
+					<div class="grid__row grid__row--no-gutter">
+						<div class="grid__col grid__col--span-2-of-12">
+							<p>2 of 12</p>
+						</div>
+						<div class="grid__col grid__col--span-4-of-12 grid__col--push-6-of-12">
+							<p>4 of 12</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="grid spaced-bottom">
+					<div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
+						<p>4 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
+						<p>4 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
+						<p>4 of 12</p>
+					</div>
+				</div>
+
+				<div class="grid spaced-bottom">
+					<div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
+						<p>4 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
+						<p>4 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
+						<p>4 of 12</p>
+					</div>
+				</div>
+
+				<div class="grid spaced-bottom">
+					<div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
+						<p>4 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-4-of-12 grid__col--push-4-of-12 grid__col--no-gutter">
+						<p>4 of 12</p>
+					</div>
+				</div>
+
+				<div class="grid">
+					<div class="grid__col grid__col--span-4-of-12 grid__col--push-4-of-12">
+						<p>This is my content</p>
+					</div>
+				</div>
+
+				<h2>Grid with breakpoints</h2>
+				<div class="grid">
+					<div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
+						<p>3 of 12, then 6 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
+						<p>3 of 12, then 6 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
+						<p>3 of 12, then 6 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
+						<p>3 of 12, then 6 of 12</p>
+					</div>
+				</div>
+
+				<h2>Grid with breakpoints</h2>
+				<div class="grid">
+					<div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium grid__col--span-1-of-12--large  grid__col--span-8-of-12--small border">
+						<p>normal: 3/12, large: 1/12, medium: 6/12, small: 8/12</p>
+					</div>
+					<div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
+						<p>3 of 12, then 6 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
+						<p>3 of 12, then 6 of 12</p>
+					</div>
+					<div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
+						<p>3 of 12, then 6 of 12</p>
+					</div>
+				</div>
 
 
-
-        <div class="band band--honeycomb">
-            <div class="band__inner-container--tight">
-                <h1 class="section-heading--honeycomb">Grid</h1>
-                <h2>A 12 column grid with gutters</h2>
-
-                <div class="grid spaced-bottom">
-                    <div class="grid__col grid__col--span-1-of-12">
-                        <p>1 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-1-of-12">
-                        <p>1 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-1-of-12">
-                        <p>1 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-1-of-12">
-                        <p>1 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-1-of-12">
-                        <p>1 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-1-of-12">
-                        <p>1 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-1-of-12">
-                        <p>1 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-1-of-12">
-                        <p>1 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-1-of-12">
-                        <p>1 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-1-of-12">
-                        <p>1 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-1-of-12">
-                        <p>1 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-1-of-12">
-                        <p>1 of 12</p>
-                    </div>
-                </div>
-
-                <div class="grid spaced-bottom">
-                    <div class="grid__col grid__col--span-2-of-12">
-                        <p>2 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-6-of-12">
-                        <p>6 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-4-of-12">
-                        <p>4 of 12</p>
-                    </div>
-                </div>
-
-                <h2>A 12 column grid with no gutters</h2>
-                <p>(add 'grid__col--no-gutter' class to the column element)</p>
-
-                <div class="grid spaced-bottom">
-                    <div class="grid__col grid__col--span-2-of-12 grid__col--no-gutter">
-                        <p>2 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-6-of-12 grid__col--no-gutter">
-                        <p>6 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
-                        <p>4 of 12</p>
-                    </div>
-                </div>
-
-                <h2>A 12 column grid with push</h2>
-
-                <div class="grid spaced-bottom">
-                    <div class="grid__col grid__col--span-2-of-12">
-                        <p>2 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-4-of-12 grid__col--push-6-of-12">
-                        <p>4 of 12</p>
-                    </div>
-                </div>
-
-                <h2>A 12 column grid with push (no gutter)</h2>
-
-                <div class="grid spaced-bottom">
-                    <div class="grid__row grid__row--no-gutter">
-                        <div class="grid__col grid__col--span-2-of-12">
-                            <p>2 of 12</p>
-                        </div>
-                        <div class="grid__col grid__col--span-4-of-12 grid__col--push-6-of-12">
-                            <p>4 of 12</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="grid spaced-bottom">
-                    <div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
-                        <p>4 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
-                        <p>4 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
-                        <p>4 of 12</p>
-                    </div>
-                </div>
-
-                <div class="grid spaced-bottom">
-                    <div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
-                        <p>4 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
-                        <p>4 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
-                        <p>4 of 12</p>
-                    </div>
-                </div>
-
-                <div class="grid spaced-bottom">
-                    <div class="grid__col grid__col--span-4-of-12 grid__col--no-gutter">
-                        <p>4 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-4-of-12 grid__col--push-4-of-12 grid__col--no-gutter">
-                        <p>4 of 12</p>
-                    </div>
-                </div>
-
-                <div class="grid">
-                    <div class="grid__col grid__col--span-4-of-12 grid__col--push-4-of-12">
-                        <p>This is my content</p>
-                    </div>
-                </div>
-
-                <h2>Grid with breakpoints</h2>
-                <div class="grid">
-                    <div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
-                        <p>3 of 12, then 6 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
-                        <p>3 of 12, then 6 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
-                        <p>3 of 12, then 6 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
-                        <p>3 of 12, then 6 of 12</p>
-                    </div>
-                </div>
-
-                <h2>Grid with breakpoints</h2>
-                <div class="grid">
-                    <div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium grid__col--span-1-of-12--large  grid__col--span-8-of-12--small border">
-                        <p>normal: 3/12, large: 1/12, medium: 6/12, small: 8/12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
-                        <p>3 of 12, then 6 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
-                        <p>3 of 12, then 6 of 12</p>
-                    </div>
-                    <div class="grid__col grid__col--span-3-of-12 grid__col--span-6-of-12--medium">
-                        <p>3 of 12, then 6 of 12</p>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div><!-- END .page-wrapper -->
-
-    <!--#include virtual="/docs/includes/footer/footer.htm" -->
+			</div>
+		</div>
+	</div>
+</div><!-- END .page-wrapper -->
