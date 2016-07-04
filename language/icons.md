@@ -26,7 +26,7 @@ subsection: "icons"
 
 
 
-  <a class="button button--download" href="/assets/All%20Honeycomb%20icons.ai">All in one Illustrator file</a>  <a class="button button--download" href="/assets/Redgate-icon-font.zip">Icon Font</a>  <a class="button button--download" href="/assets/Honeycomb%20icons%20PNGs.zip">pngs</a>  <a class="button button--download" href="/assets/Honeycomb%20icons%20SVGs.zip">SVGs</a>
+  <a class="button button--download" href="/assets/All%20Honeycomb%20icons.ai?v=2">All in one Illustrator file</a>  <a class="button button--download" href="/assets/Redgate-icon-font.zip?v=2">Icon Font</a>  <a class="button button--download" href="/assets/Honeycomb%20icons%20PNGs.zip?v=2">pngs</a>  <a class="button button--download" href="/assets/Honeycomb%20icons%20SVGs.zip?v=2">SVGs</a>
 
 <br>
 <br>
