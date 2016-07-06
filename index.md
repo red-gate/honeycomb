@@ -49,7 +49,10 @@ title: "Home"
             <p>Everything you need to get building.</p>
               <ul>
                 <li><a href="{{ site.baseurl }}/toolkit/getting-started.html">Getting Started</a></li>
-                <li><a href="{{ site.baseurl }}/toolkit/">Toolkit</a></li>
+                <li><a href="{{ site.baseurl }}/toolkit/docs/html-patterns/intro.htm">HTML Patterns</a></li>
+                <li><a href="{{ site.baseurl }}/toolkit/docs/js-library/intro.htm">JavaScript</a></li>
+                <li><a href="{{ site.baseurl }}/toolkit/docs/design/colours.htm">Design</a></li>
+                <li><a href="{{ site.baseurl }}/toolkit/docs/working-practices/intro.htm">Working Practices</a></li>
             </ul>
 
         </div>
