@@ -44,7 +44,7 @@ subsection: "icons"
 <br>
 <h3>Can’t find the icon you’re looking for?</h3>
 
-<p>Request new icons in the #honeycomb Slack channel</p>
+<p>Request new icons in the <a href="https://redgate.slack.com/archives/honeycomb">#honeycomb</a> Slack channel</p>
 
 <br>
 <br>
