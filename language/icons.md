@@ -20,7 +20,7 @@ subsection: "icons"
 
     <div class="grid__col grid__col--span-9-of-12">
 
-<h1>ICONS (70)</h1>
+<h1>ICONS</h1>
 
   <h2 id="Downloads">Downloads</h2>
 
@@ -33,7 +33,7 @@ subsection: "icons"
 
 
 
-        <h2 id="Library">Library</h2>
+        <h2 id="Library">Library (70)</h2>
 
 
 
