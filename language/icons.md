@@ -33,12 +33,216 @@ subsection: "icons"
 
 
 
-        <h2 id="Library">Library (70)</h2>
+        <h2 id="Library">Library (68)</h2>
 
+        <div class="grid">
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--add-ons">Add ons</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--alert">Alert</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--alert-silence">Alert silence</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--arrow-left">Arrow left</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--arrow-right">Arrow right</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--bullet">Bullet</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--calendar">Calendar</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--chevron-down">Chevron down</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--chevron-left">Chevron left</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--chevron-right">Chevron-right</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--chevron-up">Chevron up</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--clear-cross-circle">Clear cross circle</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--comments">Comments</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--copydoc">Copydoc</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--cross">Cross</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--database">Database</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--delete">Delete</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--dock">Dock</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--download">Download</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--edit">Edit</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--email">Email</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--expand">Expand</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--export">Export</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--external">External</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--fail">Fail</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--filter">Filter</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--flag">Flag</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--folder">Folder</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--folder-open">Folder open</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--globe">Globe</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--help-circle">Help circle</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--hide">Hide</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--history">History</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--import">Import</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--info">Info</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--instance">Instance</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--maintenance">Maintenance</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--message-tick">Message tick</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--minimize">Minimize</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--minus">Minus</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--more-actions-horizontal">More actions horizontal</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--more-actions-vertical">More actions vertical</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--pdf">PDF</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--phone">Phone</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--pipeline">Pipeline</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--play">Play</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--play-circle">Play circle</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--plus">Plus</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--plus-circle">Plus circle</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--print">Print</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--refresh">Refresh</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--save">Save</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--search">Search</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--server">Server</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--settings">Settings</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--shopping-cart">Shopping cart</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--show">Show</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--success">Success</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--tag">Tag</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--test-data">Test data</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--tick">Tick</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--user">User</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--users">Users</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--video">Video</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--warning">Warning</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--warning-octagon">Warning octagon</p>
+            </div>
 
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--zoom-in">Zoom in</p>
+            </div>
+            <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--zoom-out">Zoom out</p>
+            </div>
+        </div>
 
-
-        <img src="{{ site.baseurl }}/assets/images/icon-set.png" alt="Image of icon set" title="Icon library" class="js-svg">
 <br>
 <br>
 <br>
