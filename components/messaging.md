@@ -131,4 +131,3 @@ subsection: "messaging"
 
     </div>
 </div>
-##Progress Indicators
