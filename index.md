@@ -15,7 +15,7 @@ title: "Home"
 <div class="band">
     <div class="band__inner-container band__inner-container--tight grid">
 
-        <div class="grid__col grid__col--span-4-of-12 padded">
+        <div class="grid__col grid__col--span-3-of-12 padded">
             <img src="{{ site.baseurl }}/assets/images/jar.png" class="js-svg spaced-bottom">
             <h2>Language</h2>
             <p>Learn the fundamentals of Redgate's design language.</p>
@@ -29,7 +29,7 @@ title: "Home"
 
 
 
-        <div class="grid__col grid__col--span-4-of-12 padded">
+        <div class="grid__col grid__col--span-3-of-12 padded">
             <img src="{{ site.baseurl }}/assets/images/honeycombs.png" class="js-svg spaced-bottom">
             <h2>Components</h2>
             <p>Apply Honeycomb to websites and applications.</p>
@@ -43,7 +43,17 @@ title: "Home"
         </div>
 
 
-        <div class="grid__col grid__col--span-4-of-12 padded">
+        <div class="grid__col grid__col--span-3-of-12 padded">
+            <img src="{{ site.baseurl }}/assets/images/brand.png" class="js-svg spaced-bottom">
+            <h2>Brand</h2>
+            <p>Logos in various formats, and how to use them</p>
+              <ul>
+                <li><a href="{{ site.baseurl }}/brand/logo">Redgate logo</a></li>
+                <li><a href="{{ site.baseurl }}/brand/product-logos">Product logos</a></li>
+            </ul>
+        </div>
+
+        <div class="grid__col grid__col--span-3-of-12 padded">
             <img src="{{ site.baseurl }}/assets/images/hive.png" class="js-svg spaced-bottom">
             <h2>Web Toolkit</h2>
             <p>Everything you need to get building.</p>
@@ -54,7 +64,6 @@ title: "Home"
                 <li><a href="{{ site.baseurl }}/toolkit/docs/design/colours.htm">Design</a></li>
                 <li><a href="{{ site.baseurl }}/toolkit/docs/working-practices/intro.htm">Working Practices</a></li>
             </ul>
-
         </div>
 
 
