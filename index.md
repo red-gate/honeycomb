@@ -50,6 +50,7 @@ title: "Home"
               <ul>
                 <li><a href="{{ site.baseurl }}/brand/logo">Redgate logo</a></li>
                 <li><a href="{{ site.baseurl }}/brand/product-logos">Product logos</a></li>
+                <li><a href="{{ site.baseurl }}/brand/powerpoint">Powerpoint template</a></li>
             </ul>
         </div>
 
