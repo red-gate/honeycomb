@@ -80,6 +80,6 @@ title: "Home"
 
 <div class="band scheme--darkest-grey">
     <div class="band__inner-container text--center">
-        <p class="alpha">Got any questions, fly into the <a href="https://redgate.slack.com/messages/honeycomb/" target="_blank">#Honeycomb</a> Slack channel</p>
+        <p class="alpha">Got any questions? Fly into the <a href="https://redgate.slack.com/messages/honeycomb/" target="_blank">#Honeycomb</a> Slack channel</p>
     </div>
 </div>
