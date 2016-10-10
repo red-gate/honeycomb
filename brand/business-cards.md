@@ -37,9 +37,9 @@ subsection: "business-cards"
         <li>Name</li>
         <li>Job title</li>
         <li>E-mail</li>
-        <li>Telephone (optional)</li>
-        <li>LinkedIn/Twitter (optional)</li>
-        <li>Photo (optional)</li>
+        <li>Telephone <small>(optional)</small></li>
+        <li>LinkedIn/Twitter <small>(optional)</small></li>
+        <li>Photo <small>(optional)</small></li>
     </ul>
 
     <p>Please let us know how many cards you need and when you need them.</p>
