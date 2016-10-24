@@ -12,7 +12,7 @@ title: "Home"
         </div>
     </div>
 
-<div class="band">
+<div class="band contents">
     <div class="band__inner-container band__inner-container--tight grid">
 
         <div class="grid__col grid__col--span-3-of-12 padded">
@@ -69,6 +69,17 @@ title: "Home"
         </div>
 
 
+    </div>
+</div>
+
+
+<div class="band js-logs hidden">
+    <hr>
+    <div class="band__inner-container">
+        <div class="text--center padded-bottom">
+            <h1>What's new</h1>
+            <script src="/assets/js/github-commits.min.js"></script>
+        </div>
     </div>
 </div>
 
