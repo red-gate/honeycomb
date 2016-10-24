@@ -33,8 +33,10 @@
         var commit = logItem.commit;
         var timestamp = commit.author.date;
         var author = commit.author.name;
+        var messageHeading = commit.message.split('\n')[0];
         var meta;
         var message;
+
 
         // format timestamp more nicely
         timestamp = timestamp.replace(/(Z|T)/g, ' ');
@@ -42,7 +44,7 @@
         message = $('<p>', { "class": "spaced-bottom--none" })
         .append($('<a>')
             .attr('href', logItem.html_url)
-            .append(commit.message)
+            .append(messageHeading)
             );
 
         meta = $('<p>')
