@@ -5,8 +5,13 @@
     // get data from github API
     var fetchData = function fetchData(urlArray) {
         for (var i in urlArray) {
-            var request = $.getJSON(urlArray[i], function(data) {
+            $.ajax({
+              url: urlArray[i],
+              dataType: 'json',
+              async: false,
+              success: function(data) {
                 printCommitHistory(data);
+              }
             });
         }
     };
@@ -76,16 +81,16 @@
 
             $('.js-logs .band__inner-container').append(html);
 
-        // reveal section
-        if (html.length > 0) {
-            $('.js-logs').removeClass('hidden');
+            // reveal section
+            if (html.length > 0) {
+                $('.js-logs').removeClass('hidden');
+            }
         }
-    }
-};
+    };
 
-var init = function init() {
-    fetchData(requestURLs);
-};
+    var init = function init() {
+        fetchData(requestURLs);
+    };
 
-init();
+    init();
 });
