@@ -1,0 +1,17 @@
+{
+  "name": "honeycomb",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Honeycomb",
+  "scripts": {
+    "honeycomb": "bower install https://github.com/red-gate/honeycomb-web-toolkit.git",
+    "handlebars": "node scripts/handlebars",
+    "build": "npm run honeycomb && npm run handlebars"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "glob": "^7.1.1",
+    "handlebars": "^4.0.6",
+    "mkdirp": "^0.5.1"
+  }
+}
