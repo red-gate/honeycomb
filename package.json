@@ -6,12 +6,15 @@
   "scripts": {
     "honeycomb": "bower install https://github.com/red-gate/honeycomb-web-toolkit.git",
     "handlebars": "node scripts/handlebars",
-    "build": "npm run honeycomb && npm run handlebars"
+    "images": "mkdir -p dist/assets/images && cp -R src/assets/images/ dist/assets/images",
+    "build": "npm run images && npm run honeycomb && npm run handlebars",
+    "watch": "watch 'npm run build' src"
   },
   "devDependencies": {
     "bower": "^1.8.0",
     "glob": "^7.1.1",
     "handlebars": "^4.0.6",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "watch": "^1.0.1"
   }
 }
