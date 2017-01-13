@@ -11,24 +11,8 @@
         <link rel="icon" type="image/png" href="/assets/images/favicon.ico?v=1" />
         <link rel="stylesheet" href="/bower_components/redgate-honeycomb/dist/honeycomb.css">
 
-        <title>Homepage - Honeycomb</title>
+        <title>{{title}} - Honeycomb</title>
 
         <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
     </head>
     <body>
-<header class="site-header band header--primary">
-    <nav>
-        <a href="/" class="header--primary__app-logo-container"><img src="/assets/images/gatebase-white.svg" alt=""></a>
-        <a href="/" class="header--primary__app-name-container">Honeycomb</a>
-        <ul>
-            <li><a href="/ui/">Creating UIs</a></li>
-            <li><a href="/writing-guide/">Writing guide</a></li>
-            <li><a href="/brand/">Brand assets</a></li>
-        </ul>
-    </nav>
-</header>
-
-<h1>Homepage</h1>
-
-</body>
-</html>
