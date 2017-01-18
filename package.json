@@ -7,10 +7,13 @@
     "honeycomb": "bower install https://github.com/red-gate/honeycomb-web-toolkit.git",
     "handlebars": "node scripts/handlebars",
     "images": "mkdir -p dist/assets/images && cp -R src/assets/images/ dist/assets/images",
-    "build": "npm run images && npm run honeycomb && npm run handlebars",
+    "js": "browserify -t [babelify] src/assets/js/site.js -o dist/assets/js/site.js",
+    "build": "node scripts/create-structure && npm run images && npm run honeycomb && npm run handlebars && npm run js",
     "watch": "watch 'npm run build' src"
   },
   "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babelify": "^7.3.0",
     "bower": "^1.8.0",
     "glob": "^7.1.1",
     "handlebars": "^4.0.6",
