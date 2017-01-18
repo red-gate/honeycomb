@@ -11,6 +11,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.16.0/polyfill.min.js"></script>
     <script src="/bower_components/redgate-honeycomb/dist/honeycomb.min.js"></script>
-    <script src="/assets/js/site.js"></script>
+    <script src="/assets/js/site.min.js"></script>
 </body>
 </html>
