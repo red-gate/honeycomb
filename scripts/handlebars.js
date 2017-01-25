@@ -9,6 +9,18 @@ const mkdirp = require("mkdirp");
 const src = "./src";
 const dist = "./dist";
 
+// Register Handlebars helpers.
+registerHandlebarsHelpers = () => {
+
+    // If helper.
+    handlebars.registerHelper("ifCond", function(x, y, options) {
+        if(x == y) {
+            return options.fn(this);
+        }
+        return options.inverse(this);
+    });
+};
+
 // Register Handlebars partials.
 registerHandlebarsPartials = ( cb ) => {
     glob(`${src}/_partials/**/*.hb`, (err, files) => {
@@ -81,6 +93,7 @@ runHandlebars = () => {
     });
 }
 
+registerHandlebarsHelpers();
 registerHandlebarsPartials(() => {
     runHandlebars();
 });
