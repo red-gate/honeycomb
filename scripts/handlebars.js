@@ -19,6 +19,19 @@ registerHandlebarsHelpers = () => {
         }
         return options.inverse(this);
     });
+
+    // Set a variable.
+    handlebars.registerHelper("setVariable", function( varName, varValue, options ) {
+        options.data.root[ varName ] = varValue;
+        this[varName] = varValue;
+    });
+
+    // Concatenate a variable.
+    handlebars.registerHelper("concatVariable", function( varName, varValue, varValueToCat, options ) {
+        var value = varValue + varValueToCat;
+        options.data.root[ varName ] = value;
+        this[varName] = value;
+    });
 };
 
 // Register Handlebars partials.
@@ -32,7 +45,10 @@ registerHandlebarsPartials = ( cb ) => {
                     let file = files[i];
 
                     fs.readFile(file, "utf8", (err, content) => {
-                        let name = path.basename(file, ".hb");
+                        let name = file
+                            .replace(`${src}/_partials/`, "")
+                            .replace(".hb", "")
+
                         handlebars.registerPartial(name, content);
                     });
                 }
