@@ -4,9 +4,9 @@
         <a href="/" class="header--primary__app-logo-container"><img src="/assets/images/gatebase-white.svg" alt=""></a>
         <a href="/" class="header--primary__app-name-container">Honeycomb</a>
         <ul>
-            <li><a href="/ui/">Creating UIs</a></li>
-            <li><a href="/writing-guide/">Writing guide</a></li>
-            <li><a href="/brand/">Brand assets</a></li>
+            <li><a href="/ui/" {{#ifCond section "ui"}} class="active" {{/ifCond}}>Creating UIs</a></li>
+            <li><a href="/writing-guide/" {{#ifCond section "writing-guide"}} class="active" {{/ifCond}}>Writing guide</a></li>
+            <li><a href="/brand/" {{#ifCond section "brand"}} class="active" {{/ifCond}}>Brand assets</a></li>
         </ul>
     </nav>
 </header>
