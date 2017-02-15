@@ -82,12 +82,14 @@
                         <h1>Writing guide</h1>
                         <h2>Write for Redgate consistently and with clarity</h2>
                         <ul>
-                            <li><a href="">Usage dictionary</a></li>
-                            <li><a href="">Applications</a></li>
-                            <li><a href="">Redgate website</a></li>
-                            <li><a href="">Case studies / Whitepapers</a></li>
-                            <li><a href="">Blog posts</a></li>
-                            <li><a href="">Social media</a></li>
+                            <li><a href="/writing-guide/">Why write in style?</a></li>
+                            <li><a href="/writing-guide/applications/">Applications</a></li>
+                            <li><a href="/writing-guide/website">Redgate website</a></li>
+                            <li><a href="/writing-guide/case-study">Case study</a></li>
+                            <li><a href="/writing-guide/white-paper">White paper</a></li>
+                            <li><a href="/writing-guide/blog-post">Blog post</a></li>
+                            <li><a href="/writing-guide/social-media">Social media</a></li>                           
+                            <li><a href="/writing-guide/usage-dictionary">Usage Dictionary</a></li>
                         </ul>
                     </div>
                 </div>

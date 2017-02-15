@@ -31,6 +31,16 @@
                     <li><a href="/ui/toolkits/">Toolkits</a></li>
                 {{/ifCond}}
 
+                {{#ifCond section "writing-guide"}}
+                    <li><a href="/writing-guide/applications/">Applications</a></li>
+                    <li><a href="/writing-guide/website">Redgate website</a></li>
+                    <li><a href="/writing-guide/case-study">Case study</a></li>
+                    <li><a href="/writing-guide/white-paper">White paper</a></li>
+                    <li><a href="/writing-guide/blog-post">Blog post</a></li>
+                    <li><a href="/writing-guide/social-media">Social media</a></li>                           
+                    <li><a href="/writing-guide/usage-dictionary">Usage Dictionary</a></li>
+                {{/ifCond}}
+
             </ul>
         </div>
     </nav>
