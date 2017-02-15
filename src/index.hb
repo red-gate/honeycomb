@@ -1,7 +1,7 @@
 {{> head title="Home"}}
 {{> header}}
 
-    <div class="grid__col grid__col--span-12-of-12 background-color--grey--7">
+    <div class="grid__col grid__col--span-12-of-12 background-color--grey--9">
         <div class="band__inner-container">
             <h1 class="color--white">Honeycomb - Redgate's design system</h1>
             <h2 class="color--white">Making it easier and quicker to create a coherent Redgate experience</h2>
