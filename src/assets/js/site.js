@@ -7,3 +7,6 @@ if (uri === "/") {
 
 import navActiveState from "./site/nav-active-state";
 navActiveState.init(uri);
+
+import colourCodeText from "./site/colour-code-text";
+document.addEventListener('DOMContentLoaded', colourCodeTexttower);
