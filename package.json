@@ -1,23 +1,24 @@
 {
-  "name": "honeycomb",
+  "name": "honeycomb-website",
   "version": "0.0.0",
   "private": true,
   "description": "Honeycomb",
   "scripts": {
-    "honeycomb": "bower install https://github.com/red-gate/honeycomb-web-toolkit.git",
     "handlebars": "node scripts/handlebars",
+    "honeycomb": "node scripts/honeycomb.css.js",
     "images": "mkdir -p dist/assets/images && cp -R src/assets/images/ dist/assets/images",
     "js": "browserify -t [babelify] src/assets/js/site.js | uglifyjs > dist/assets/js/site.min.js",
-    "build": "node scripts/create-structure && npm run images && npm run honeycomb && npm run handlebars && npm run js",
+    "build": "npm install && node scripts/create-structure && npm run images && npm run handlebars && npm run js && npm run honeycomb",
     "watch": "watch 'npm run build' src"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.18.0",
     "babelify": "^7.3.0",
-    "bower": "^1.8.0",
     "glob": "^7.1.1",
     "handlebars": "^4.0.6",
+    "honeycomb": "git://github.com/red-gate/honeycomb-web-toolkit.git",
     "mkdirp": "^0.5.1",
+    "node-sass": "^4.5.0",
     "uglify-js": "^2.7.5",
     "watch": "^1.0.1"
   }

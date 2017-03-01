@@ -9,7 +9,7 @@
         <meta name="description" content="">
 
         <link rel="icon" type="image/png" href="/assets/images/favicon.ico?v=1" />
-        <link rel="stylesheet" href="/bower_components/redgate-honeycomb/dist/honeycomb.css">
+        <link rel="stylesheet" href="/assets/css/honeycomb.css">
 
         <title>{{title}} - Honeycomb</title>
 

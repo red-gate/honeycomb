@@ -4,7 +4,8 @@ const mkdirp = require("mkdirp");
 // Structure
 const structure = [
     "./dist/assets/images/",
-    "./dist/assets/js/"
+    "./dist/assets/js/",
+    "./dist/assets/css/"
 ];
 
 for (let i=0; i<structure.length; i++) {
