@@ -1,5 +1,5 @@
 // Dependencies
-const mkdirp = require("mkdirp");
+const fs = require("fs-extra");
 
 // Structure
 const structure = [
@@ -9,5 +9,5 @@ const structure = [
 ];
 
 for (let i=0; i<structure.length; i++) {
-    mkdirp(structure[i]);
+    fs.ensureDir(structure[i]);
 }

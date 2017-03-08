@@ -1,9 +1,8 @@
 // Dependencies.
-const fs = require("fs");
+const fs = require("fs-extra");
 const path = require("path");
 const glob = require("glob");
 const handlebars = require("handlebars");
-const mkdirp = require("mkdirp");
 
 // Settings.
 const src = "./src";
@@ -91,7 +90,7 @@ runHandlebars = () => {
 
                             let distFile = file.replace(`${src}/`, `${dist}/`).replace(".hb", ".html");
                             let distDir = path.dirname(distFile);
-                            mkdirp(distDir, (err) => {
+                            fs.ensureDir(distDir, (err) => {
                                 fs.writeFile(distFile, html, (err) => {
                                     if (err) {
                                         console.error(err);
