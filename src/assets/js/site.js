@@ -130,3 +130,6 @@ navActiveState.init(uri);
 
 import colourCodeText from "./site/colour-code-text";
 document.addEventListener('DOMContentLoaded', colourCodeText);
+
+import codeHighlighting from "./site/code-highlighting";
+codeHighlighting.init();

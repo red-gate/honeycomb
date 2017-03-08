@@ -19,6 +19,7 @@
     "handlebars": "^4.0.6",
     "honeycomb": "git://github.com/red-gate/honeycomb-web-toolkit.git",
     "node-sass": "^4.5.0",
+    "prismjs": "^1.6.0",
     "uglify-js": "^2.7.5",
     "watch": "^1.0.1"
   },
