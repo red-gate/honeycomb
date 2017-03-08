@@ -55,7 +55,6 @@
     </div>
 
     <h2>Code</h2>
-    <p>Code sample goes here</p>
     {{#> code-sample }}
     <div class="grid">
         <div class="grid__row">
