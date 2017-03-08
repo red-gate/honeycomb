@@ -8,6 +8,13 @@ const structure = [
     "./dist/assets/css/"
 ];
 
-for (let i=0; i<structure.length; i++) {
-    fs.ensureDir(structure[i]);
-}
+fs.emptyDir("./dist/", err => {
+    if (err) {
+        console.error("Error emptying dist directory: ", err);
+        return;
+    }
+
+    for (let i=0; i<structure.length; i++) {
+        fs.ensureDir(structure[i]);
+    }
+});
