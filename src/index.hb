@@ -20,7 +20,8 @@
                         <h3>Basic elements</h3>
                         <p>The fundamental basic elements from which UIs are created.</p>
                         <ul>
-                            <li><a href="/ui/library/elements/grid-spacing">Grid / Spacing</a></li>
+                            <li><a href="/ui/library/elements/grid">Grid</a></li>
+                            <li><a href="/ui/library/elements/spacing">Spacing</a></li>
                             <li><a href="/ui/library/elements/type">Type</a></li>
                             <li><a href="/ui/library/elements/colour">Colour</a></li>
                             <li><a href="/ui/library/elements/icons">Icons</a></li>
