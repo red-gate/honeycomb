@@ -20,7 +20,9 @@
                         <li><a href="/ui/library/components/buttons">Buttons</a></li>
                         <li><a href="/ui/library/components/forms">Forms</a></li>
                         <li><a href="/ui/library/components/messaging">Messaging</a></li>
+                        <li><a class="text--strikethrough color--grey--4">Lists</a></li>
                         <li><a class="text--strikethrough color--grey--4">Navigation</a></li>
+                        <li><a class="text--strikethrough color--grey--4">Tables</a></li>
                     </ul>
                 </li>
                 <li>
