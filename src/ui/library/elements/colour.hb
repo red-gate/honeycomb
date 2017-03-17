@@ -1,7 +1,9 @@
 {{#> layouts/ui-library title="Colour"}}
     <h1>Colour</h1>
 
-    <h2>Swatches</h2>
+    <p>We've chosen a colour palette that limits the different amount of colours used, but allows enough flexibility.....</p>
+
+    <h2>Palette</h2>
     <div class="grid">
         <div class="grid__col grid__col--span-2-of-12 grid__col--no-gutter">
             <div class="padded--tight background-color--yellow--1 color-code--yellow--1">
@@ -152,7 +154,12 @@
                 <p>White</p>
             </div>
         </div>
-
     </div>
+
+    <h2>Code</h2>
+    {{#> code-sample }}
+    <div class="background-color--grey--9">A division with a dark grey background colour.</div>
+    <p class="color--grey--1">A paragraph that has a light grey text colour.</p>
+    {{/code-sample}}
 
 {{/layouts/ui-library}}
