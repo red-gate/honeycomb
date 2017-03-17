@@ -1,7 +1,6 @@
 {{#> layouts/ui-library title="Grid"}}
     <h1>Grid</h1>
 
-    <h2>Intro</h2>
     <p>The grid is a 12 column, flexible width grid. Each column can span a multiple of 12, which allows for versatile page layouts.</p>
 
     <h2>Examples</h2>

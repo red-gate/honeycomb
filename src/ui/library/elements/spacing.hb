@@ -1,7 +1,6 @@
 {{#> layouts/ui-library title="Spacing"}}
     <h1>Spacing</h1>
 
-    <h2>Intro</h2>
     <p>Spacing relates to both padding and margin of elements.</p>
     <p>There are 3 levels of spacing that we've defined. These are standard, tight (standard x 2) and loose (standard / 2).</p>
     <p>Different levels of spacing can be applied to every side of an element.</p>
