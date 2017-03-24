@@ -45,10 +45,14 @@
             <input type="radio" name="choice" id="radio-3" value="Choice 3" disabled> 
             <label for="radio-3">Disabled</label>
             
-            <h3>Required fields (Todo!)</h3>
+            <h3>Required fields</h3>
             <p>Note: required fields are indicated by a 10px circle to the right of the field.</p>
             <label for="text-input">Form label</label>
-            <input type="text" name="text-input" id="text-input" placeholder="Text input" required class="required">
+            <input type="text" name="text-input" id="text-input" placeholder="Text input" required class="js-required">
+
+            <h3>Fields with help text</h3>
+            <label for="text-input">Form label</label>
+            <input type="text" name="text-input" id="text-input" placeholder="Text input" class="js-help" data-help-text="Help text goes here">
 
         </fieldset>
     </form>
@@ -86,7 +90,10 @@
         <label for="radio-3">Disabled</label>
         
         <label for="text-input">Form label</label>
-        <input type="text" name="text-input" id="text-input" placeholder="Text input" class="required" required>
+        <input type="text" name="text-input" id="text-input" placeholder="Text input" class="js-required" required>
+
+        <label for="text-input">Form label</label>
+        <input type="text" name="text-input" id="text-input" placeholder="Text input" class="js-help" data-help-text="Help text goes here">
     {{/code-sample}}
 
 
