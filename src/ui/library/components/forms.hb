@@ -7,6 +7,7 @@
         <fieldset>
             <h3>Text input</h3>
             <label for="text-input">Form label</label>
+            <p class="form__help-text">This is the help text</p>
             <input type="text" name="text-input" id="text-input" placeholder="Text input">
 
             <h3>Combo box</h3>
@@ -55,6 +56,7 @@
     <h2>Code</h2>
     {{#> code-sample }}
         <label for="text-input">Form label</label>
+        <p class="form__help-text">This is the help text</p>
         <input type="text" name="text-input" id="text-input" placeholder="Text input">
 
         <label for="combo-box">Item label</label>

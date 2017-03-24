@@ -54,6 +54,10 @@ equalise.init();
 import filter from '../../../node_modules/honeycomb/src/filter/js/honeycomb.filter';
 filter.init();
 
+// Forms.
+import forms from '../../../node_modules/honeycomb/src/forms/js/honeycomb.forms';
+forms.init();
+
 // Lightbox.
 import lightbox from '../../../node_modules/honeycomb/src/lightbox/js/honeycomb.lightbox';
 lightbox.init();
