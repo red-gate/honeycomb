@@ -28,6 +28,7 @@
                 <li>
                     <a href="/ui/library/sections/">Sections</a>
                     <ul>
+                        <li><a href="/ui/library/sections/tabs">Tabs</a></li>
                         <li><a class="text--strikethrough color--grey--4">Headers</a></li>
                         <li><a class="text--strikethrough color--grey--4">Filters</a></li>
                         <li><a class="text--strikethrough color--grey--4">Dialog boxes</a></li>
