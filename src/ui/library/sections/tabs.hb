@@ -1,4 +1,4 @@
-{{#> layouts/ui-library title="Headers"}}
+{{#> layouts/ui-library title="Tabs"}}
     <h1>Tabs</h1>
     <p>Intro goes here</p>
 
