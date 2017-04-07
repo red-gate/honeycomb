@@ -3,7 +3,7 @@
 
     <h2>Block notifications</h2>
 
-    <h3>Examples</h3>
+    <h3 class="text--separator">Examples</h3>
 
     <div class="spaced-bottom">
 
@@ -57,7 +57,7 @@
     
     </div>
 
-    <h2>Code</h2>
+    <h3 class="text--separator">Code</h3>
     {{#> code-sample }}
         <div class="notification notification--block notification--info">
             <div class="notification--block__inner-container">

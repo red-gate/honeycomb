@@ -16,7 +16,7 @@
 
     <p>Don't hide buttons: Presenting the primary button only after a set of actions reduces visibility for users. They won't know when they can expect the action or what they are trying to do in that step.</p>
 
-    <h2>Examples</h2>
+    <h2 class="text--separator">Examples</h2>
     <h3>Default buttons</h3>
     <a class="button" href="#">Button</a>
     <a class="button button--xx-small" href="#">Extra Extra Small Button</a>
@@ -61,7 +61,7 @@
 
 
 
-    <h2>Code</h2>
+    <h2 class="text--separator">Code</h2>
     {{#> code-sample }}
         <a class="button" href="#">Button</a>
         
