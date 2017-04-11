@@ -17,11 +17,11 @@
                 <li>
                     <a href="/ui/library/components/">Components</a>
                     <ul>
+                        <li><a href="/ui/library/components/blockquote">Blockquote</a></li>
                         <li><a href="/ui/library/components/buttons">Buttons</a></li>
                         <li><a href="/ui/library/components/forms">Forms</a></li>
                         <li><a href="/ui/library/components/messaging">Messaging</a></li>
                         <li><a class="text--strikethrough color--grey--4">Avatars</a></li>
-                        <li><a class="text--strikethrough color--grey--4">Blockquotes</a></li>
                         <li><a class="text--strikethrough color--grey--4">Labels</a></li>
                         <li><a class="text--strikethrough color--grey--4">Lists</a></li>
                         <li><a class="text--strikethrough color--grey--4">Navigation</a></li>
