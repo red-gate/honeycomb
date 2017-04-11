@@ -1,7 +1,7 @@
 {{#> layouts/ui-library title="Icons"}}
     <h1>Icons</h1>
 
-    <h2>Examples</h2>
+    <h2 class="text--separator">Examples</h2>
     <div class="grid">
         <div class="grid__col grid__col--span-3-of-12">
             <p class="padded-v--tight"><span class="icon--add-ons icon--2x"></span> Add ons</p>
@@ -209,7 +209,7 @@
         </div>
     </div>
 
-    <h2>Code</h2>
+    <h2 class="text--separator">Code</h2>
     {{#> code-sample }}
         <p class="icon--video">...</p>
         <p class="icon--shopping-cart">...</p>

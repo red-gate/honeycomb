@@ -1,7 +1,7 @@
 {{#> layouts/ui-library title="Forms"}}
     <h1>Forms</h1>
 
-    <h2>Examples</h2>
+    <h2 class="text--separator">Examples</h2>
 
     <form method="get" action="">
         <fieldset>
@@ -57,7 +57,7 @@
         </fieldset>
     </form>
 
-    <h2>Code</h2>
+    <h2 class="text--separator">Code</h2>
     {{#> code-sample }}
         <label for="text-input">Form label</label>
         <p class="form__help-text">This is the help text</p>

@@ -3,7 +3,7 @@
 
     <p>Intro to type goes here.</p>
 
-    <h2>Examples</h2>
+    <h2 class="text--separator">Examples</h2>
 
     <h1>This is a level 1 heading</h1>
     <h2>This is a level 2 heading</h2>
@@ -26,7 +26,7 @@
         <li><span class="zeta">zeta</span> - Applies level 6 heading style</li>
     </ul>
 
-    <h2>Code</h2>
+    <h2 class="text--separator">Code</h2>
     {{#> code-sample }}
         <h1>This is a level 1 heading</h1>
         <h2>This is a level 2 heading</h2>

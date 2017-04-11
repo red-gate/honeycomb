@@ -3,7 +3,7 @@
 
     <p>The grid is a 12 column, flexible width grid. Each column can span a multiple of 12, which allows for versatile page layouts.</p>
 
-    <h2>Examples</h2>
+    <h2 class="text--separator">Examples</h2>
     <div class="grid">
 
         <div class="grid__row spaced-bottom--tight">
@@ -53,7 +53,7 @@
         </div>
     </div>
 
-    <h2>Code</h2>
+    <h2 class="text--separator">Code</h2>
     {{#> code-sample }}
     <div class="grid">
         <div class="grid__row">

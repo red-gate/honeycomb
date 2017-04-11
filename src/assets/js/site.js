@@ -25,7 +25,9 @@ browser.init();
 // Carousel.
 import carousel from '../../../node_modules/honeycomb/src/carousel/js/honeycomb.carousel';
 window.addEventListener( "load", () => {
-    carousel.init();
+    carousel.init({
+        url: '/assets/js/vendor/slick.min.js'
+    });
 });
 
 // Code
@@ -48,7 +50,9 @@ documentViewport.init();
 
 // Equalise.
 import equalise from '../../../node_modules/honeycomb/src/equalise/js/honeycomb.equalise';
-equalise.init();
+equalise.init({
+    url: '/assets/js/vendor/jquery.equalise.min.js'
+});
 
 // Filter.
 import filter from '../../../node_modules/honeycomb/src/filter/js/honeycomb.filter';
@@ -60,7 +64,9 @@ forms.init();
 
 // Lightbox.
 import lightbox from '../../../node_modules/honeycomb/src/lightbox/js/honeycomb.lightbox';
-lightbox.init();
+lightbox.init({
+    url: '/assets/js/vendor/jquery.fancybox.pack.js'
+});
 
 // Google map.
 import googleMap from '../../../node_modules/honeycomb/src/maps/js/honeycomb.maps.google';
@@ -96,7 +102,9 @@ scroll.init();
 
 // Sticky.
 import sticky from '../../../node_modules/honeycomb/src/sticky/js/honeycomb.sticky';
-sticky.init();
+sticky.init({
+    url: '/assets/js/vendor/jquery.sticky.min.js'
+});
 
 // SVG.
 import svg from '../../../node_modules/honeycomb/src/svg/js/honeycomb.svg';
@@ -105,7 +113,8 @@ svg.init();
 // Tabs.
 import tabs from '../../../node_modules/honeycomb/src/tabs/js/honeycomb.tabs';
 tabs.init({
-	equalise: equalise.init
+	equalise: equalise.init,
+    url: '/assets/js/vendor/jquery.tabs.min.js'
 });
 
 // Toggle.

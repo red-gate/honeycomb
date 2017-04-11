@@ -5,7 +5,7 @@
     <p>There are 3 levels of spacing that we've defined. These are standard, tight (standard x 2) and loose (standard / 2).</p>
     <p>Different levels of spacing can be applied to every side of an element.</p>
 
-    <h2>Examples</h2>
+    <h2 class="text--separator">Examples</h2>
     <div class="background-color--grey--3 spaced-bottom clearfix">
         <div class="padded background-color--grey--1 spaced"><p>An element with standard spacing</p></div>
     </div>
@@ -16,7 +16,7 @@
         <div class="padded--loose background-color--grey--1 spaced--loose"><p>An element with loose spacing</p></div>
     </div>    
 
-    <h2>Code</h2>
+    <h2 class="text--separator">Code</h2>
     {{#> code-sample }}
     <div class="spaced padded">...</div>
     <div class="spaced--tight padded--tight">...</div>
