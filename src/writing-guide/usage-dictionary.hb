@@ -1,10 +1,11 @@
 {{#> layouts/global title="Writing Guide" section="writing-guide"}}
 
-    <div class="grid__col grid__col--span-12-of-12">
+    <div class="grid__col grid__col--span-8-of-12">
         <h1>Usage dictionary</h1>
         <p>This is the place to find general advice on the ways we use and spell certain words (add-in rather than extension, for example), and grammatical questions like the difference between active and passive voice.</p>
 
         <dl>
+            <h2>A</h2>
             <dt>abbreviations and acronyms</dt>
             <dd>The first time you use an abbreviation or acronym in a page, write it in full, and then refer to it by its initials. For example, Team Foundation Server (TFS). You can then use the abbreviation afterwards (but don’t include the acronym if you’re not going to use it again later in the page).<br/>Don’t use periods in abbreviations, either. For example, write TFS, not T.F.S. and, if the acronym is better understood than its expansion, don’t spell it out. A good example is to write DNS rather than Domain Name System (DNS).</dd>
 
@@ -67,6 +68,8 @@
             <dt>Azure Data Warehouse</dt>
             <dd>The name of a product, so capitalized.</dd>
 
+            <h2>B</h2>
+
             <dt>back-end vs back end</dt>
             <dd>In general, don’t use the hyphen and try to think of a more specific term like server, database, or network instead.<br/>
                 If used as an adjective, it’s hyphenated. For example, It’s important to consider how this will affect back-end performance issues.</dd>
@@ -110,6 +113,8 @@
 
             <dt>bug-tracking system</dt>
             <dd>With the hyphen.</dd>
+
+            <h2>C</h2>
 
             <dt>C#</dt>
             <dd>Not c#, C Sharp, etc.</dd>
@@ -190,6 +195,8 @@
             <dt>customer</dt>
             <dd>Unless it’s required in a sales context or would cause repetition, write user instead. For example: We understand installing updates frequently is impractical for some users.</dd>
 
+            <h2>D</h2>
+
             <dt>data</dt>
             <dd>Data is now regarded as a singular noun, so write Data is lost, for example, not Data are lost.</dd>
 
@@ -233,6 +240,8 @@
 
             <dt>drop-down menu</dt>
             <dd>With the hyphen.</dd>
+
+            <h2>E</h2>
 
             <dt>earlier (version numbers)</dt>
             <dd>For example, SQL Source Control 5.1 or earlier, not SQL Source Control 5.1 or older.</dd>
@@ -285,6 +294,8 @@
             <dt>extensions</dt>
             <dd>Visual Studio plug-ins are called extensions, but note that SQL Server Management Studio plug-ins are called add-ins.</dd>
 
+            <h2>F</h2>
+
             <dt>failover vs fail over</dt>
             <dd>When it’s a noun, it’s failover. For example, failover cluster.<br/>
                 When it’s a verb, it’s fail over. For example, The database failed over.</dd>
@@ -315,6 +326,8 @@
             <dd>The hyphen is not necessary in normal use. For example, Understanding how async actually works at the front end is no mean feat.<br/>
                 When the phrase is used as an adjective, however, include it. For example, It’s important to consider front-end performance issues.</dd>
 
+            <h2>G</h2>
+
             <dt>gender</dt>
             <dd>Our software is used by men and women, and our writing should reflect that. Never say his to cover both men and women – instead use plural words like their. For example, Users can link their database to source control.<br/>
                 To counter the predominantly male language of software and database development, it's also nice to include female names in screenshots, worked examples, and so on. For example, Amanda creates a table in her database and goes to the Commit changes tab.</dd>
@@ -325,6 +338,8 @@
             <dt>GitHub</dt>
             <dd>No hyphen. Note the capitals.</dd>
 
+            <h2>H</h2>
+
             <dt>host name</dt>
             <dd>Two words.</dd>
 
@@ -333,6 +348,8 @@
 
             <dt>how-to vs how to</dt>
             <dd>Use the hyphen when how-to is used as an adjective. For example, Find out in this how-to book …</dd>
+
+            <h2>I</h2>
 
             <dt>i.e.</dt>
             <dd>The abbreviation for the Latin phrase meaning that is. Use that is instead.</dd>
@@ -367,6 +384,8 @@
                 Its is the possessive form. For example, A free 30-day trial is one of its attractions.<br/>
                 It’s is the contraction of it is. For example, It’s easy to download it and try it.</dd>
 
+            <h2>J</h2>
+            
             <dt>Java, JavaScript</dt>
             <dd>Uppercase j and s.</dd>
 
@@ -376,6 +395,8 @@
             <dt>join</dt>
             <dd>In the database world, join refers to a relationship between fields in different tables. Try not to use it elsewhere to avoid confusion.</dd>
 
+            <h2>K</h2>
+            
             <dt>kilobit, megabit, gigabit, etc</dt>
             <dd>The term used in relation to network connection speeds.<br/>
                 The abbreviation is Kb, Mb, Gb, etc, when talking about size and Mbps (megabits per second) when talking about speed.<br/>
@@ -390,6 +411,8 @@
                 Don’t capitalize when the word is spelled out.<br/>
                 See also bits vs bytes.</dd>
 
+            <h2>L</h2>
+            
             <dt>label, labeled, labeling</dt>
             <dd>Use one l.</dd>
 
@@ -412,6 +435,8 @@
                 When it’s a verb, it’s log in. For example, To log in, enter your Redgate ID.<br/>
                 Use logout and log out in the same way, and avoid other forms such as log on/off, sign in/out, sign on/off.</dd>
 
+            <h2>M</h2>
+            
             <dt>metadata</dt>
             <dd>One word.</dd>
 
@@ -438,6 +463,8 @@
             <dt>multi- vs multi</dt>
             <dd>When used as a prefix, only use a hyphen when the following word begins with i. For example, multitasking vs multi-item.</dd>
 
+            <h2>N</h2>
+            
             <dt>n/a</dt>
             <dd>Lowercase.</dd>
 
@@ -447,6 +474,8 @@
             <dt>.NET</dt>
             <dd>Always precede with a period and use capitals. Try not starting or ending a sentence with .NET to avoid confusion.</dd>
 
+            <h2>O</h2>
+            
             <dt>no one</dt>
             <dd>No hyphen.</dd>
 
@@ -479,6 +508,8 @@
             <dd>An Oxford (or serial) comma is the final comma in a list of things. For example, SQL Compare, SQL Source Control, and SQL Prompt.<br/>
                 It's not always necessary but it can prevent misunderstandings. Compare I dedicate this book to my parents, Martin Amis, and J K Rowling, with I dedicate this book to my parents, Martin Amis and J K Rowling.</dd>
 
+            <h2>P</h2>
+            
             <dt>percent vs per cent vs %</dt>
             <dd>There’s no need to spell it out in either of the popular forms. Instead, use the % symbol with no space after the numeral. For example, 71% of Fortune 100 companies use Redgate SQL Compare.</dd>
 
@@ -499,9 +530,13 @@
             <dt>PS</dt>
             <dd>No periods (in this or any other acronym).</dd>
 
+            <h2>Q</h2>
+            
             <dt>quality</dt>
             <dd>Don’t use quality by itself as an adjective. Instead, include a modifier, which also means a hyphen is required. For example, high-quality or professional-quality.</dd>
 
+            <h2>R</h2>
+            
             <dt>re-</dt>
             <dd>Use a hyphen when followed by the vowel ‘e’. For example, re-entry, re-examine.<br/>
                 Don’t use a hyphen when followed by the vowels ‘a’, ‘i’, ‘o’ or ‘u’, or any consonant. For example, reinstall, reassemble, reorder, reread, reuse, rebuild, retry.<br/>
@@ -542,6 +577,8 @@
                 A runtime is an environment required to run programs which are not compiled to machine language.<br/>
                 The adjective run-time describes a thing occurring or relevant at runtime.</dd>
 
+            <h2>S</h2>
+            
             <dt>scalable, scalability</dt>
             <dd>Not scaleable or scaleability.</dd>
 
@@ -605,6 +642,8 @@
             <dt>sync, synced, syncing</dt>
             <dd>Not synch, synched, or synching.</dd>
 
+            <h2>T</h2>
+            
             <dt>table-valued function</dt>
             <dd>With hyphen.</dd>
 
@@ -671,6 +710,8 @@
             <dt>toward</dt>
             <dd>Not towards.</dd>
 
+            <h2>U</h2>
+
             <dt>UK, USA</dt>
             <dd>Use as abbreviations for the United Kingdom and the United States, without periods.</dd>
 
@@ -709,9 +750,13 @@
             <dt>username</dt>
             <dd>Use one word when referring to the name part of a login.</dd>
 
+            <h2>V</h2>
+            
             <dt>Visual Studio</dt>
             <dd>Note the capitalization. Write in full followed by (VS) at the first mention, and then use the acronym VS in further mentions.</dd>
 
+            <h2>W</h2>
+            
             <dt>want vs need vs desire</dt>
             <dd>Use want when the user has a choice of actions. Use need where there is a requirement or obligation. Don’t use desire.</dd>
 

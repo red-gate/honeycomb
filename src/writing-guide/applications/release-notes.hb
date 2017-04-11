@@ -1,7 +1,7 @@
 {{#> layouts/writing-guide/applications title="Writing release notes"}}
 
     <div class="grid__col grid__col--span-12-of-12">
-        <h1>Writing release notes</h1>
+        <h1>Release notes</h1>
 
         <p>We like release notes at Redgate. In one glance, readers should be able to see the number of the release, the date it was released, what the latest features are, any additional improvements, fixes that have been accomplished, and any known issues.</p>
         <p>It’s easier than it sounds and all release notes follow this general structure:</p>
