@@ -1,7 +1,18 @@
 {{#> layouts/ui-library title="Type"}}
     <h1>Type</h1>
 
-    <p>Intro to type goes here.</p>
+    <div class="js-tabbed tabbed" data-tabs-pagination="true">
+        <nav>
+            <ul class="tabs">
+                <li><a href="#examples">Examples</a></li>
+                <li><a href="#guidelines">Guidelines</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </nav>
+
+
+  <div class="js-tab tabbed__content" id="examples">
 
     <h2 class="text--separator">Examples</h2>
 
@@ -26,6 +37,28 @@
         <li><span class="zeta">zeta</span> - Applies level 6 heading style</li>
     </ul>
 
+
+</div>
+
+
+
+
+
+
+
+
+  <div class="js-tab tabbed__content" id="guidelines">
+    <h2 class="text--separator">Guidelines</h2>
+
+
+</div>
+
+
+
+
+
+
+  <div class="js-tab tabbed__content" id="code">
     <h2 class="text--separator">Code</h2>
     {{#> code-sample }}
         <h1>This is a level 1 heading</h1>
@@ -38,4 +71,23 @@
         <a href="#">This is a hyperlink</a>
         <p class="gamma">This is a paragraph that looks like a level 3 heading</p>
     {{/code-sample }}
+
+</div>
+
+
+
+
+
+
+  <div class="js-tab tabbed__content" id="resources">
+    <h2 class="text--separator">Resources</h2>
+
+<h3> You can download Roboto here:</h3>
+<p>https://material.io/guidelines/resources/roboto-noto-fonts.html</p>
+
+</div>
+
+
+
+
 {{/layouts/ui-library}}
