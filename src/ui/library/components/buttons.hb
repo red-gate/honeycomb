@@ -59,7 +59,7 @@
         <div class="js-tab tabbed__content" id="guidelines">
             <h2>Guidelines</h2>
             <h3>Summary</h3>
-            <ul class="list--chevron-down--large">
+            <ul class="">
                 <li><a href="#clear-cta" class="js-scroll-to">Provide a clear call-to-action</a></li>
                 <li><a href="#avoid-multiple" class="js-scroll-to">Avoid using multiple primary buttons</a></li>
                 <li><a href="#guide" class="js-scroll-to">Use buttons to guide users through workflows</a></li>
