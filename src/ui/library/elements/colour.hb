@@ -174,14 +174,14 @@
             <h2>Code</h2>
             
             {{#> code-sample }}
-                <x class="(background-)color--{colour}--{shade}">...</x>
+<x class="(background-)color--{colour}--{shade}">...</x>
             {{/code-sample}}
 
             <p>E.g.</p>
 
             {{#> code-sample }}
-                <div class="background-color--grey--9">A division with a dark grey background colour.</div>
-                <p class="color--grey--1">A paragraph that has a light grey text colour.</p>
+<div class="background-color--grey--9">A division with a dark grey background colour.</div>
+<p class="color--grey--1">A paragraph that has a light grey text colour.</p>
             {{/code-sample}}
         </div>
     </div>

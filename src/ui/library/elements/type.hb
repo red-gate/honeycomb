@@ -43,15 +43,15 @@
         <div class="js-tab tabbed__content" id="code">
             <h2>Code</h2>
             {{#> code-sample }}
-                <h1>This is a level 1 heading</h1>
-                <h2>This is a level 2 heading</h2>
-                <h3>This is a level 3 heading</h3>
-                <h4>This is a level 4 heading</h4>
-                <h5>This is a level 5 heading</h5>
-                <p>This is paragraph text</p>
-                <p><small>This is small paragraph text</small></p>
-                <a href="#">This is a hyperlink</a>
-                <p class="gamma">This is a paragraph that looks like a level 3 heading</p>
+<h1>This is a level 1 heading</h1>
+<h2>This is a level 2 heading</h2>
+<h3>This is a level 3 heading</h3>
+<h4>This is a level 4 heading</h4>
+<h5>This is a level 5 heading</h5>
+<p>This is paragraph text</p>
+<p><small>This is small paragraph text</small></p>
+<a href="#">This is a hyperlink</a>
+<p class="gamma">This is a paragraph that looks like a level 3 heading</p>
             {{/code-sample }}
         </div>
 

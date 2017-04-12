@@ -162,41 +162,41 @@
             <h2>Code</h2>
 
             {{#> code-sample }}
-                <table class="table--striped | table--bare | table--striped-grey | table--light">
-                    <caption>Table caption goes here</caption>
-                    <thead>
-                        <th>Col 1</th>
-                        <th>Col 2</th>
-                        <th>Col 3</th>
-                        <th>Col 4</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Row 1, Col 1</td>
-                            <td>Row 1, Col 2</td>
-                            <td>Row 1, Col 3</td>
-                            <td>Row 1, Col 4</td>
-                        </tr>
-                        <tr>
-                            <td>Row 2, Col 1</td>
-                            <td>Row 2, Col 2</td>
-                            <td>Row 2, Col 3</td>
-                            <td>Row 2, Col 4</td>
-                        </tr>
-                        <tr>
-                            <td>Row 3, Col 1</td>
-                            <td>Row 3, Col 2</td>
-                            <td>Row 3, Col 3</td>
-                            <td>Row 3, Col 4</td>
-                        </tr>
-                        <tr>
-                            <td>Row 4, Col 1</td>
-                            <td>Row 4, Col 2</td>
-                            <td>Row 4, Col 3</td>
-                            <td>Row 4, Col 4</td>
-                        </tr>
-                    </tbody>
-                </table>
+<table class="table--striped | table--bare | table--striped-grey | table--light">
+    <caption>Table caption goes here</caption>
+    <thead>
+        <th>Col 1</th>
+        <th>Col 2</th>
+        <th>Col 3</th>
+        <th>Col 4</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Row 1, Col 1</td>
+            <td>Row 1, Col 2</td>
+            <td>Row 1, Col 3</td>
+            <td>Row 1, Col 4</td>
+        </tr>
+        <tr>
+            <td>Row 2, Col 1</td>
+            <td>Row 2, Col 2</td>
+            <td>Row 2, Col 3</td>
+            <td>Row 2, Col 4</td>
+        </tr>
+        <tr>
+            <td>Row 3, Col 1</td>
+            <td>Row 3, Col 2</td>
+            <td>Row 3, Col 3</td>
+            <td>Row 3, Col 4</td>
+        </tr>
+        <tr>
+            <td>Row 4, Col 1</td>
+            <td>Row 4, Col 2</td>
+            <td>Row 4, Col 3</td>
+            <td>Row 4, Col 4</td>
+        </tr>
+    </tbody>
+</table>
             {{/code-sample}}
         </div>
     </div>

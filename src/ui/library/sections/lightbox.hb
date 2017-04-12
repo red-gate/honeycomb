@@ -24,7 +24,7 @@
         <div class="js-tab tabbed__content" id="code">
             <h2>Code</h2>
             {{#> code-sample }}
-                <a href="{url goes here}" class="js-lightbox | js-lightbox--video | js-lightbox--iframe | js-lightbox--image | js-lightbox--inline">Content</a>
+<a href="{url goes here}" class="js-lightbox | js-lightbox--video | js-lightbox--iframe | js-lightbox--image | js-lightbox--inline">Content</a>
             {{/code-sample}}
         </div>
     </div>

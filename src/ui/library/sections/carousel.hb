@@ -23,11 +23,11 @@
             <h2>Code</h2>
 
             {{#> code-sample }}
-                <div class="js-carousel">
-                    <div>Item 1</div>
-                    <div>Item 2</div>
-                    <div>Item 3</div>
-                </div>
+<div class="js-carousel">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+</div>
             {{/code-sample}}
 
             <h3 class="text--separator">Options</h3>

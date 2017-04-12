@@ -70,13 +70,13 @@
         <div class="js-tab tabbed__content" id="code">
             <h2>Code</h2>
             {{#> code-sample }}
-            <div class="grid">
-                <div class="grid__row">
-                    <div class="grid__col grid__col--span-{x}-of-12">
-                        <p>Grid column</p>
-                    </div>
-                </div>
-            </div>
+<div class="grid">
+    <div class="grid__row">
+        <div class="grid__col grid__col--span-{x}-of-12">
+            <p>Grid column</p>
+        </div>
+    </div>
+</div>
             {{/code-sample}}
         </div>
     </div>

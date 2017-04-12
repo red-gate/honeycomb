@@ -222,8 +222,8 @@
         <div class="js-tab tabbed__content" id="code">
             <h2>Code</h2>
             {{#> code-sample }}
-                <p class="icon--video">...</p>
-                <p class="icon--shopping-cart">...</p>
+<p class="icon--video">...</p>
+<p class="icon--shopping-cart">...</p>
             {{/code-sample}}
         </div>
     </div>

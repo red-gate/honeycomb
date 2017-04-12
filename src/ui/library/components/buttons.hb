@@ -181,70 +181,70 @@
             <h2>Code</h2>
             <a class="button button--xx-small" href="#">Extra Extra Small Button</a>
             {{#> code-sample }}
-                <a class="button button--xx-small" href="#">Extra Extra Small Button</a>
+<a class="button button--xx-small" href="#">Extra Extra Small Button</a>
             {{/code-sample}}
         
             <hr>
     
             <a class="button button--x-small" href="#">Extra Small Button</a>
             {{#> code-sample }}
-                <a class="button button--x-small" href="#">Extra Small Button</a>
+<a class="button button--x-small" href="#">Extra Small Button</a>
             {{/code-sample}}
             
             <hr>
     
             <a class="button button--small" href="#">Small Button</a>
             {{#> code-sample }}
-                <a class="button button--small" href="#">Small Button</a>
+<a class="button button--small" href="#">Small Button</a>
             {{/code-sample}}
     
             <hr>
     
             <a class="button" href="#">Button</a>
             {{#> code-sample }}
-                <a class="button" href="#">Button</a>
+<a class="button" href="#">Button</a>
             {{/code-sample}}
             
             <hr>
             
             <a class="button button--large" href="#">Large Button</a>
             {{#> code-sample }}
-                <a class="button button--large" href="#">Large Button</a>
+<a class="button button--large" href="#">Large Button</a>
             {{/code-sample}}
     
             <hr>
 
             <a class="button button--primary" href="#">Button</a>
             {{#> code-sample }}
-                <a class="button button--primary" href="#">Button</a>
+<a class="button button--primary" href="#">Button</a>
             {{/code-sample}}
             
             <hr>
 
             <a class="button button--disabled" href="#">Button</a>
             {{#> code-sample }}
-                <a class="button button--disabled" href="#">Button</a>
+<a class="button button--disabled" href="#">Button</a>
             {{/code-sample}}
             
             <hr>
             
             <a class="button button--download" href="#">Button</a>
             {{#> code-sample }}
-                <a class="button button--download" href="#">Button</a>
+<a class="button button--download" href="#">Button</a>
             {{/code-sample}}
             
             <hr>
             
             <a class="button button--buy" href="#">Button</a>
             {{#> code-sample }}
-                <a class="button button--buy" href="#">Button</a>
+<a class="button button--buy" href="#">Button</a>
             {{/code-sample}}
             
             <hr>
             
             <a class="button button--transparent" href="#">Button</a>
             {{#> code-sample }}
-                <a class="button button--transparent" href="#">Button</a>
+<a class="button button--transparent" href="#">Button</a>
             {{/code-sample}}
 
         </div>

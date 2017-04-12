@@ -22,9 +22,9 @@
             <h2>Code</h2>
 
             {{#> code-sample }}
-                <span class="label background-color--red color--white">redgate</span>
-                <span class="label background-color--orange--5 color--white">honeycomb</span>
-                <span class="label background-color--grey--7 color--white">website</span>
+<span class="label background-color--red color--white">redgate</span>
+<span class="label background-color--orange--5 color--white">honeycomb</span>
+<span class="label background-color--grey--7 color--white">website</span>
             {{/code-sample}}
         </div>
     </div>

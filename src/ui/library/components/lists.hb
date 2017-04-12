@@ -44,9 +44,9 @@
             <h2>Code</h2>
 
             {{#> code-sample }}
-                <ul class="list--bullet | list--tick | list--chevron | list--chevron-down | list--plus | list--minus">
-                    <li>List item content</li>
-                </ul>
+<ul class="list--bullet | list--tick | list--chevron | list--chevron-down | list--plus | list--minus">
+    <li>List item content</li>
+</ul>
             {{/code-sample}}
         </div>
     </div>

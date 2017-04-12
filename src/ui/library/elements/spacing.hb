@@ -33,14 +33,14 @@
         <div class="js-tab tabbed__content" id="code">
             <h2>Code</h2>
             {{#> code-sample }}
-                <div class="spaced padded">...</div>
-                <div class="spaced--tight padded--tight">...</div>
-                <div class="spaced--loose padded--loose">...</div>
-                <div class="spaced-h">...</div>
-                <div class="spaced-v">...</div>
-                <div class="padded-v--tight">...</div>
-                <div class="padded-top--loose">...</div>
-                <div class="spaced-left">...</div>
+<div class="spaced padded">...</div>
+<div class="spaced--tight padded--tight">...</div>
+<div class="spaced--loose padded--loose">...</div>
+<div class="spaced-h">...</div>
+<div class="spaced-v">...</div>
+<div class="padded-v--tight">...</div>
+<div class="padded-top--loose">...</div>
+<div class="spaced-left">...</div>
             {{/code-sample}}
         </div>
     </div>
