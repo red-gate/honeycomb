@@ -63,7 +63,7 @@
         </div>
 
         <div class="js-tab tabbed__content" id="guidelines">
-            <h2>Examples</h2>
+            <h2>Guidelines</h2>
             <p>The grid is a 12 column, flexible width grid. Each column can span a multiple of 12, which allows for versatile page layouts.</p>
         </div>
 
