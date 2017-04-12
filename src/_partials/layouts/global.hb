@@ -3,9 +3,7 @@
 
 <div class="grid__row">
     <div class="band__inner-container">
-
-        {{> @partial-block}}
-
+{{> @partial-block}}
     </div>
 </div>
 

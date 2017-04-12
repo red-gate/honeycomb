@@ -11,7 +11,7 @@
     </div>
     <div class="grid__col grid__col--span-9-of-12">
         <div class="spaced-left">
-            {{> @partial-block}}
+{{> @partial-block}}
         </div>
     </div>  
 
