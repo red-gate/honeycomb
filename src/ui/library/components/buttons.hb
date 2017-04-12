@@ -297,8 +297,6 @@
 
 
 
-
-
 <div class="js-tab tabbed__content" id="code">
     <h2>Code</h2>
     {{#> code-sample }}
