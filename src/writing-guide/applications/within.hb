@@ -1,7 +1,7 @@
 {{#> layouts/writing-guide/applications title="Writing within software applications"}}
 
     <div class="grid__col grid__col--span-12-of-12">
-        <h1>Writing within software applications</h1>
+        <h1>Within software applications</h1>
 
         <p>Redgate products are ingeniously simple. They solve complicated problems in an apparently easy way and they’re intuitive to use.</p>
         <p>That simplicity is reflected in the way we use words within applications. Instructions are succinct and easy to follow. Error messages are concise. The language is uncomplicated, even if what we’re explaining is complex.</p>

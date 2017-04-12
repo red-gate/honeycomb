@@ -46,9 +46,9 @@
         {{#ifCond section "writing-guide-applications"}}
             <h2>Applications</h2>
             <ul>
-                <li><a href="/writing-guide/applications/within">Writing within software applications</a></li>
-                <li><a href="/writing-guide/applications/release-notes">Writing release notes</a></li>
-                <li><a href="/writing-guide/applications/documentation">Writing software documentation</a></li>
+                <li><a href="/writing-guide/applications/within">Within software applications</a></li>
+                <li><a href="/writing-guide/applications/release-notes">Release notes</a></li>
+                <li><a href="/writing-guide/applications/documentation">Software documentation</a></li>
             </ul>
         {{/ifCond}}
 

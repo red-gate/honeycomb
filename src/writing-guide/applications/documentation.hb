@@ -1,7 +1,7 @@
 {{#> layouts/writing-guide/applications title="Writing software documentation"}}
 
     <div class="grid__col grid__col--span-12-of-12">
-        <h1>Writing software documentation</h1>
+        <h1>Software documentation</h1>
 
         <p>Like writing within applications or writing release notes, consistency in software documentation makes it easier to follow, read, and digest. It makes it easier to write too because you don’t need to cast around for the right word to use or the right way to use it.</p>
         <p>Software documentation can cover everything from <a href="https://documentation.red-gate.com/display/SOC5/Getting+started" target="_blank">getting started</a> to <a href="https://documentation.red-gate.com/display/SOC5/Requirements+and+supported+systems" target="_blank">requirements and supported systems</a> to <a href="https://documentation.red-gate.com/display/SOC5/Troubleshooting" target="_blank" >troubleshooting</a>.</p>
