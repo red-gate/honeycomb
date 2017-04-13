@@ -1,4 +1,4 @@
-{{#> layouts/global title="Redgate logo" section="brand"}}
+{{#> layouts/global title="Product logos" section="brand"}}
 
     <div class="grid__col grid__col--span-8-of-12">
         <h1>Product logos</h1>
