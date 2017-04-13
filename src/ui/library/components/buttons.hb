@@ -100,7 +100,7 @@
                 <h3 id="avoid-multiple">Avoid using multiple primary buttons</h3>
                 <div class="grid__col grid__col--span-6-of-12">
                     <div class="padded-right--tight"> 
-                        <img class="js-svg spaced-bottom--tight" src="/assets/images/UI one primary button.png" alt="UI with one primary button" width="220" height="152">                   
+                        <img class="js-svg spaced-bottom--tight" src="/assets/images/buttons/one-primary-button.png" alt="UI with one primary button" width="220" height="152">                   
                         <p class="icon--tick icon--3x color--green"></p>
                         <h4>Try to use a single call to action on each page/screen</h4>
                         <p>If users need to make a choice you can differentiate from primary buttons with a secondary buttons. Or style it as a link if the choice is less important.</p>
@@ -109,7 +109,7 @@
 
                 <div class="grid__col grid__col--span-6-of-12">
                     <div class="padded-left--tight"> 
-                        <img class="js-svg spaced-bottom--tight" src="/assets/images/UI multiple primary buttons.png" alt="UI with multiple primary buttons" width="220" height="152">
+                        <img class="js-svg spaced-bottom--tight" src="/assets/images/buttons/multiple-primary-buttons.png" alt="UI with multiple primary buttons" width="220" height="152">
                         <p class="icon--cross icon--3x color--red"></p>
                         <h4>Buttons are for performing actions, not making choices</h4>
                         <p>Having multiple primary buttons creates choice and a lack of clear direction for the user.</p>
@@ -122,7 +122,7 @@
             <div class="grid__row">
                 <h3 id="guide">Use buttons to guide users through workflows</h3>
                 <div class="grid__col grid__col--span-12-of-12">
-                    <img class="js-svg spaced-bottom--tight" src="/assets/images/UI primary button workflow.png" alt="UI with a primary button on each screen"  height="152">
+                    <img class="js-svg spaced-bottom--tight" src="/assets/images/buttons/primary-button-workflow.png" alt="UI with a primary button on each screen"  height="152">
                     <p class="icon--tick icon--3x color--green"></p>
                     <p>Primary buttons are great for guiding users through each step of a workflow</p>
                 </div>
@@ -134,7 +134,7 @@
                 <h3 id="dont-hide">Don't hide buttons</h3>
                 <div class="grid__col grid__col--span-6-of-12">
                     <div class="padded-right--tight"> 
-                        <img class="js-svg spaced-bottom--tight" src="/assets/images/UI button not hidden.png" alt="UI with button not hidden.png" width="220" height="152">
+                        <img class="js-svg spaced-bottom--tight" src="/assets/images/buttons/not-hidden.png" alt="UI with button not hidden.png" width="220" height="152">
                         <p class="icon--tick icon--3x color--green"></p>
                         <h4>Make buttons visible</h4>
                         <p>Making the button visible will help set expectations and with a clear call-to-action will give the user context.</p>
@@ -143,7 +143,7 @@
 
                 <div class="grid__col grid__col--span-6-of-12">
                     <div class="padded-left--tight"> 
-                        <img class="js-svg spaced-bottom--tight" src="/assets/images/UI button hidden.png" alt="UI with button hidden.png" width="220" height="152">
+                        <img class="js-svg spaced-bottom--tight" src="/assets/images/buttons/hidden.png" alt="UI with button hidden.png" width="220" height="152">
                         <p class="icon--cross icon--3x color--red"></p>
                         <h4>Avoid buttons being revealed</h4>
                         <p>Presenting the primary button only after a set of actions reduces visibility for users. They won't know when they can expect the action or what they are trying to do in that step.</p>
