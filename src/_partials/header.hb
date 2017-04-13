@@ -1,12 +1,12 @@
 <!-- Header -->
 <header class="site-header band header--primary">
     <nav>
-        <a href="/" class="header--primary__app-logo-container"><img src="/assets/images/gatebase-white.svg" alt=""></a>
+        <a href="/" class="header--primary__app-logo-container"><img src="/assets/images/header/gatebase-white.svg" alt=""></a>
         <a href="/" class="header--primary__app-name-container">Honeycomb</a>
         <ul>
             <li><a href="/ui/" {{#ifCond section "ui"}} class="active" {{/ifCond}}>Creating UIs</a></li>
             <li><a href="/writing-guide/" {{#ifCond section "writing-guide"}} class="active" {{/ifCond}}>Writing guide</a></li>
-            <li><a class="text--strikethrough color--grey--5" {{#ifCond section "brand"}} class="active" {{/ifCond}}>Brand assets</a></li>
+            <li><a href="/brand/" {{#ifCond section "brand"}} class="active" {{/ifCond}}>Brand assets</a></li>
         </ul>
 
         <div class="float-right spaced-right">
@@ -25,13 +25,14 @@
         <div class="band__inner-container padded--none">
             <ul>
 
-                <!-- Creating UIs -->
                 {{#ifCond section "ui"}}
+                    <!-- Creating UIs -->
                     <li><a href="/ui/library/">UI Library</a></li>
                     <li><a href="/ui/toolkits/">Toolkits</a></li>
                 {{/ifCond}}
 
                 {{#ifCond section "writing-guide"}}
+                    <!-- Writing guide -->
                     <li><a href="/writing-guide/applications/">Applications</a></li>
                     <li><a href="/writing-guide/usage-dictionary">Usage Dictionary</a></li>
 
@@ -40,6 +41,14 @@
                     <li><a class="text--strikethrough color--grey--4">White paper</a></li>
                     <li><a class="text--strikethrough color--grey--4">Blog post</a></li>
                     <li><a class="text--strikethrough color--grey--4">Social media</a></li>                           
+                {{/ifCond}}
+
+                {{#ifCond section "brand"}}
+                    <!-- Creating UIs -->
+                    <li><a href="/brand/logo">Redgate logo</a></li>
+                    <li><a href="/brand/product">Product logos</a></li>
+                    <li><a href="/brand/powerpoint">Powerpoint</a></li>
+                    <li><a href="/brand/business-cards">Business cards</a></li>
                 {{/ifCond}}
 
             </ul>
