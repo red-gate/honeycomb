@@ -5,7 +5,7 @@ const init = (uri) => {
 }
 
 const convertEntities = () => {
-    const codes = document.querySelectorAll("pre > code");
+    const codes = document.querySelectorAll("code");
     for (let i=0; i<codes.length; i++) {
         let code = codes[i];
         code.innerHTML = Prism.highlight(code.innerHTML, Prism.languages.markup);
