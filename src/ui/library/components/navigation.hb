@@ -4,7 +4,6 @@
     <ul>
         <li>Breadcrumbs</li>
         <li>Pagination</li>
-        <li>Header</li>
         <li>Nav bar (Horizontal)</li>
         <li>Vertical</li>
     </ul>
