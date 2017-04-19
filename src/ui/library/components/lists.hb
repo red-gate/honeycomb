@@ -2,7 +2,7 @@
     <h1>Lists</h1>
     <div class="js-tabbed tabbed" data-tabs-pagination="true">
         <nav>
-            <ul class="tabs">
+            <ul class="tabs tabs--left">
                 <li><a href="#examples">Examples</a></li>
                 <li><a href="#code">Code</a></li>
             </ul>

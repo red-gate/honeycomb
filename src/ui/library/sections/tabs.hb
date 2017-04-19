@@ -3,7 +3,7 @@
     
     <div class="js-tabbed tabbed" data-tabs-pagination="true">
         <nav>
-            <ul class="tabs">
+            <ul class="tabs tabs--left">
                 <li><a href="#examples">Examples</a></li>
                 <li><a href="#code">Code</a></li>
             </ul>
@@ -21,7 +21,7 @@
             {{#> code-sample }}
 <div class="js-tabbed tabbed" data-tabs-pagination="true">
     <nav>
-        <ul class="tabs">
+        <ul class="tabs (tabs--left)">
             <li><a href="#tab-1">Tab 1</a></li>
             <li><a href="#tab-2">Tab 2</a></li>
             <li><a href="#tab-3">Tab 3</a></li>
