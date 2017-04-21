@@ -49,7 +49,7 @@
         
         <div class="grid__col grid__col--span-6-of-12">
             <div class="padded-h--tight">
-                <h2>WPF toolkit (Sketch library)</h2>
+                <h2>WPF toolkit</h2>
                 <p>The WPF toolkit is ...</p>
                 <a href="https://github.com/red-gate/honeycomb-wpf" class="button icon--external" target="_blank">Get the toolkit</a>
             </div>

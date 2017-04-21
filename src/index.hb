@@ -57,17 +57,25 @@
                     <div class="padded--tight">
                         <h2><a href="/ui/toolkits/">Toolkits</a></h2>
 
-                        <h3>Design toolkit</h3>
-                        <p>Design assets and work methods</p>
-                        <p><a href="#">Get the kit</a></p>
+                        <ul>
+                            <li>
+                                <h3>Web toolkit</h3>
+                                <p>HTML, CSS and JavaScript component library</p>
+                            </li>
+                            <li>
+                                <h3>Design toolkit</h3>
+                                <p>Design assets and work methods</p>
+                            </li>
+                            <li>
+                                <h3>WPF toolkit</h3>
+                                <p>WPF component library</p>
+                            </li>
+                            <li>
+                                <h3>WinForms toolkit</h3>
+                                <p>WinForms component library</p>
+                            </li>
+                        </ul>
 
-                        <h3>Web toolkit</h3>
-                        <p>HTML, CSS and JavaScript</p>
-                        <p><a href="#">Get the kit</a></p>
-
-                        <h3>WPF toolkit</h3>
-                        <p>WPF component library</p>
-                        <p><a href="#">See on GitHub</a></p>
                     </div>
                 </div>
             </div>
