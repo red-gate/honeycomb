@@ -110,11 +110,10 @@
                         <h1>Brand assets</h1>
                         <h2>Resources and guides to help brand consistency</h2>
                         <ul>
-                            <li><a href="">Redgate logo</a></li>
-                            <li><a href="">Product logos</a></li>
-                            <li><a href="">Powerpoint</a></li>
-                            <li><a href="">Business cards</a></li>
-                            <li><a href="">Photography</a></li>
+                            <li><a href="/brand/logo">Redgate logo</a></li>
+                            <li><a href="/brand/product">Product logos</a></li>
+                            <li><a href="/brand/powerpoint">Powerpoint</a></li>
+                            <li><a href="/brand/business-cards">Business cards</a></li>
                         </ul>
                     </div>
                 </div>
