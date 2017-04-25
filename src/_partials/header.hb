@@ -3,18 +3,36 @@
     <nav>
         <a href="/" class="header--primary__app-logo-container"><img src="/assets/images/header/gatebase-white.svg" alt=""></a>
         <a href="/" class="header--primary__app-name-container">Honeycomb</a>
-        <ul>
+        
+        <span class="hide-on-medium">
+            <ul>
+                <li><a href="/ui/library/" {{#ifCond section "ui"}} class="active" {{/ifCond}}>Creating UIs</a></li>
+                <li><a href="/writing-guide/" {{#ifCond section "writing-guide"}} class="active" {{/ifCond}}>Writing guide</a></li>
+                <li><a href="/brand/logo" {{#ifCond section "brand"}} class="active" {{/ifCond}}>Brand assets</a></li>
+            </ul>
+
+            <div class="float-right spaced-right">
+                <ul>
+                    <li><a href="/contribute">How to contribute</a></li>
+                    <li><a href="https://redgate.slack.com/messages/honeycomb/" target="_blank" class="icon--external">Requests or questions: #Honeycomb</a></li>
+                </ul>
+            </div>
+        </span>
+
+        <span class="hide-on-large show-on-medium float-right">
+            <ul>
+                <li><a href="#" class="header--primary__icon header--primary__menu-button">Menu</a></li>
+            </ul>
+        </span>
+
+        <ul class="header--primary__menu--mobile js-dropdown">
             <li><a href="/ui/library/" {{#ifCond section "ui"}} class="active" {{/ifCond}}>Creating UIs</a></li>
             <li><a href="/writing-guide/" {{#ifCond section "writing-guide"}} class="active" {{/ifCond}}>Writing guide</a></li>
             <li><a href="/brand/logo" {{#ifCond section "brand"}} class="active" {{/ifCond}}>Brand assets</a></li>
-        </ul>
 
-        <div class="float-right spaced-right">
-            <ul>
-                <li><a href="/contribute">How to contribute</a></li>
-                <li><a href="https://redgate.slack.com/messages/honeycomb/" target="_blank" class="icon--external">Requests or questions: #Honeycomb</a></li>
-            </ul>
-        </div>
+            <li><a href="/contribute">How to contribute</a></li>
+            <li><a href="https://redgate.slack.com/messages/honeycomb/" target="_blank" class="icon--external">Requests or questions: #Honeycomb</a></li>
+        </ul>
     </nav>
 </header>
 <!-- /Header -->

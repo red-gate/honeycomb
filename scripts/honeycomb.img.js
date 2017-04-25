@@ -7,6 +7,9 @@ const vendorImageDirs = [
     {
         src: 'node_modules/honeycomb/src/lightbox/vendor/images/fancybox',
         dist: 'fancybox'
+    }, {
+        src: 'node_modules/honeycomb/src/navigation/images',
+        dist: 'navigation'
     }
 ];
 
