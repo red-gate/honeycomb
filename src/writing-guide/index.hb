@@ -1,6 +1,6 @@
 {{#> layouts/global title="Writing Guide" section="writing-guide"}}
 
-    <div class="grid__col grid__col--span-12-of-12">
+    <div class="grid__col grid__col--span-8-of-12">
         <h1>Why write in style</h1>
 
         <p>Whether it’s SQL Prompt or SQL Compare, SQL Source Control or one of the many other tools in the Redgate portfolio, our products are used by a diverse community of developers across the globe.</p>
