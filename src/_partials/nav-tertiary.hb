@@ -24,6 +24,7 @@
                         <li><a href="/ui/library/components/labels">Labels</a></li>
                         <li><a href="/ui/library/components/lists">Lists</a></li>
                         <li><a href="/ui/library/components/messaging">Messaging</a></li>
+                        <li><a href="/ui/library/components/progress">Progress bars</a></li>
                         <li><a href="/ui/library/components/tables">Tables</a></li>
                         <li><a href="/ui/library/components/spinners">Spinners</a></li>
                         <li><a href="/ui/library/components/navigation/">Navigation</a>
