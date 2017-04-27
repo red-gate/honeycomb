@@ -24,7 +24,7 @@ echo "##teamcity[progressMessage 'Zipping package']"
 PACKAGE_FILE=Honeycomb.Website.$BUILD_VERSION.tar.gz
 rm -rf packages/
 mkdir packages
-tar -C dist/ -cvzf ../packages/$PACKAGE_FILE . || exit 1
+tar -C dist/ -cvzf packages/$PACKAGE_FILE . || exit 1
 
 # Push it to Octopus
 echo "##teamcity[progressMessage 'Pushing package to Octopus']"
