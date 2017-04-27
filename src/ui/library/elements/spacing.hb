@@ -16,10 +16,10 @@
                 <div class="padded background-color--grey--1 spaced"><p>An element with standard spacing (40px)</p></div>
             </div>
             <div class="background-color--grey--3 spaced-bottom clearfix">
-                <div class="padded--tight background-color--grey--1 spaced--tight"><p>An element with tight spacing (20px)</p></div>
+                <div class="padded--tight background-color--grey--1 spaced--tight"><p>An element with tight spacing (Half: 20px)</p></div>
             </div>
             <div class="background-color--grey--3 spaced-bottom clearfix">
-                <div class="padded--loose background-color--grey--1 spaced--loose"><p>An element with loose spacing (80px)</p></div>
+                <div class="padded--loose background-color--grey--1 spaced--loose"><p>An element with loose spacing (Double: 80px)</p></div>
             </div>
         </div>
 
@@ -28,6 +28,7 @@
             <p>Spacing relates to both padding and margin of elements.</p>
             <p>There are 3 levels of spacing that we've defined. These are standard (40px), tight (standard / 2, 20px) and loose (standard x 2, 80px).</p>
             <p>Different levels of spacing can be applied to every side of an element.</p>
+            <p><em>Note: The standard spacing size can be updated in the web toolkit by updating the <code>$hc-spacing-unit</code> setting (<code>base</code> module).</em></p>
         </div>
 
         <div class="js-tab tabbed__content" id="code">
