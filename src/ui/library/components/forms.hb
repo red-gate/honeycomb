@@ -5,6 +5,7 @@
         <nav>
             <ul class="tabs tabs--left">
                 <li><a href="#examples">Examples</a></li>
+                <li><a href="#guidelines">Guidelines</a></li>
                 <li><a href="#code">Code</a></li>
             </ul>
         </nav>
@@ -64,6 +65,83 @@
 
                 </fieldset>
             </form>
+        </div>
+
+        <div class="js-tab tabbed__content" id="guidelines">
+            <h2>Guidelines</h2>
+
+            <p>Keep forms as simple as possible – only ask what’s needed to carry out a task as asking additional questions will slow user progress.</p>
+
+            <h3>Labels</h3>
+            <ul>
+                <li>all form fields should be given labels</li>
+                <li>don’t hide labels, unless the surrounding context makes them unnecessary</li>
+                <li>labels should be left aligned above their fields</li>
+                <li>label text should be short, direct and in uppercase</li>
+                <li>avoid colons at the end of labels</li>
+            </ul>
+
+            <h3>Form fields</h3>
+            <ul>
+                <li>Make field widths proportional to the input they take</li>
+                <li>Ensure that users can enter the information they need at smaller screen sizes</li>
+                <li>Snap form fields to 100% width for mobile screen sizes (use your judgement)</li>
+            </ul>
+            <!-- [Example for proportion of fields] -->
+
+            <h3>Hint text</h3>
+            <ul>
+                <li>don’t use placeholder text in form fields, as this will disappear once content is entered into the form field</li>
+                <li>use hint text for supporting contextual help, this will always be shown</li>
+                <li>hint text should sit between the from label and the form field.</li>
+                <li>ensure hint text can be read correctly by screen readers</li>
+            </ul>
+            <!-- [EXAMPLE: Good and bad] -->
+
+            <h3>Spacing between form elements</h3>
+            <ul>
+                <li>Ensure there is sufficient spacing between form elements.</li>
+            </ul>
+            <!-- [EXAMPLE: Good and bad] -->
+
+            <h3>Radio buttons</h3>
+            <ul>
+                <li>use these to let users choose a single option from a list</li>
+                <li>for more than two options, radio buttons should be vertically stacked</li>
+                <li>radio buttons with large hit areas are easier to select with a mouse or touch devices. Make sure the label is also clickable</li>
+            </ul>
+            <!-- [EXAMPLE: Good and bad] -->
+
+            <h3>Checkboxes</h3>
+            <ul>
+                <li>use these to select either on/off toggles or multiple selections</li>
+                <li>make sure the label is also clickable</li>
+            </ul>
+            <p><em>Note: Only pre-select options if there’s a strong, user-centred reason to.</em></p>
+            <!-- [EXAMPLE: Good and bad] -->
+
+            <h3>Dropdown lists</h3>
+            <p>Dropdowns are used to select a specific option from a list of options.</p>
+            <p><em>Note: Only pre-select options if there’s a strong, user-centred reason to.</em></p>
+
+            <h4>If your dropdown list is too long</h4>
+            <p>Don’t use a dropdown if the list of items within it are too many. Users will take a longer time to find the right item. It also causes scrolling issues resulting in an jarring experience for users.</p>
+            <p>Alternatively, use type aheads.</p>
+            <!-- [EXAMPLE] -->
+
+            <h3>Type aheads</h3>
+            <p>Type-ahead can be used to assist users in selecting from a known set of options. It can help constrain choices, where using a free-text field would produce too much variability in the user input.</p>
+            <p>Users are offered a list of relevant suggestions as they type. For example, <a href="https://baymard.com/labs/country-selector" target="_blank" class="icon--external">Baymard's Country Selector</a></p>
+            <p>Things to consider when using this element:</p>
+            <ul>
+                <li>Let users type a few characters first. Otherwise they'll be shown the whole list immediately and will probably assume it's a standard select box</li>
+                <li>Support users entering common typos</li>
+                <li>Support users entering common synonyms for items (alternate wordings)</li>
+                <li>Using weighting so that more likely results appear before unlikely results</li>
+                <li>Should work with keyboard navigation</li>
+                <li>Cope with capitalisation / spaces</li>
+                <li>Consider a 'no item found' option if no results exist. This helps users who look at the keyboard whilst typing, and only look up at the end</li>
+            </ul>
         </div>
 
         <div class="js-tab tabbed__content" id="code">
