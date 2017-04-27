@@ -15,4 +15,4 @@
 
         <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
     </head>
-    <body class="grid">
+    <body class="grid {{class}}">

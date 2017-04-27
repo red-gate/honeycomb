@@ -1,7 +1,7 @@
-{{> head title="Home"}}
+{{> head title="Home" class="homepage"}}
 {{> header}}
 
-    <div class="grid__col grid__col--span-12-of-12 background-color--grey--9">
+    <div class="grid__col grid__col--span-12-of-12 background-color--grey--9 hero">
         <div class="band__inner-container">
             <h1 class="color--white">Honeycomb - Redgate's design system</h1>
             <h2 class="color--white">Making it easier and quicker to create a coherent Redgate experience</h2>
@@ -17,20 +17,21 @@
                     <h2><a href="/ui/library/">UI Library</a></h2>
 
                     <div class="grid__col grid__col--span-4-of-12">
-                        <h3>Basic elements</h3>
+                        <img src="/assets/images/homepage/elements.svg" alt="" class="spaced-bottom--tight" />
+                        <h3><a href="/ui/library/elements/grid">Basic elements</a></h3>
                         <p>The fundamental basic elements from which UIs are created.</p>
                         <ul>
-                            <li><a href="/ui/library/elements/grid">Grid</a></li>
-                            <li><a href="/ui/library/elements/spacing">Spacing</a></li>
                             <li><a href="/ui/library/elements/type">Type</a></li>
                             <li><a href="/ui/library/elements/colour">Colour</a></li>
                             <li><a href="/ui/library/elements/icons">Icons</a></li>
+                            <li><a href="/ui/library/elements/spacing">Spacing</a></li>
                         </ul>
-                        <p><a href="/ui/library/elements/">All elements</a></p>
+                        <p><a href="/ui/library/elements/">More elements</a></p>
                     </div>
 
                     <div class="grid__col grid__col--span-4-of-12">
-                        <h3>Components</h3>
+                        <img src="/assets/images/homepage/components.svg" alt="" class="spaced-bottom--tight" />
+                        <h3><a href="/ui/library/components/avatars">Components</a></h3>
                         <p>Basic elements functioning together as a unit.</p>
                         <ul>
                             <li><a href="/ui/library/components/buttons">Buttons</a></li>
@@ -38,11 +39,12 @@
                             <li><a href="/ui/library/components/forms">Forms</a></li>
                             <li><a href="/ui/library/components/messaging">Messaging</a></li>
                         </ul>
-                        <p><a href="/ui/library/components/">All components</a></p>
+                        <p><a href="/ui/library/components/">More components</a></p>
                     </div>
 
                     <div class="grid__col grid__col--span-4-of-12">
-                        <h3>Sections</h3>
+                        <img src="/assets/images/homepage/sections.svg" alt="" class="spaced-bottom--tight" />
+                        <h3><a href="/ui/library/sections/carousel">Sections</a></h3>
                         <p>Basic elements and components used together</p>
                         <ul>
                             <li><a href="/ui/library/sections/headers">Headers</a></li>
@@ -50,29 +52,36 @@
                             <li><a href="/ui/library/sections/dialog-boxes">Dialog boxes</a></li>
                             <li><a href="/ui/library/sections/footers">Footers</a></li>
                         </ul>
-                        <p><a href="/ui/library/sections/">All sections</a></p>
+                        <p><a href="/ui/library/sections/">More sections</a></p>
                     </div>
                 </div>
-                <div class="grid__col grid__col--span-3-of-12 background-color--grey--1">
+                <div class="grid__col grid__col--span-3-of-12 background-color--grey--7 color--white">
                     <div class="padded--tight">
-                        <h2><a href="/ui/toolkits/">Toolkits</a></h2>
-
+                        <h2><a href="/ui/toolkits/" class="color--white">Toolkits</a></h2>
                         <ul>
                             <li>
-                                <h3>Web toolkit</h3>
-                                <p>HTML, CSS and JavaScript component library</p>
+                                <a href="/ui/toolkits/">
+                                    <h3 class="color--white">Web toolkit</h3>
+                                    <p class="color--blue--2">HTML, CSS and JavaScript component library</p>
+                                </a>
                             </li>
                             <li>
-                                <h3>Design toolkit</h3>
-                                <p>Design assets and work methods</p>
+                                <a href="/ui/toolkits/">
+                                    <h3 class="color--white">Design toolkit</h3>
+                                    <p class="color--blue--2">Design assets and work methods</p>
+                                </a>
                             </li>
                             <li>
-                                <h3>WPF toolkit</h3>
-                                <p>WPF component library</p>
+                                <a href="/ui/toolkits/">
+                                    <h3 class="color--white">WPF toolkit</h3>
+                                    <p class="color--blue--2">WPF component library</p>
+                                </a>
                             </li>
                             <li>
-                                <h3>WinForms toolkit</h3>
-                                <p>WinForms component library</p>
+                                <a href="/ui/toolkits/">
+                                    <h3 class="color--white">WinForms toolkit</h3>
+                                    <p class="color--blue--2">WinForms component library</p>
+                                </a>
                             </li>
                         </ul>
 
@@ -83,21 +92,18 @@
         </div>
     </div>
 
-    <div class="grid__row background-color--grey--1">
+    <div class="grid__row background-color--grey--9 writing-and-brand">
         <div class="band__inner-container">
             <div class="grid__col grid__col--span-6-of-12">
                 <div class="padded-right--tight">
-                    <div class="background-color--white padded--tight">
-                        <h1>Writing guide</h1>
+                    <div class="background-color--white padded">
+                        <img src="/assets/images/homepage/writing-guide.svg" alt="" class="spaced-bottom--tight" />
+                        <h1><a href="/writing-guide/">Writing guide</a></h1>
                         <h2>Write for Redgate consistently and with clarity</h2>
                         <ul>
                             <li><a href="/writing-guide/">Why write in style?</a></li>
                             <li><a href="/writing-guide/applications/">Applications</a></li>
-                            <li><a href="/writing-guide/website">Redgate website</a></li>
-                            <li><a href="/writing-guide/case-study">Case study</a></li>
-                            <li><a href="/writing-guide/white-paper">White paper</a></li>
-                            <li><a href="/writing-guide/blog-post">Blog post</a></li>
-                            <li><a href="/writing-guide/social-media">Social media</a></li>                           
+                            <li><a href="/writing-guide/website">Redgate website</a></li>                           
                             <li><a href="/writing-guide/usage-dictionary">Usage Dictionary</a></li>
                         </ul>
                     </div>
@@ -106,8 +112,9 @@
 
             <div class="grid__col grid__col--span-6-of-12">
                 <div class="padded-left--tight">
-                    <div class="background-color--white padded--tight">
-                        <h1>Brand assets</h1>
+                    <div class="background-color--white padded">
+                        <img src="/assets/images/homepage/brand.svg" alt="" class="spaced-bottom--tight" />
+                        <h1><a href="/brand/logo">Brand assets</a></h1>
                         <h2>Resources and guides to help brand consistency</h2>
                         <ul>
                             <li><a href="/brand/logo">Redgate logo</a></li>

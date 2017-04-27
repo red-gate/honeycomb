@@ -1,0 +1,19 @@
+.homepage {
+
+    .hero {
+        background-image: url("/assets/images/homepage/hero-bg.svg");
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+        background-size: contain;
+
+        @include responsive("medium") {
+            background: none;
+        }
+    }
+
+    .writing-and-brand {
+        background-image: url("/assets/images/homepage/section-bg.svg");
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+    }
+}
