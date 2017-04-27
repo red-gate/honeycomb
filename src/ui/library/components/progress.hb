@@ -5,7 +5,7 @@
         <nav>
             <ul class="tabs tabs--left">
                 <li><a href="#examples">Examples</a></li>
-                <li><a href="#guidance">Guidance</a></li>
+                <li><a href="#guidelines">Guidelines</a></li>
                 <li><a href="#code">Code</a></li>
             </ul>
         </nav>
@@ -39,8 +39,8 @@
 
         </div>
 
-        <div class="js-tab tabbed__content" id="guidance">
-            <h2>Guidance</h2>
+        <div class="js-tab tabbed__content" id="guidelines">
+            <h2>Guidelines</h2>
 
             <p>Progress bars are visual cues to inform users that an operation is currently taking place. They also tell users that it will finish in a predictable amount of time.</p>
             <p>They do it by showing the status of the operation and conveying how much is left to complete. For example making a deployment, creating a script etc.</p>
@@ -66,10 +66,10 @@
             <h3>Progress bar styles</h3>
             <ul>
                 <li>Horizontal (Bar)</li>
-                <li>Circular</li>
+                <li class="text--strikethrough color--grey--4">Circular</li>
             </ul>
             
-            <p>Use circular progress bars when a horizontal bar wouldn't fit or would look out of place.</p>
+            <p class="text--strikethrough color--grey--4">Use circular progress bars when a horizontal bar wouldn't fit or would look out of place.</p>
         </div>
 
         <div class="js-tab tabbed__content" id="code">
