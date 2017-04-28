@@ -13,28 +13,47 @@
         <div class="js-tab tabbed__content" id="examples">
             <h2>Examples</h2>   
             
-            <h3>Regular</h3>
+            <h3>Horizontal (Bar)</h3>
+
+            <h4>Regular</h4>
             <div class="progress--bar">
                 <span class="progress--bar__fill"></span>
             </div>
 
-            <h3>Large</h3>
+            <h4>Large</h4>
             <div class="progress--bar progress--bar--large">
                 <span class="progress--bar__fill"></span>
             </div>
 
-            <h3>Small</h3>
+            <h4>Small</h4>
             <div class="progress--bar progress--bar--small">
                 <span class="progress--bar__fill"></span>
             </div>
 
-            <h3>Extra small</h3>
+            <h4>Extra small</h4>
             <div class="progress--bar progress--bar--x-small">
                 <span class="progress--bar__fill"></span>
             </div>
 
+            <h3>Circular (Radial)</h3>
+            <h4>Regular</h4>
+            <div class="progress--radial" data-progress="0">
+                <div class="progress--radial__mask progress--radial__mask--left">
+                    <div class="progress--radial__fill"></div>
+                </div>
+
+                <div class="progress--radial__mask">
+                    <div class="progress--radial__fill"></div>
+                    <div class="progress--radial__fill-fix"></div>
+                </div>
+
+                <div class="progress--radial__center">
+                    <span class="progress--radial__content">0<span class="progress--radial__content__measure">%</span></span>
+                </div>
+            </div>
+
             <div class="text--center">
-                <a href="#" class="button button--xx-small test-progress-bars icon--play">Test progress bar transition</a>
+                <a href="#" class="button button--xx-small test-progress-bars icon--play">Test progress bar update</a>
             </div>
 
         </div>
@@ -66,18 +85,37 @@
             <h3>Progress bar styles</h3>
             <ul>
                 <li>Horizontal (Bar)</li>
-                <li class="text--strikethrough color--grey--4">Circular</li>
+                <li>Circular</li>
             </ul>
             
-            <p class="text--strikethrough color--grey--4">Use circular progress bars when a horizontal bar wouldn't fit or would look out of place.</p>
+            <p>Use circular progress bars when a horizontal bar wouldn't fit or would look out of place.</p>
         </div>
 
         <div class="js-tab tabbed__content" id="code">
             <h2>Code</h2>
+            <h3>Horizontal (Bar)</h3>
             {{#> code-sample }}
 <div class="progress--bar (progress--bar--large | progress--bar--small | progress--bar--x-small | progress--bar--dark)">
     <span class="progress--bar__fill"></span>
 </div>
+            {{/code-sample}}
+
+            <h3>Circular (Radial)</h3>
+            {{#> code-sample }}
+<div class="progress--radial" data-progress="0">
+    <div class="progress--radial__mask progress--radial__mask--left">
+        <div class="progress--radial__fill"></div>
+    </div>
+
+    <div class="progress--radial__mask">
+        <div class="progress--radial__fill"></div>
+        <div class="progress--radial__fill-fix"></div>
+    </div>
+
+    <div class="progress--radial__center">
+        <span class="progress--radial__content">0<span class="progress--radial__content__measure">%</span></span>
+    </div>
+</div>            
             {{/code-sample}}
         </div>
     </div>
@@ -85,13 +123,19 @@
     <script>
         // Animate the progress bars on load and button press to
         // give an example of the transition.
-        function generateRandomWidth () {
-            return Math.random() * 100;
+        function generateRandomNumber () {
+            return parseInt(Math.random() * 100);
         }
         function animateProgressBars () {
-            var fills = document.querySelectorAll(".progress--bar__fill");
-            for(var i=0; i<fills.length; i++) {
-                fills[i].style.width = generateRandomWidth() + "%";
+            var bars = document.querySelectorAll(".progress--bar__fill");
+            var radials = document.querySelectorAll(".progress--radial");
+            for(var i=0; i<bars.length; i++) {
+                bars[i].style.width = generateRandomNumber() + "%";
+            }
+            for(var i=0; i<radials.length; i++) {
+                var num = generateRandomNumber();
+                radials[i].setAttribute("data-progress", num);
+                radials[i].querySelector(".progress--radial__content").innerHTML = num + "<span class=\"progress--radial__content__measure\">%</span>";
             }
         }
         window.addEventListener("load", animateProgressBars);
