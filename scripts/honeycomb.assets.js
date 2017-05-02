@@ -9,7 +9,7 @@ const assets = [
 
 assets.map(asset => {
     const src = path.join(assetsDir, asset);
-    const dest = src.replace('src/', 'dist/');
+    const dest = src.replace(`src${path.sep}`, `dist${path.sep}`);
 
     fs.ensureDir(dest, err => {
         if(err) {
@@ -19,7 +19,7 @@ assets.map(asset => {
 
         fs.copy(src, dest, err => {
             if(err) {
-                console.error(`Error copying asset directory: ${asset}`);
+                console.error(`Error copying asset directory: ${asset}`, err);
                 return false;
             }
         });
