@@ -144,6 +144,7 @@
             <div class="grid__col grid__col--span-4-of-12">
                 <h1>What's next?</h1>
                 <h2>Latest from the Trello board</h2>
+                <div class="js-trello-honeycomb"></div>
             </div>
         </div>
     </div>
