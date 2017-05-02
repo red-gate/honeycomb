@@ -31,14 +31,10 @@ sass.render({
 
 // Copy fonts.
 fonts.map(font => {
-    fs.copy(font, fontsDir, {
-        overwrite: false
-    }, err => {
-        if (err) {
-            console.error("Error copying font: ", err);
-            return;
-        }
-
+    try {
+        fs.copySync(font, fontsDir);
         console.log(`${font} copied to ${fontsDir}`);
-    });
+    } catch (err) {
+        console.error("Error copying font: ", err);
+    }
 });
