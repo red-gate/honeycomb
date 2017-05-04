@@ -67,6 +67,7 @@
                     <li><a href="/brand/product">Product logos</a></li>
                     <li><a href="/brand/powerpoint">Powerpoint</a></li>
                     <li><a href="/brand/business-cards">Business cards</a></li>
+                    <li><a href="/brand/photography">Photography</a></li>
                 {{/ifCond}}
 
             </ul>
