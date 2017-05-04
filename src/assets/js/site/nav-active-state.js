@@ -23,7 +23,18 @@ const tertiaryNav = (uri) => {
         const links = nav.querySelectorAll("a");
         links.forEach(link => {
             if(uri.match(link.getAttribute("href"))) {
+
+                // Set active.
                 link.parentElement.classList.add("nav--vertical__active");
+
+                // Set parents as active.
+                let el = link;
+                while(el.parentElement.nodeName !== "NAV") {
+                    if(el.nodeName === "LI") {
+                        el.classList.add("nav--vertical__active");
+                    }
+                    el = el.parentElement;
+                }
             }
         });
     });

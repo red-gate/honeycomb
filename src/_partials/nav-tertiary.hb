@@ -4,7 +4,7 @@
         {{#ifCond section "ui-library"}}
             <ul>
                 <li>
-                    <a href="/ui/library/elements/">Basic elements <span class="nav--vertical__toggle"></span></a>
+                    <a>Basic elements <span class="nav--vertical__toggle"></span></a>
                     <ul>
                         <li><a href="/ui/library/elements/grid">Grid</a></li>
                         <li><a href="/ui/library/elements/spacing">Spacing</a></li>
@@ -14,7 +14,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="/ui/library/components/">Components <span class="nav--vertical__toggle"></span></a>
+                    <a>Components <span class="nav--vertical__toggle"></span></a>
                     <ul>
                         <li><a href="/ui/library/components/avatars">Avatars</a></li>
                         <li><a href="/ui/library/components/blockquote">Blockquote</a></li>
@@ -37,7 +37,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="/ui/library/sections/">Sections <span class="nav--vertical__toggle"></span></a>
+                    <a>Sections <span class="nav--vertical__toggle"></span></a>
                     <ul>
                         <li><a href="/ui/library/sections/carousel">Carousel</a></li>
                         <li><a href="/ui/library/sections/lightbox">Lightbox</a></li>
