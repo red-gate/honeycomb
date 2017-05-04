@@ -82,6 +82,9 @@ dropdown.init();
 import mobileMenu from '../../../node_modules/honeycomb/src/navigation/js/honeycomb.navigation.header';
 mobileMenu.init();
 
+import verticalNav from '../../../node_modules/honeycomb/src/navigation/js/honeycomb.navigation.vertical';
+verticalNav.init();
+
 // Notification
 import notifications from '../../../node_modules/honeycomb/src/notification/js/honeycomb.notification.block';
 notifications.init();

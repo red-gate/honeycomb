@@ -16,7 +16,17 @@ const secondaryNav = (uri) => {
 }
 
 const tertiaryNav = (uri) => {
-    // @TODO When nav is built.
+    const navs = document.querySelectorAll(".nav--vertical");
+    if(!navs) return;
+
+    navs.forEach(nav => {
+        const links = nav.querySelectorAll("a");
+        links.forEach(link => {
+            if(uri.match(link.getAttribute("href"))) {
+                link.parentElement.classList.add("nav--vertical__active");
+            }
+        });
+    });
 }
 
 export default {
