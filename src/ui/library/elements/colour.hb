@@ -167,7 +167,37 @@
 
         <div class="js-tab tabbed__content" id="guidelines">
             <h2>Guidelines</h2>
-            <p>We've chosen a colour palette that limits the different amount of colours used, but allows enough flexibility.....</p>
+            <h3>Don't rely on colour alone</h3>
+            <p>Lots of people can’t tell the difference between certain colours therefore you shouldn't rely on it. </p>
+            <ul>
+                <li>Along with colour use shape, tone and position</li>
+                <li>The design should work in greyscale</li>
+                <li>Colour should add to the usability rather than being crucial</li>
+            </ul>
+
+            <h3>Contrast</h3>
+            <p>Having enough contrast is more important than ever, with increasingly mobile and shiny screens.</p>
+            <p>We aim to comply with <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" target="blank" class="icon--external">WCAG 2.0 contrast ratio - AA standards.</a></p>
+
+            <h4>Is there enough contrast?</h4>
+            <p>A few quick ways to judge whether your design has sufficient contrast</p>
+
+            <ul>
+                <li>
+                    <p class="delta">Squint</p>
+                    <p>If anything disappears, think about the contrast.</p>
+                </li>
+
+                <li>
+                    <p class="delta">Stand back</p>
+                    <p>Stand back from the design and you'll be able to judge the overall hierarchy and flow better.</p>
+                </li>
+
+                <li>
+                    <p class="delta">Use a tool</p>
+                    <p>There are plenty of tools to test contrast. Try <a href="http://www.paciellogroup.com/resources/contrastanalyser/" target="blank" class="icon--external">Colour Contrast Analyser</a></p>
+                </li>
+            </ul>
         </div>
 
         <div class="js-tab tabbed__content" id="code">
