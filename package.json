@@ -8,7 +8,7 @@
     "honeycomb": "node scripts/honeycomb.css.js && node scripts/honeycomb.js.js && node scripts/honeycomb.img.js && node scripts/honeycomb.assets.js",
     "images": "cp -R src/assets/images/* dist/assets/images/",
     "js": "browserify -t [babelify] src/assets/js/site.js | uglifyjs > dist/assets/js/site.min.js && echo 'JS compiled'",
-    "build": "npm install && node scripts/create-structure && npm run images && npm run handlebars && npm run honeycomb && npm run js",
+    "build": "npm install && npm update && node scripts/create-structure && npm run images && npm run handlebars && npm run honeycomb && npm run js",
     "watch": "watch 'npm run build' src"
   },
   "devDependencies": {
