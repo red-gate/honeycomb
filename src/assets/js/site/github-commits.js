@@ -46,7 +46,7 @@ const printHistory = (data, selector) => {
 
         let markup = `
             <li>
-                <h3 class="spaced-bottom--none"><a href="${url}">${msg}</a></h3>
+                <p class="spaced-bottom--none"><a href="${url}" class="icon--external icon--right" target="_blank">${msg}</a></p>
                 <small>${author}, ${datetime[0]} ${datetime[2]} ${datetime[1]}, ${datetime[4]}</small>
             </li>
         `;
