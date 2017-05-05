@@ -2,8 +2,7 @@ const commitLength = 5;
 const sources = [
     {
         "label": "Honeycomb website",
-        "repo": "https://api.github.com/repos/red-gate/honeycomb/commits?sha=v2-2017",
-        // "repo": "https://api.github.com/repos/red-gate/honeycomb/commits",
+        "repo": "https://api.github.com/repos/red-gate/honeycomb/commits?sha=master",
         "selector": ".js-github-honeycomb-website"
     },
     {
