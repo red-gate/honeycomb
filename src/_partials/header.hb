@@ -54,11 +54,11 @@
                     <li><a href="/writing-guide/applications/">Applications</a></li>
                     <li><a href="/writing-guide/usage-dictionary">Usage Dictionary</a></li>
 
-                    <li><a class="text--strikethrough color--grey--4">Redgate website</a></li>
+                    {{!--<li><a class="text--strikethrough color--grey--4">Redgate website</a></li>
                     <li><a class="text--strikethrough color--grey--4">Case study</a></li>
                     <li><a class="text--strikethrough color--grey--4">White paper</a></li>
                     <li><a class="text--strikethrough color--grey--4">Blog post</a></li>
-                    <li><a class="text--strikethrough color--grey--4">Social media</a></li>                           
+                    <li><a class="text--strikethrough color--grey--4">Social media</a></li>--}}
                 {{/ifCond}}
 
                 {{#ifCond section "brand"}}
