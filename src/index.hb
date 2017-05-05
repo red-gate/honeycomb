@@ -26,7 +26,7 @@
                             <li><a href="/ui/library/elements/icons">Icons</a></li>
                             <li><a href="/ui/library/elements/spacing">Spacing</a></li>
                         </ul>
-                        <p><a href="/ui/library/elements/">More elements</a></p>
+                        <p><a href="/ui/library/elements/" class="icon--chevron-right icon--right">More elements</a></p>
                     </div>
 
                     <div class="grid__col grid__col--span-4-of-12">
@@ -39,7 +39,7 @@
                             <li><a href="/ui/library/components/forms">Forms</a></li>
                             <li><a href="/ui/library/components/messaging">Messaging</a></li>
                         </ul>
-                        <p><a href="/ui/library/components/">More components</a></p>
+                        <p><a href="/ui/library/components/" class="icon--chevron-right icon--right">More components</a></p>
                     </div>
 
                     <div class="grid__col grid__col--span-4-of-12">
@@ -52,7 +52,7 @@
                             <li><a href="/ui/library/sections/dialog-boxes">Dialog boxes</a></li>
                             <li><a href="/ui/library/sections/footers">Footers</a></li>
                         </ul>
-                        <p><a href="/ui/library/sections/">More sections</a></p>
+                        <p><a href="/ui/library/sections/" class="icon--chevron-right icon--right">More sections</a></p>
                     </div>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12 background-color--grey--7 color--white">
