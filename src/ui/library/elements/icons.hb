@@ -6,6 +6,7 @@
             <ul class="tabs tabs--left">
                 <li><a href="#examples">Examples</a></li>
                 <li><a href="#code">Code</a></li>
+                <li><a href="#resources">Resources</a></li>
             </ul>
         </nav>
 
@@ -225,6 +226,15 @@
 <p class="icon--video">...</p>
 <p class="icon--shopping-cart">...</p>
             {{/code-sample}}
+        </div>
+
+        <div class="js-tab tabbed__content" id="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="/assets/icons/honeycomb.ai">Adobe Illustrator (IA) format</a></li>
+                <li><a href="/assets/icons/honeycomb.png.zip">PNG format</a></li>
+                <li><a href="/assets/icons/honeycomb.svg.zip">SVG</a></li>
+            </ul>
         </div>
     </div>
 {{/layouts/ui-library}}
