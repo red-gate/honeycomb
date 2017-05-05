@@ -6,12 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Red Gate Software Ltd">
         <meta name="copyright" content="All material (c) Red Gate Software Ltd or its original authors unless otherwise stated">
-        <meta name="description" content="">
+        <meta name="description" content="{{{description}}}">
 
         <link rel="icon" type="image/png" href="/assets/images/favicon.ico?v=1" />
         <link rel="stylesheet" href="/assets/css/honeycomb.css?v=1493897607">
 
-        <title>{{title}} - Honeycomb</title>
+        {{#ifCond title "Home"}}
+            <title>Honeycomb - Redgate's design system</title>
+        {{else}}
+            <title>{{title}} - Honeycomb - Redgate's design system</title>
+        {{/ifCond}}
 
         <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
     </head>

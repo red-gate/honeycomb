@@ -1,4 +1,4 @@
-{{> head title="Home" class="homepage"}}
+{{> head title="Home" description="Redgate's design system. Making it easier and quicker to create a coherent Redgate experience." class="homepage"}}
 {{> header}}
 
     <div class="grid__col grid__col--span-12-of-12 background-color--grey--9 hero">
