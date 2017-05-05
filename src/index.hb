@@ -130,7 +130,7 @@
 
     <div class="grid__row">
         <div class="band__inner-container">
-            <div class="grid__col grid__col--span-8-of-12">
+            <div class="grid__col grid__col--span-12-of-12">
                 <h1>What's new</h1>
                 <div class="grid__col grid__col--span-6-of-12">
                     <h2>Honeycomb website</h2>
@@ -140,11 +140,6 @@
                     <h2>The web toolkit</h2>
                     <div class="js-github-honeycomb-web-toolkit padded-right--tight"></div>
                 </div>
-            </div>
-            <div class="grid__col grid__col--span-4-of-12">
-                <h1>What's next?</h1>
-                <h2>Latest from the Trello board</h2>
-                <div class="js-trello-honeycomb"></div>
             </div>
         </div>
     </div>
