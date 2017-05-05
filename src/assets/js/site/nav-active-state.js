@@ -28,10 +28,10 @@ const tertiaryNav = (uri) => {
                 link.parentElement.classList.add("nav--vertical__active");
 
                 // Set parents as active.
-                let el = link;
+                let el = link.parentElement.parentElement;
                 while(el.parentElement.nodeName !== "NAV") {
                     if(el.nodeName === "LI") {
-                        el.classList.add("nav--vertical__active");
+                        el.classList.add("nav--vertical__active-parent");
                     }
                     el = el.parentElement;
                 }
