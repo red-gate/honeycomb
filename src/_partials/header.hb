@@ -14,7 +14,7 @@
             <div class="float-right spaced-right">
                 <ul>
                     <li><a href="/contribute">How to contribute</a></li>
-                    <li><a href="https://redgate.slack.com/messages/honeycomb/" target="_blank" class="icon--external">Requests or questions: #Honeycomb</a></li>
+                    <li><a href="https://redgate.slack.com/messages/honeycomb/" target="_blank" class="icon--external icon--right">Requests or questions: #Honeycomb</a></li>
                 </ul>
             </div>
         </span>
