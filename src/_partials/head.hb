@@ -8,7 +8,7 @@
         <meta name="copyright" content="All material (c) Red Gate Software Ltd or its original authors unless otherwise stated">
         <meta name="description" content="{{{description}}}">
 
-        <link rel="icon" type="image/png" href="/assets/images/favicon.ico?v=1" />
+        <link rel="icon" type="image/png" href="/assets/images/misc/favicon.ico?v=1" />
         <link rel="stylesheet" href="/assets/css/honeycomb.css?v=1493897607">
 
         {{#ifCond title "Home"}}
