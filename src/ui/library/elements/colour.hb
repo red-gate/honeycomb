@@ -7,6 +7,7 @@
                 <li><a href="#palette">Palette</a></li>
                 <li><a href="#guidelines">Guidelines</a></li>
                 <li><a href="#code">Code</a></li>
+                <li><a href="#resources">Resources</a></li>
             </ul>
         </nav>
 
@@ -213,6 +214,13 @@
 <div class="background-color--grey--9">A division with a dark grey background colour.</div>
 <p class="color--grey--1">A paragraph that has a light grey text colour.</p>
             {{/code-sample}}
+        </div>
+
+        <div class="js-tab tabbed__content" id="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="/assets/colour/honeycomb.ase">Adobe swatch file (ASE)</a></li>
+            </ul>
         </div>
     </div>
 {{/layouts/ui-library}}

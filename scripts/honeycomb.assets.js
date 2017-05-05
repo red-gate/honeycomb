@@ -5,7 +5,8 @@ const glob = require("glob");
 const assetsDir = 'src/assets';
 const assets = [
     'brand',
-    'icons'
+    'icons',
+    'colour'
 ];
 
 assets.map(asset => {
