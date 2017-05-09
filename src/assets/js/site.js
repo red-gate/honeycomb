@@ -149,3 +149,8 @@ document.addEventListener('DOMContentLoaded', colourCodeText);
 
 import codeHighlighting from "./site/code-highlighting";
 codeHighlighting.init();
+
+import trello from "./site/trello";
+if (uri === "/") {
+    trello.init();
+}

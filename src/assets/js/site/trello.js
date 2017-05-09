@@ -1,6 +1,3 @@
-const apiUrl = "https://api.trello.com/1";
-const apiKey = "ABC";
-const apiToken = "DEF";
 const lists = [{
    title: "In progress",
    id: "589d7b07cf3d253712157a23"
@@ -16,10 +13,9 @@ const init  = () => {
 
 const getCards = (listId, cb) => {
     $.ajax({
-        url: `${apiUrl}/lists/${listId}/cards`,
+        url: '/api/trello',
         data: {
-            key: apiKey,
-            token: apiToken
+            list: listId
         },
         type: "GET",
         dataType: "json",
@@ -36,21 +32,25 @@ const getCards = (listId, cb) => {
 
 const displayCards = cards => {
     const container = document.querySelector(".js-trello-honeycomb");
-    const list = document.createElement("ul");
-    cards.map(card => {
-        const listItem = document.createElement("li");
-        const heading = document.createElement("h3");
-        const small = document.createElement("small");
-        heading.classList.add("spaced-bottom--none");
-        heading.innerHTML = `<a href="${card.url}" target="_blank">${card.name}</a>`;
-        small.innerHTML = formatDate(card.dateLastActivity);
 
-        listItem.appendChild(heading);
-        listItem.appendChild(small);
-        list.appendChild(listItem);
-    });
+    if(container) {
+        const list = document.createElement("ul");
+        cards.map(card => {
+            const listItem = document.createElement("li");
+            const heading = document.createElement("p");
+            const small = document.createElement("small");
+            heading.classList.add("spaced-bottom--none");
+            heading.innerHTML = `<a href="${card.url}" target="_blank" class="icon--external icon--right">${card.name}</a>`;
+            small.innerHTML = formatDate(card.dateLastActivity);
 
-    container.appendChild(list);
+            listItem.appendChild(heading);
+            listItem.appendChild(small);
+            list.appendChild(listItem);
+        });
+
+        container.innerHTML = "";
+        container.appendChild(list);
+    }
 }
 
 const formatDate = date => {
