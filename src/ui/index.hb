@@ -7,7 +7,7 @@
         <div class="grid__row">
             <div class="grid__col grid__col--span-7-of-12">
                 <div class="padded-right--tight">
-                    <h2>UI Library</h2>
+                    <h2><a href="/ui/library/elements/grid">UI Library</a></h2>
                     <p>A growing library of elements and components for creating Redgate UIs. Including examples, guidelines, code, and resources.</p>
 
                     <div class="grid__row spaced-bottom">
@@ -23,7 +23,7 @@
                                     <li><a href="/ui/library/elements/icons">Icons</a></li>
                                     <li><a href="/ui/library/elements/spacing">Spacing</a></li>
                                 </ul>
-                                <a href="/ui/library/elements/grid">All elements</a>
+                                <a href="/ui/library/elements/grid" class="icon--chevron-right icon--right">All elements</a>
                             </div>
                         </div>
 
@@ -31,14 +31,14 @@
                             <a href="/ui/library/components/avatars" class="link-image"><img src="/assets/images/ui/components.svg" alt="" class="spaced-bottom--tight"/></a>
                             <div class="padded-right--tight">
                                 <h3><a href="/ui/library/components/avatars">Components</a></h3>
-                                <p>Components are made when elements are used together.</p>
+                                <p>Components are basic elements functioning together as a unit.</p>
                                 <ul>
                                     <li><a href="/ui/library/components/buttons">Buttons</a></li>
                                     <li><a href="/ui/library/components/navigation/">Navigation</a></li>
                                     <li><a href="/ui/library/components/forms">Forms</a></li>
                                     <li><a href="/ui/library/components/messaging">Messaging</a></li>
                                 </ul>
-                                <a href="/ui/library/components/avatars">All components</a>
+                                <a href="/ui/library/components/avatars" class="icon--chevron-right icon--right">All components</a>
                             </div>
                         </div>
                     </div>

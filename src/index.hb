@@ -14,32 +14,32 @@
                 <h1>Creating Redgate UIs</h1>
 
                 <div class="grid__col grid__col--span-9-of-12">
-                    <h2><a href="/ui/library/">UI Library</a></h2>
+                    <h2><a href="/ui/library/elements/grid">UI Library</a></h2>
 
                     <div class="grid__col grid__col--span-6-of-12">
-                        <img src="/assets/images/homepage/elements.svg" alt="" class="spaced-bottom--tight" />
+                        <a href="/ui/library/elements/grid" class="link-image"><img src="/assets/images/homepage/elements.svg" alt="" class="spaced-bottom--tight" /></a>
                         <h3><a href="/ui/library/elements/grid">Basic elements</a></h3>
-                        <p>The fundamental basic elements from which UIs are created.</p>
+                        <p>The basic elements from which components can be made.</p>
                         <ul>
                             <li><a href="/ui/library/elements/type">Type</a></li>
                             <li><a href="/ui/library/elements/colour">Colour</a></li>
                             <li><a href="/ui/library/elements/icons">Icons</a></li>
                             <li><a href="/ui/library/elements/spacing">Spacing</a></li>
                         </ul>
-                        <p><a href="/ui/library/elements/" class="icon--chevron-right icon--right">More elements</a></p>
+                        <a href="/ui/library/elements/grid" class="icon--chevron-right icon--right">All elements</a>
                     </div>
 
                     <div class="grid__col grid__col--span-6-of-12">
-                        <img src="/assets/images/homepage/components.svg" alt="" class="spaced-bottom--tight" />
+                        <a href="/ui/library/components/avatars" class="link-image"><img src="/assets/images/homepage/components.svg" alt="" class="spaced-bottom--tight" /></a>
                         <h3><a href="/ui/library/components/avatars">Components</a></h3>
-                        <p>Basic elements functioning together as a unit.</p>
+                        <p>Components are basic elements functioning together as a unit.</p>
                         <ul>
                             <li><a href="/ui/library/components/buttons">Buttons</a></li>
                             <li><a href="/ui/library/components/navigation">Navigation</a></li>
                             <li><a href="/ui/library/components/forms">Forms</a></li>
                             <li><a href="/ui/library/components/messaging">Messaging</a></li>
                         </ul>
-                        <p><a href="/ui/library/components/" class="icon--chevron-right icon--right">More components</a></p>
+                        <a href="/ui/library/components/avatars" class="icon--chevron-right icon--right">All components</a>
                     </div>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12 background-color--grey--7 color--white">
