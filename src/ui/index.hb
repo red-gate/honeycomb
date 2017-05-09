@@ -8,7 +8,7 @@
             <div class="grid__col grid__col--span-7-of-12">
                 <div class="padded-right--tight">
                     <h2>UI Library</h2>
-                    <p>A growing library of elements, components and sections for creating Redgate UIs. Including examples, guidelines, code, and resources.</p>
+                    <p>A growing library of elements and components for creating Redgate UIs. Including examples, guidelines, code, and resources.</p>
 
                     <div class="grid__row spaced-bottom">
                         <div class="grid__col grid__col--span-6-of-12">

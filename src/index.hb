@@ -16,7 +16,7 @@
                 <div class="grid__col grid__col--span-9-of-12">
                     <h2><a href="/ui/library/">UI Library</a></h2>
 
-                    <div class="grid__col grid__col--span-4-of-12">
+                    <div class="grid__col grid__col--span-6-of-12">
                         <img src="/assets/images/homepage/elements.svg" alt="" class="spaced-bottom--tight" />
                         <h3><a href="/ui/library/elements/grid">Basic elements</a></h3>
                         <p>The fundamental basic elements from which UIs are created.</p>
@@ -29,7 +29,7 @@
                         <p><a href="/ui/library/elements/" class="icon--chevron-right icon--right">More elements</a></p>
                     </div>
 
-                    <div class="grid__col grid__col--span-4-of-12">
+                    <div class="grid__col grid__col--span-6-of-12">
                         <img src="/assets/images/homepage/components.svg" alt="" class="spaced-bottom--tight" />
                         <h3><a href="/ui/library/components/avatars">Components</a></h3>
                         <p>Basic elements functioning together as a unit.</p>
@@ -40,19 +40,6 @@
                             <li><a href="/ui/library/components/messaging">Messaging</a></li>
                         </ul>
                         <p><a href="/ui/library/components/" class="icon--chevron-right icon--right">More components</a></p>
-                    </div>
-
-                    <div class="grid__col grid__col--span-4-of-12">
-                        <img src="/assets/images/homepage/sections.svg" alt="" class="spaced-bottom--tight" />
-                        <h3><a href="/ui/library/sections/carousel">Sections</a></h3>
-                        <p>Basic elements and components used together</p>
-                        <ul>
-                            <li><a href="/ui/library/sections/headers">Headers</a></li>
-                            <li><a href="/ui/library/sections/filters">Filters</a></li>
-                            <li><a href="/ui/library/sections/dialog-boxes">Dialog boxes</a></li>
-                            <li><a href="/ui/library/sections/footers">Footers</a></li>
-                        </ul>
-                        <p><a href="/ui/library/sections/" class="icon--chevron-right icon--right">More sections</a></p>
                     </div>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12 background-color--grey--7 color--white">
