@@ -6,9 +6,9 @@
         
         <span class="hide-on-medium">
             <ul>
-                <li><a href="/ui/library/" {{#ifCond section "ui"}} class="active" {{/ifCond}}>Creating UIs</a></li>
+                <li><a href="/ui/" {{#ifCond section "ui"}} class="active" {{/ifCond}}>Creating UIs</a></li>
                 <li><a href="/writing-guide/" {{#ifCond section "writing-guide"}} class="active" {{/ifCond}}>Writing guide</a></li>
-                <li><a href="/brand/logo" {{#ifCond section "brand"}} class="active" {{/ifCond}}>Brand assets</a></li>
+                <li><a href="/brand/" {{#ifCond section "brand"}} class="active" {{/ifCond}}>Brand assets</a></li>
             </ul>
 
             <div class="float-right spaced-right">
@@ -26,9 +26,9 @@
         </span>
 
         <ul class="header--primary__menu--mobile js-dropdown">
-            <li><a href="/ui/library/" {{#ifCond section "ui"}} class="active" {{/ifCond}}>Creating UIs</a></li>
+            <li><a href="/ui/" {{#ifCond section "ui"}} class="active" {{/ifCond}}>Creating UIs</a></li>
             <li><a href="/writing-guide/" {{#ifCond section "writing-guide"}} class="active" {{/ifCond}}>Writing guide</a></li>
-            <li><a href="/brand/logo" {{#ifCond section "brand"}} class="active" {{/ifCond}}>Brand assets</a></li>
+            <li><a href="/brand/" {{#ifCond section "brand"}} class="active" {{/ifCond}}>Brand assets</a></li>
 
             <li><a href="/contribute">How to contribute</a></li>
             <li><a href="https://redgate.slack.com/messages/honeycomb/" target="_blank" class="icon--external">Requests or questions: #Honeycomb</a></li>
