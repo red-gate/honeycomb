@@ -18,7 +18,7 @@
                 <div class="padded--tight">
                     <div class="grid__col grid__col--span-6-of-12">
                         <div class="padded--tight">
-                            <a href="/writing-guide/applications" class="link-image"><img src="/assets/writing-guide/applications.svg" alt="" class="spaced-bottom--tight" /></a>
+                            <a href="/writing-guide/applications" class="link-image"><img src="/assets/images/writing-guide/applications.svg" alt="" class="spaced-bottom--tight" /></a>
                             <h2 class="gamma"><a href="/writing-guide/applications">Applications</a></h2>
                             <p>How to write for applications consistently and with clarity</p>
                             <a href="/writing-guide/applications">Read the guide</a>
@@ -26,7 +26,7 @@
                     </div>
                     <div class="grid__col grid__col--span-6-of-12">
                         <div class="padded--tight">
-                            <a href="/writing-guide/usage-dictionary" class="link-image"><img src="/assets/writing-guide/dictionary.svg" alt="" class="spaced-bottom--tight" /></a>
+                            <a href="/writing-guide/usage-dictionary" class="link-image"><img src="/assets/images/writing-guide/dictionary.svg" alt="" class="spaced-bottom--tight" /></a>
                             <h2 class="gamma"><a href="/writing-guide/usage-dictionary">Usage dictionary</a></h2>
                             <p>General advice on the ways we use and spell certain words</p>
                             <a href="/writing-guide/usage-dictionary">See dictionary</a>

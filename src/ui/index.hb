@@ -12,7 +12,7 @@
 
                     <div class="grid__row spaced-bottom">
                         <div class="grid__col grid__col--span-6-of-12">
-                            <a href="/ui/library/elements/grid" class="link-image"><img src="/assets/ui/elements.svg" alt="" class="spaced-bottom--tight"/></a>
+                            <a href="/ui/library/elements/grid" class="link-image"><img src="/assets/images/ui/elements.svg" alt="" class="spaced-bottom--tight"/></a>
 
                             <div class="padded-right--tight">
                                 <h3><a href="/ui/library/elements/grid">Elements</a></h3>
@@ -28,7 +28,7 @@
                         </div>
 
                         <div class="grid__col grid__col--span-6-of-12">
-                            <a href="/ui/library/components/avatars" class="link-image"><img src="/assets/ui/components.svg" alt="" class="spaced-bottom--tight"/></a>
+                            <a href="/ui/library/components/avatars" class="link-image"><img src="/assets/images/ui/components.svg" alt="" class="spaced-bottom--tight"/></a>
                             <div class="padded-right--tight">
                                 <h3><a href="/ui/library/components/avatars">Components</a></h3>
                                 <p>Components are made when elements are used together.</p>

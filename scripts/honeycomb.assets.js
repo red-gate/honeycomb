@@ -6,9 +6,7 @@ const assetsDir = 'src/assets';
 const assets = [
     'brand',
     'icons',
-    'colour',
-    'writing-guide',
-    'ui'
+    'colour'
 ];
 
 assets.map(asset => {
