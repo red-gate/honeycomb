@@ -45,7 +45,7 @@
 
                 {{#ifCond section "ui"}}
                     <!-- Creating UIs -->
-                    <li><a href="/ui/library/">UI Library</a></li>
+                    <li><a href="/ui/library/elements/grid">UI Library</a></li>
                     <li><a href="/ui/toolkits/">Toolkits</a></li>
                 {{/ifCond}}
 

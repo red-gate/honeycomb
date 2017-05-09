@@ -7,7 +7,8 @@ const assets = [
     'brand',
     'icons',
     'colour',
-    'writing-guide'
+    'writing-guide',
+    'ui'
 ];
 
 assets.map(asset => {
