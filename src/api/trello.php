@@ -3,8 +3,8 @@
 class Trello {
 
     protected $apiUrl = "https://api.trello.com/1";
-    protected $apiKey = "{{ API key goes here }}";
-    protected $apiToken = "{{ API token goes here }}";
+    protected $apiKey = "#{trelloApiKey}";
+    protected $apiToken = "#{trelloApiToken}";
 
     public function __construct () {}
 
