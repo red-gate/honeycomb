@@ -13,7 +13,7 @@ const init  = () => {
 
 const getCards = (listId, cb) => {
     $.ajax({
-        url: '/api/trello',
+        url: '/api/trello.php',
         data: {
             list: listId
         },
