@@ -43,7 +43,7 @@
 
             <ul>
                 <li>Ensure you have the <a href="https://www.sketchapp.com/updates/" target="_blank">latest version of Sketch</a> (<em>if you haven’t moved Sketch to the Apps folder you won’t get updates</em>)</li>
-                <li>Ensure you have installed Roboto and Segoe UI (otherwise the elements will look weird and be misaligned). <a href="https://drive.google.com/open?id=0Bx9ZRhhuN1sNNlJTZE5WZFZ6Vjg" target="_blank">Download Roboto and Segoe UI</a>.</li>
+                <li>Ensure you have installed Roboto and Segoe UI (otherwise the elements will look weird and be misaligned).</li>
                 <li>Install and log in to the Brand.ai sketch plugin:
                     <ul>
                         <li><a href="https://brand.ai/sketch" target="_blank">Download</a> and run the plugin. This will install the plugin and launch Sketch</li>
