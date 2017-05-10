@@ -54,17 +54,17 @@
                     <h3 class="spaced-top">Web toolkit</h3>
                     <p>The web toolkit provides a set of resuable HTML and CSS components that can be used inside any web based project.</p>
                     <p>Use the code samples provided in the UI Library along with the web toolkit.</p>
-                    <p><a href="https://github.com/red-gate/honeycomb-web-toolkit" class="icon--external" target="_blank">Get the toolkit</a></p>
+                    <p><a href="https://github.com/red-gate/honeycomb-web-toolkit" class="icon--external icon--right" target="_blank">Get the toolkit</a></p>
 
                     <h3 class="spaced-top">Design toolkit (<a href="https://www.sketchapp.com" target="_blank">Sketch</a> library)</h3>
                     <p>The design toolkit is a <a href="https://www.sketchapp.com" target="_blank">Sketch</a> pattern library that lives in <a href="https://brand.ai/" target="_blank">Brand.ai</a>. </p>
-                    <p><a href="https://brand.ai/redgate/honeycomb" class="icon--external" target="_blank">Get the toolkit</a></p>
+                    <p><a href="https://brand.ai/redgate/honeycomb" class="icon--external icon--right" target="_blank">Get the toolkit</a></p>
 
                     <h3 class="spaced-top">Winforms toolkit</h3>
-                    <p><a href="https://github.com/red-gate/honeycomb-winforms" class="icon--external" target="_blank">Get the toolkit</a></p>
+                    <p><a href="https://github.com/red-gate/honeycomb-winforms" class="icon--external icon--right" target="_blank">Get the toolkit</a></p>
 
                     <h3 class="spaced-top">WPF toolkit</h3>
-                    <p><a href="https://github.com/red-gate/honeycomb-wpf" class="icon--external" target="_blank">Get the toolkit</a></p>
+                    <p><a href="https://github.com/red-gate/honeycomb-wpf" class="icon--external icon--right" target="_blank">Get the toolkit</a></p>
                 </div>
             </div>
         </div>

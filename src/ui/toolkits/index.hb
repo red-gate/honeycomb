@@ -7,7 +7,7 @@
         <div class="grid__col grid__col--span-5-of-12">
             <p>The web toolkit provides a set of resuable HTML and CSS components that can be used inside any web based project.</p>
             <p>Use the code samples provided in the <a href="/ui/library/">UI Library</a> along with the web toolkit.</p>
-            <a href="https://github.com/red-gate/honeycomb-web-toolkit" class="button icon--external" target="_blank">Get the toolkit</a>
+            <a href="https://github.com/red-gate/honeycomb-web-toolkit" class="button icon--external icon--right" target="_blank">Get the toolkit</a>
         </div>
 
         <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
@@ -34,7 +34,7 @@
         
         <div class="grid__col grid__col--span-5-of-12">
             <p>The design toolkit is a <a href="https://www.sketchapp.com" target="_blank">Sketch</a> pattern library that lives in <a href="https://brand.ai/" target="_blank">Brand.ai</a>. </p>
-            <a href="https://brand.ai/redgate/honeycomb" class="button icon--external" target="_blank">Get the toolkit</a>
+            <a href="https://brand.ai/redgate/honeycomb" class="button icon--external icon--right" target="_blank">Get the toolkit</a>
         </div>
 
         <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
@@ -65,7 +65,7 @@
         <h2>Winforms toolkit</h2>
 
         <div class="grid__col grid__col--span-5-of-12">
-            <a href="https://github.com/red-gate/honeycomb-winforms" class="button icon--external" target="_blank">Get the toolkit</a>
+            <a href="https://github.com/red-gate/honeycomb-winforms" class="button icon--external icon--right" target="_blank">Get the toolkit</a>
         </div>
 
         <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
@@ -76,7 +76,7 @@
         <h2>WPF toolkit</h2>
 
         <div class="grid__col grid__col--span-5-of-12">
-            <a href="https://github.com/red-gate/honeycomb-wpf" class="button icon--external" target="_blank">Get the toolkit</a>
+            <a href="https://github.com/red-gate/honeycomb-wpf" class="button icon--external icon--right" target="_blank">Get the toolkit</a>
         </div>
 
         <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">

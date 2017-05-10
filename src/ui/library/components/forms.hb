@@ -131,7 +131,7 @@
 
             <h3>Type aheads</h3>
             <p>Type-ahead can be used to assist users in selecting from a known set of options. It can help constrain choices, where using a free-text field would produce too much variability in the user input.</p>
-            <p>Users are offered a list of relevant suggestions as they type. For example, <a href="https://baymard.com/labs/country-selector" target="_blank" class="icon--external">Baymard's Country Selector</a></p>
+            <p>Users are offered a list of relevant suggestions as they type. For example, <a href="https://baymard.com/labs/country-selector" target="_blank" class="icon--external icon--right">Baymard's Country Selector</a></p>
             <p>Things to consider when using this element:</p>
             <ul>
                 <li>Let users type a few characters first. Otherwise they'll be shown the whole list immediately and will probably assume it's a standard select box</li>

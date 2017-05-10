@@ -43,7 +43,7 @@
             </div>
         </div>
 
-        <p>A good example is <a href="https://documentation.red-gate.com/display/SOC5/SQL+Source+Control+5.0+release+notes" target="_blank" class="icon--external">SQL Source Control 5.0</a>. Note the product name isn’t required at the top of the release notes, because the reader is already on the SQL Source Control release notes page.</p>
+        <p>A good example is <a href="https://documentation.red-gate.com/display/SOC5/SQL+Source+Control+5.0+release+notes" target="_blank" class="icon--external icon--right">SQL Source Control 5.0</a>. Note the product name isn’t required at the top of the release notes, because the reader is already on the SQL Source Control release notes page.</p>
 
         <div class="padded">
             <div class="border padded--tight">

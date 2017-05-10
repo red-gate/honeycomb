@@ -233,13 +233,13 @@
             <h2>Resources</h2>
 
             <h3> Download fonts</h3>
-            <p><a href="https://material.io/guidelines/resources/roboto-noto-fonts.html" target="_blank" class="icon--external">Roboto</a></p>
+            <p><a href="https://material.io/guidelines/resources/roboto-noto-fonts.html" target="_blank" class="icon--external icon--right">Roboto</a></p>
             
             <hr class="spaced-v" />
             
             <h3> Interesting reading</h3>
-            <p><a href="http://usabilitynews.org/the-effects-of-line-length-on-children-and-adults-online-reading-performance/" target="_blank" class="icon--external">The effects of line length on children and adults</a></p>
-            <p><a href="https://www.nngroup.com/articles/low-contrast/" target="_blank" class="icon--external">Low-Contrast Text Is Not the Answer</a></p>
+            <p><a href="http://usabilitynews.org/the-effects-of-line-length-on-children-and-adults-online-reading-performance/" target="_blank" class="icon--external icon--right">The effects of line length on children and adults</a></p>
+            <p><a href="https://www.nngroup.com/articles/low-contrast/" target="_blank" class="icon--external icon--right">Low-Contrast Text Is Not the Answer</a></p>
         </div>
     </div>
 {{/layouts/ui-library}}

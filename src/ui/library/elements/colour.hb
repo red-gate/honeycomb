@@ -178,7 +178,7 @@
 
             <h3>Contrast</h3>
             <p>Having enough contrast is more important than ever, with increasingly mobile and shiny screens.</p>
-            <p>We aim to comply with <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" target="blank" class="icon--external">WCAG 2.0 contrast ratio - AA standards.</a></p>
+            <p>We aim to comply with <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast" target="blank" class="icon--external icon--right">WCAG 2.0 contrast ratio - AA standards.</a></p>
 
             <h4>Is there enough contrast?</h4>
             <p>A few quick ways to judge whether your design has sufficient contrast</p>
@@ -196,7 +196,7 @@
 
                 <li>
                     <p class="delta">Use a tool</p>
-                    <p>There are plenty of tools to test contrast. Try <a href="http://www.paciellogroup.com/resources/contrastanalyser/" target="blank" class="icon--external">Colour Contrast Analyser</a></p>
+                    <p>There are plenty of tools to test contrast. Try <a href="http://www.paciellogroup.com/resources/contrastanalyser/" target="blank" class="icon--external icon--right">Colour Contrast Analyser</a></p>
                 </li>
             </ul>
         </div>
