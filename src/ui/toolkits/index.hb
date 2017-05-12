@@ -62,7 +62,7 @@
     </div>
 
     <div class="grid__row spaced-bottom">
-        <h2>Winforms toolkit</h2>
+        <h2>Winforms toolkit <em>(Private)</em></h2>
 
         <div class="grid__col grid__col--span-5-of-12">
             <a href="https://github.com/red-gate/honeycomb-winforms" class="button icon--external icon--right" target="_blank">Get the toolkit</a>
@@ -73,7 +73,7 @@
     </div>
 
     <div class="grid__row spaced-bottom">
-        <h2>WPF toolkit</h2>
+        <h2>WPF toolkit <em>(Private)</em></h2>
 
         <div class="grid__col grid__col--span-5-of-12">
             <a href="https://github.com/red-gate/honeycomb-wpf" class="button icon--external icon--right" target="_blank">Get the toolkit</a>
