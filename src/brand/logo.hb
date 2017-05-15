@@ -5,7 +5,7 @@
 
         <h2>Download</h2>
         <a href="/assets/brand/redgate-logo-all.zip" class="button button--download">Download all formats</a>
-        <p>If you need a logo at a specific size, or are unsure which one to use, please email <a href="mailto:studio@red-gate.com">studio@red-gate.com</a>.</p>
+        <p>If you need a logo at a specific size, or are unsure which one to use, please email <a href="mailto:outboundmarketing@red-gate.com">outboundmarketing@red-gate.com</a>.</p>
 
         <h2>Horizontal</h2>
         <div class="grid__row spaced-bottom--tight">
