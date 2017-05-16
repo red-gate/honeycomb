@@ -443,6 +443,9 @@
             <dt>MVP</dt>
             <dd>This is the acronym for the Microsoft Most Valuable Professional award. The audience we talk to are generally familiar with it, so there’s no need to spell it out. It’s useful to mention it when we introduce MVPs like Steve Jones and Grant Fritchey.</dd>
 
+            <dt>Microsoft data platform</dt>
+            <dd>This is the broad area within which Redgate develops software. Note that it’s not capitalized as in Microsoft Data Platform, because that would imply Microsoft has a product or suite of products that it sells.</dd>
+
             <dt>migration script</dt>
             <dd>Not migrations script. No caps.</dd>
 
