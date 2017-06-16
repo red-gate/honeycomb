@@ -37,6 +37,7 @@
                         <li><a href="/ui/library/components/spinners">Spinners</a></li>
                         <li><a href="/ui/library/components/tables">Tables</a></li>
                         <li><a href="/ui/library/components/tabs">Tabs</a></li>
+                        <li><a href="/ui/library/components/tooltips">Tooltips</a></li>
                     </ul>
                 </li>
             </ul>
