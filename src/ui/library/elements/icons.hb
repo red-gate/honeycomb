@@ -23,10 +23,16 @@
                     <p class="padded-v--tight"><span class="icon--alert-silence icon--2x"></span> Alert silence</p>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
+                    <p class="padded-v--tight"><span class="icon--approved icon--2x"></span> Approved</p>
+                </div>
+                <div class="grid__col grid__col--span-3-of-12">
                     <p class="padded-v--tight"><span class="icon--arrow-left icon--2x"></span> Arrow left</p>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
                     <p class="padded-v--tight"><span class="icon--arrow-right icon--2x"></span>Arrow right</p>
+                </div>
+                <div class="grid__col grid__col--span-3-of-12">
+                    <p class="padded-v--tight"><span class="icon--award icon--2x"></span>Award</p>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
                     <p class="padded-v--tight"><span class="icon--bullet icon--2x"></span> Bullet</p>
@@ -48,6 +54,9 @@
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
                     <p class="padded-v--tight"><span class="icon--clear-cross-circle icon--2x"></span> Clear cross circle</p>
+                </div>
+                <div class="grid__col grid__col--span-3-of-12">
+                    <p class="padded-v--tight"><span class="icon--clock icon--2x"></span> Clock</p>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
                     <p class="padded-v--tight"><span class="icon--comments icon--2x"></span> Comments</p>
@@ -125,6 +134,9 @@
                     <p class="padded-v--tight"><span class="icon--maintenance icon--2x"></span> Maintenance</p>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
+                    <p class="padded-v--tight"><span class="icon--map_pin icon--2x"></span> Map pin</p>
+                </div>
+                <div class="grid__col grid__col--span-3-of-12">
                     <p class="padded-v--tight"><span class="icon--message-tick icon--2x"></span> Message tick</p>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
@@ -165,6 +177,9 @@
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
                     <p class="padded-v--tight"><span class="icon--refresh icon--2x"></span> Refresh</p>
+                </div>
+                <div class="grid__col grid__col--span-3-of-12">
+                    <p class="padded-v--tight"><span class="icon--rss icon--2x"></span> RSS</p>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
                     <p class="padded-v--tight"><span class="icon--save icon--2x"></span> Save</p>
