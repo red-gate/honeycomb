@@ -19,7 +19,7 @@
             </div>
         </span>
 
-        <span class="hide-on-large show-on-medium float-right">
+        <span class="hide-on-max show-on-medium float-right">
             <ul>
                 <li><a href="#" class="header--primary__icon header--primary__menu-button">Menu</a></li>
             </ul>
