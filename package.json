@@ -18,7 +18,7 @@
     "fs-extra": "^2.0.0",
     "glob": "^7.1.1",
     "handlebars": "^4.0.6",
-    "honeycomb": "git://github.com/red-gate/honeycomb-web-toolkit.git",
+    "honeycomb": "git://github.com/red-gate/honeycomb-web-toolkit.git#v7.12.1",
     "node-sass": "^4.5.0",
     "prismjs": "^1.6.0",
     "uglify-js": "^2.7.5",
