@@ -131,6 +131,12 @@
                     <p class="padded-v--tight"><span class="icon--instance icon--2x"></span> Instance</p>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
+                    <p class="padded-v--tight"><span class="icon--lightbulb icon--2x"></span> Lightbulb</p>
+                </div>
+                <div class="grid__col grid__col--span-3-of-12">
+                    <p class="padded-v--tight"><span class="icon--lock icon--2x"></span> Lock</p>
+                </div>
+                <div class="grid__col grid__col--span-3-of-12">
                     <p class="padded-v--tight"><span class="icon--maintenance icon--2x"></span> Maintenance</p>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
@@ -200,6 +206,9 @@
                     <p class="padded-v--tight"><span class="icon--show icon--2x"></span> Show</p>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
+                    <p class="padded-v--tight"><span class="icon--stop icon--2x"></span> Stop</p>
+                </div>
+                <div class="grid__col grid__col--span-3-of-12">
                     <p class="padded-v--tight"><span class="icon--success icon--2x"></span> Success</p>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
@@ -210,6 +219,9 @@
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
                     <p class="padded-v--tight"><span class="icon--tick icon--2x"></span> Tick</p>
+                </div>
+                <div class="grid__col grid__col--span-3-of-12">
+                    <p class="padded-v--tight"><span class="icon--tick-circle icon--2x"></span> Tick circle</p>
                 </div>
                 <div class="grid__col grid__col--span-3-of-12">
                     <p class="padded-v--tight"><span class="icon--user icon--2x"></span> User</p>
