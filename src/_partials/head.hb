@@ -9,7 +9,7 @@
         <meta name="description" content="{{{description}}}">
 
         <link rel="icon" type="image/png" href="/assets/images/misc/favicon.ico?v=1" />
-        <link rel="stylesheet" href="/assets/css/honeycomb.css?v=1497612157">
+        <link rel="stylesheet" href="/assets/css/honeycomb.css?v=1505983448">
 
         {{#ifCond title "Home"}}
             <title>Honeycomb - Redgate's design system</title>
