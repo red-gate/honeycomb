@@ -25,6 +25,15 @@
             <ul>
                 <li>Download the <code>dist</code> directory from the <a href="https://github.com/red-gate/honeycomb-web-toolkit" target="_blank">Git repo</a> and drop the contents into your project</li>
                 <li>Reference the <code>honeycomb.css</code> CSS file from your project</li>
+                <li>Reference the <code>honeycomb.min.js</code> JavaScript file from your project
+                    <ul>
+                        <li>Note: If referencing the JavaScript, add the following script to tell Honeycomb where it is, before referencing the Honeycomb JavaScript:<br/>
+                            <code><script>window.Honeycomb = {
+            path: '/path/to/honeycomb/'
+        }</script></code>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>
