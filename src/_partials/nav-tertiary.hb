@@ -35,6 +35,7 @@
                             </ul>
                         </li>
                         <li><a href="/ui/library/components/progress">Progress bars</a></li>
+                        <li><a href="/ui/library/components/segmented-controls">Segmented controls</a></li>
                         <li><a href="/ui/library/components/spinners">Spinners</a></li>
                         <li><a href="/ui/library/components/tables">Tables</a></li>
                         <li><a href="/ui/library/components/tabs">Tabs</a></li>
