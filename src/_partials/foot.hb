@@ -7,9 +7,21 @@
         </div>
     </footer>
 
+    <div class="whats-new-widget js-whats-new hidden">
+        <h1 class="visually-hidden">What's new</h1>
+        
+        <ul class="js-whats-new-list"></ul>
+
+        <footer>
+            <ul>
+                <li><a href="https://github.com/red-gate/honeycomb/commits/master">View all</a></li>
+            </ul>
+        </footer>
+    </div>
+
     <!-- JavaScripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.16.0/polyfill.min.js"></script>
-    <script src="/assets/js/site.min.js?v=1509113157"></script>
+    <script src="/assets/js/site.min.js?v=1511261433"></script>
 </body>
 </html>

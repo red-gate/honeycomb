@@ -19,6 +19,14 @@ const init = () => {
         let source = sources[i];
         fetchData(source.repo, (data) => {
             printHistory(data, source.selector);
+
+            if (source.label === 'Honeycomb website') {
+                if (typeof window.Honeycomb !== 'object') {
+                    window.Honeycomb = {};
+                }
+
+                window.Honeycomb.gitHubUpdates = data;
+            }
         });
     }
 };
@@ -36,6 +44,8 @@ const fetchData = (repo, callback) => {
 
 // Print the history to the page.
 const printHistory = (data, selector) => {
+    if (!document.querySelector(selector)) return false;
+    
     let html = "";
     for (let i = 0; i < commitLength; i++) {
         let commit = data[i];

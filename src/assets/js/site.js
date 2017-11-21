@@ -137,9 +137,7 @@ video.init({
 const uri = window.location.pathname;
 
 import gitHubCommits from "./site/github-commits";
-if (uri === "/") {
-    gitHubCommits.init();
-}
+gitHubCommits.init();
 
 import navActiveState from "./site/nav-active-state";
 navActiveState.init(uri);
@@ -154,3 +152,6 @@ import trello from "./site/trello";
 if (uri === "/") {
     trello.init();
 }
+
+import whatsNew from "./site/whats-new";
+whatsNew.init();
