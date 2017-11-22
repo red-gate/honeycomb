@@ -29,39 +29,25 @@
             </ul>
 
             <h3>Sizes</h3>
-            <ul class="segmented-controls segmented-controls--xx-small">
-                <li><a href="">XX-Small</a></li>
-                <li class="segmented-controls--active"><a href="">Option 2</a></li>
-                <li><a href="">Option 3</a></li>
-                <li><a href="">Option 4</a></li>
-            </ul>
-
             <ul class="segmented-controls segmented-controls--x-small">
                 <li><a href="">X-Small</a></li>
-                <li><a href="">Option 2</a></li>
-                <li class="segmented-controls--active"><a href="">Option 3</a></li>
-                <li><a href="">Option 4</a></li>
+                <li><a href="">X-Small</a></li>
+                <li class="segmented-controls--active"><a href="">X-Small</a></li>
+                <li><a href="">X-Small</a></li>
             </ul>
 
             <ul class="segmented-controls segmented-controls--small">
                 <li><a href="">Small</a></li>
-                <li><a href="">Option 2</a></li>
-                <li><a href="">Option 3</a></li>
-                <li class="segmented-controls--active"><a href="">Option 4</a></li>
+                <li><a href="">Small</a></li>
+                <li><a href="">Small</a></li>
+                <li class="segmented-controls--active"><a href="">Small</a></li>
             </ul>
 
             <ul class="segmented-controls">
                 <li><a href="">Regular</a></li>
-                <li class="segmented-controls--active"><a href="">Option 2</a></li>
-                <li><a href="">Option 3</a></li>
-                <li><a href="">Option 4</a></li>
-            </ul>
-
-            <ul class="segmented-controls segmented-controls--large">
-                <li class="segmented-controls--active"><a href="">Large</a></li>
-                <li><a href="">Option 2</a></li>
-                <li><a href="">Option 3</a></li>
-                <li><a href="">Option 4</a></li>
+                <li class="segmented-controls--active"><a href="">Regular</a></li>
+                <li><a href="">Regular</a></li>
+                <li><a href="">Regular</a></li>
             </ul>
         </div>
 
@@ -69,7 +55,7 @@
             <h2>Code</h2>
 
             {{#> code-sample }}
-<ul class="segmented-controls (segmented-controls--primary) (segmented-controls--xx-small | segmented-controls--x-small | segmented-controls--small | segmented-controls--large)">
+<ul class="segmented-controls (segmented-controls--primary) (segmented-controls--x-small | segmented-controls--small)">
     <li><a href="">Option 1</a></li>
     <li class="segmented-controls--active"><a href="">Option 2</a></li>
     <li><a href="">Option 3</a></li>
