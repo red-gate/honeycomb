@@ -12,6 +12,7 @@
         <div class="js-tab tabbed__content" id="examples">
             <h2>Examples</h2>
             <p class="tooltip" data-tooltip="Hello, I'm a tooltip">This paragraph has a tooltip on it. Mouse over it.</p>
+            <p class="tooltip tooltip--light" data-tooltip="I'm a light tooltip, for use on dark backgrounds.">Light coloured tooltips, for use on dark backgrounds</p>
             <a href="#" class="tooltip" data-tooltip="Hyperlinks can have tooltips too.">Links can have tooltips too!</a>
             <div><span class="tooltip" data-tooltip="Tooltips can be applied to any element.">Pretty much anything can have tooltips, actually. This is a span!</span></div>
             <p class="tooltip tooltip--bottom" data-tooltip="Arrows can be applied to the bottom of the tooltip using the modifier class name.">Arrow on the bottom</p>
@@ -22,6 +23,7 @@
 
             {{#> code-sample }}
 <p class="tooltip" data-tooltip="Hello, I'm a tooltip">This paragraph has a tooltip on it. Mouse over it.</p>
+<p class="tooltip tooltip--light" data-tooltip="I'm a light tooltip, for use on dark backgrounds.">Light coloured tooltips, for use on dark backgrounds</p>
 <a href="#" class="tooltip" data-tooltip="Hyperlinks can have tooltips too.">Links can have tooltips too!</a>
 <div><span class="tooltip" data-tooltip="Tooltips can be applied to any element.">Pretty much anything can have tooltips, actually. This is a span!</span></div>
 <p class="tooltip tooltip--bottom" data-tooltip="Arrows can be applied to the bottom of the tooltip using the modifier class name.">Arrow on the bottom</p>
