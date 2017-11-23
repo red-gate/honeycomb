@@ -18,7 +18,7 @@
                     <figure class="notification__icon">
                         <span class="icon icon--info"></span>
                     </figure>
-                    <a class="notification__close" href="#">X</a>
+                    <a class="notification__close" href="#">Close</a>
                     <div class="notification__body">
                         <p>Here is some information you should know. <a href="#">See more</a></p>
                     </div>
@@ -30,7 +30,7 @@
                     <figure class="notification__icon">
                         <span class="icon icon--fail"></span>
                     </figure>
-                    <a class="notification__close" href="#">X</a>
+                    <a class="notification__close" href="#">Close</a>
                     <div class="notification__body">
                         <p>Here is some information you should know. <a href="#">See more</a></p>
                     </div>
@@ -42,7 +42,7 @@
                     <figure class="notification__icon">
                         <span class="icon icon--success"></span>
                     </figure>
-                    <a class="notification__close" href="#">X</a>
+                    <a class="notification__close" href="#">Close</a>
                     <div class="notification__body">
                         <p>Here is some information you should know. <a href="#">See more</a></p>
                     </div>
@@ -54,7 +54,7 @@
                     <figure class="notification__icon">
                         <span class="icon icon--warning"></span>
                     </figure>
-                    <a class="notification__close" href="#">X</a>
+                    <a class="notification__close" href="#">Close</a>
                     <div class="notification__body">
                         <p>Here is some information you should know. <a href="#">See more</a></p>
                     </div>
@@ -67,7 +67,7 @@
                     <figure class="notification__icon">
                         <span class="icon icon--info"></span>
                     </figure>
-                    <a class="notification__close" href="#">X</a>
+                    <a class="notification__close" href="#">Close</a>
                     <div class="notification__body">
                         <p>Here is some information you should know. <a href="#">See more</a></p>
                     </div>
@@ -79,7 +79,7 @@
                     <figure class="notification__icon">
                         <span class="icon icon--fail"></span>
                     </figure>
-                    <a class="notification__close" href="#">X</a>
+                    <a class="notification__close" href="#">Close</a>
                     <div class="notification__body">
                         <p>Here is some information you should know. <a href="#">See more</a></p>
                     </div>
@@ -91,7 +91,7 @@
                     <figure class="notification__icon">
                         <span class="icon icon--success"></span>
                     </figure>
-                    <a class="notification__close" href="#">X</a>
+                    <a class="notification__close" href="#">Close</a>
                     <div class="notification__body">
                         <p>Here is some information you should know. <a href="#">See more</a></p>
                     </div>
@@ -103,7 +103,7 @@
                     <figure class="notification__icon">
                         <span class="icon icon--warning"></span>
                     </figure>
-                    <a class="notification__close" href="#">X</a>
+                    <a class="notification__close" href="#">Close</a>
                     <div class="notification__body">
                         <p>Here is some information you should know. <a href="#">See more</a></p>
                     </div>
@@ -120,7 +120,7 @@
         <figure class="notification__icon">
             <span class="icon icon--info"></span>
         </figure>
-        <a class="notification__close" href="#">X</a>
+        <a class="notification__close" href="#">Close</a>
         <div class="notification__body">
             <p>Here is some information you should know. <a href="#">See more</a></p>
         </div>
@@ -132,7 +132,7 @@
         <figure class="notification__icon">
             <span class="icon icon--fail"></span>
         </figure>
-        <a class="notification__close" href="#">X</a>
+        <a class="notification__close" href="#">Close</a>
         <div class="notification__body">
             <p>Here is some information you should know. <a href="#">See more</a></p>
         </div>
@@ -144,7 +144,7 @@
         <figure class="notification__icon">
             <span class="icon icon--success"></span>
         </figure>
-        <a class="notification__close" href="#">X</a>
+        <a class="notification__close" href="#">Close</a>
         <div class="notification__body">
             <p>Here is some information you should know. <a href="#">See more</a></p>
         </div>
@@ -156,7 +156,7 @@
         <figure class="notification__icon">
             <span class="icon icon--warning"></span>
         </figure>
-        <a class="notification__close" href="#">X</a>
+        <a class="notification__close" href="#">Close</a>
         <div class="notification__body">
             <p>Here is some information you should know. <a href="#">See more</a></p>
         </div>
