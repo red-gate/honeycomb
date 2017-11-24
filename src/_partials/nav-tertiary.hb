@@ -19,6 +19,7 @@
                         <li><a href="/ui/library/components/avatars">Avatars</a></li>
                         <li><a href="/ui/library/components/blockquote">Blockquote</a></li>
                         <li><a href="/ui/library/components/buttons">Buttons</a></li>
+                        <li><a href="/ui/library/components/cards">Cards</a></li>
                         <li><a href="/ui/library/components/carousel">Carousel</a></li>
                         <li><a href="/ui/library/components/forms">Forms</a></li>
                         <li><a href="/ui/library/components/labels">Labels</a></li>
