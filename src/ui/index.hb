@@ -8,37 +8,55 @@
             <div class="grid__col grid__col--span-7-of-12">
                 <div class="padded-right--tight">
                     <h2><a href="/ui/library/elements/grid">UI Library</a></h2>
-                    <p>A growing library of elements and components for creating Redgate UIs. Including examples, guidelines, code, and resources.</p>
+                    <p>A growing library of elements, components and patterns for creating Redgate UIs. Including examples, guidelines, code, and resources.</p>
 
                     <div class="grid__row spaced-bottom">
-                        <div class="grid__col grid__col--span-6-of-12">
-                            <a href="/ui/library/elements/grid" class="link-image"><img src="/assets/images/ui/elements.svg" alt="" class="spaced-bottom--tight"/></a>
+                        <div class="grid__col grid__col--span-4-of-12">
+                            <div class="padded--tight">
+                                <a href="/ui/library/elements/grid" class="link-image"><img src="/assets/images/ui/elements.svg" alt="" class="spaced-bottom--tight"/></a>
 
-                            <div class="padded-right--tight">
-                                <h3><a href="/ui/library/elements/grid">Elements</a></h3>
-                                <p>The basic elements from which components can be made.</p>
-                                <ul>
-                                    <li><a href="/ui/library/elements/type">Type</a></li>
-                                    <li><a href="/ui/library/elements/colour">Colour</a></li>
-                                    <li><a href="/ui/library/elements/icons">Icons</a></li>
-                                    <li><a href="/ui/library/elements/spacing">Spacing</a></li>
-                                </ul>
-                                <a href="/ui/library/elements/grid" class="icon--chevron-right icon--right">All elements</a>
+                                <div class="padded-right--tight">
+                                    <h3><a href="/ui/library/elements/grid">Elements</a></h3>
+                                    <p>The basic elements from which components can be made.</p>
+                                    <ul>
+                                        <li><a href="/ui/library/elements/type">Type</a></li>
+                                        <li><a href="/ui/library/elements/colour">Colour</a></li>
+                                        <li><a href="/ui/library/elements/icons">Icons</a></li>
+                                        <li><a href="/ui/library/elements/spacing">Spacing</a></li>
+                                    </ul>
+                                    <a href="/ui/library/elements/grid" class="icon--chevron-right icon--right">All elements</a>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="grid__col grid__col--span-6-of-12">
-                            <a href="/ui/library/components/avatars" class="link-image"><img src="/assets/images/ui/components.svg" alt="" class="spaced-bottom--tight"/></a>
-                            <div class="padded-right--tight">
-                                <h3><a href="/ui/library/components/avatars">Components</a></h3>
-                                <p>Components are basic elements functioning together as a unit.</p>
-                                <ul>
-                                    <li><a href="/ui/library/components/buttons">Buttons</a></li>
-                                    <li><a href="/ui/library/components/navigation/">Navigation</a></li>
-                                    <li><a href="/ui/library/components/forms">Forms</a></li>
-                                    <li><a href="/ui/library/components/messaging">Messaging</a></li>
-                                </ul>
-                                <a href="/ui/library/components/avatars" class="icon--chevron-right icon--right">All components</a>
+                        <div class="grid__col grid__col--span-4-of-12">
+                            <div class="padded--tight">
+                                <a href="/ui/library/components/avatars" class="link-image"><img src="/assets/images/ui/components.svg" alt="" class="spaced-bottom--tight"/></a>
+                                <div class="padded-right--tight">
+                                    <h3><a href="/ui/library/components/avatars">Components</a></h3>
+                                    <p>Components are basic elements functioning together as a unit.</p>
+                                    <ul>
+                                        <li><a href="/ui/library/components/buttons">Buttons</a></li>
+                                        <li><a href="/ui/library/components/navigation/">Navigation</a></li>
+                                        <li><a href="/ui/library/components/forms">Forms</a></li>
+                                        <li><a href="/ui/library/components/messaging">Messaging</a></li>
+                                    </ul>
+                                    <a href="/ui/library/components/avatars" class="icon--chevron-right icon--right">All components</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid__col grid__col--span-4-of-12">
+                            <div class="padded--tight">
+                                <a href="/ui/library/patterns/whats-new" class="link-image"><img src="/assets/images/ui/patterns.svg" alt="" class="spaced-bottom--tight"/></a>
+                                <div class="padded-right--tight">
+                                    <h3><a href="/ui/library/patterns/whats-new">Patterns</a></h3>
+                                    <p>Patterns are elements and components functioning together</p>
+                                    <ul>
+                                        <li><a href="/ui/library/patterns/whats-new">Whats new</a></li>
+                                    </ul>
+                                    <a href="/ui/library/patterns/whats-new" class="icon--chevron-right icon--right">All patterns</a>
+                                </div>
                             </div>
                         </div>
                     </div>
