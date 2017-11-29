@@ -43,6 +43,12 @@
                         <li><a href="/ui/library/components/tooltips">Tooltips</a></li>
                     </ul>
                 </li>
+                <li>
+                    <a>Patterns <span class="nav--vertical__toggle"></span></a>
+                    <ul>
+                        <li><a href="/ui/library/patterns/whats-new">Whats new</a></li>
+                    </ul>
+                </li>
             </ul>
         {{/ifCond}}
 
