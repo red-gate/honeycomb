@@ -1,5 +1,5 @@
-{{#> layouts/ui-library title="Whats new"}}
-    <h1>Whats new dropdown <span class="label label--small background-color--blue--1 color--grey--9">Beta</span></h1>
+{{#> layouts/ui-library title="What's new"}}
+    <h1>What's new dropdown <span class="label label--small background-color--blue--1 color--grey--9">Beta</span></h1>
 
     <div class="js-tabbed tabbed" data-tabs-pagination="true">
         <nav>
@@ -159,16 +159,16 @@
                         <p>These should be as short as possible. Use a label if the feature is in Beta or only works for a certain version of SQL Server.</p>
 
                         <h3>Descriptions</h3>
-                        <p>Keep these to one short sentence to describe the new feature or functionality. Try not to repeat whats in the title.</p>
+                        <p>Keep these to one short sentence to describe the new feature or functionality. Try not to repeat what's in the title.</p>
 
                         <h3>Call-to-action links</h3>
                         <p>Use a maximum of 2 links per post. Typically one that directs the user to the feature inside the product, and /or a link to learning resources, such as an article on the Redgate Hub, or a pop-up window inside the product.</p>
 
                         <h3>Footer links</h3>
                         <p>These links are flexible, but don’t use more than 3. We would suggest links to:</p>
-                        <p><strong><a href="https://www.red-gate.com/products/sql-development/sql-compare/roadmap#whats-new">More what’s new</a> -</strong> This would link to the what’s new page on the product website, here’s an example of the SQL Compare page</p>
-                        <p><strong><a href="https://www.red-gate.com/products/sql-development/sql-compare/roadmap#roadmap">Roadmap</a> -</strong> A link to the products roadmap, here’s an example of the SQL Compares roadmap</p>
-                        <p><strong><a href="https://documentation.red-gate.com/sc13/release-notes-and-other-versions/sql-compare-13-1-release-notes">Release notes</a> -</strong> A link to the products release notes found on the documentation site, here’s an example of the SQL Compares release notes</p>
+                        <p><strong>More what’s new -</strong> This would link to the what’s new page on the product website, here’s an example of the <a href="https://www.red-gate.com/products/sql-development/sql-compare/roadmap#whats-new">SQL Compare page</a></p>
+                        <p><strong>Roadmap -</strong> A link to the products roadmap, here’s an example of the <a href="https://www.red-gate.com/products/sql-development/sql-compare/roadmap#roadmap">SQL Compare roadmap</a></p>
+                        <p><strong>Release notes -</strong> A link to the products release notes found on the documentation site, here’s an example of the <a href="https://documentation.red-gate.com/sc13/release-notes-and-other-versions/sql-compare-13-1-release-notes">SQL Compare release notes</a></p>
                     </div>
                 </div>
                 <div class="grid__col grid__col--span-6-of-12">
