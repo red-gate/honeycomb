@@ -22,7 +22,7 @@
     "fs-extra": "^2.0.0",
     "glob": "^7.1.1",
     "handlebars": "^4.0.11",
-    "honeycomb": "git://github.com/red-gate/honeycomb-web-toolkit.git#v9.6.1",
+    "honeycomb": "git://github.com/red-gate/honeycomb-web-toolkit.git#v9.6.3",
     "node-sass": "^4.7.2",
     "opn": "^5.1.0",
     "prismjs": "^1.8.3",

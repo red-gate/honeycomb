@@ -53,7 +53,7 @@
                                     <h3><a href="/ui/library/patterns/whats-new">Patterns</a></h3>
                                     <p>Patterns are elements and components functioning together</p>
                                     <ul>
-                                        <li><a href="/ui/library/patterns/whats-new">Whats new</a></li>
+                                        <li><a href="/ui/library/patterns/whats-new">Whats new dropdown</a></li>
                                     </ul>
                                     <a href="/ui/library/patterns/whats-new" class="icon--chevron-right icon--right">All patterns</a>
                                 </div>

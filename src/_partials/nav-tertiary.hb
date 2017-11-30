@@ -46,7 +46,7 @@
                 <li>
                     <a>Patterns <span class="nav--vertical__toggle"></span></a>
                     <ul>
-                        <li><a href="/ui/library/patterns/whats-new">Whats new</a></li>
+                        <li><a href="/ui/library/patterns/whats-new">Whats new dropdown</a></li>
                     </ul>
                 </li>
             </ul>
