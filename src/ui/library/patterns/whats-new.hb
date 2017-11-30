@@ -42,8 +42,8 @@
                                 
                                 <ul>
                                     <li>
-                                        <h2>Blocking processes <span class="label label--small color--grey--9 background-color--blue--1">Beta</span></h2>
-                                        <p>Easily visualize blocking, and find the culprit.</p>
+                                        <h2>Improved HTML report generation <span class="label label--small color--grey--9 background-color--blue--1">Beta</span></h2>
+                                        <p>Making it easier for you to quickly see what’s changed and share with your team.</p>
                                         <ul class="whats-new-widget__actions">
                                             <li><a href="#">Try it out</a></li>
                                             <li><a href="#">Learn more</a></li>
@@ -51,27 +51,26 @@
                                     </li>
 
                                     <li>
-                                        <h2>Grouped alerts inbox</h2>
-                                        <p>Alerts are now grouped some benefits and what the new inbox is great for.</p>
+                                        <h2>SQL Graph support <span class="label label--small color--grey--9 background-color--blue--1">SQL Server 2017</span></h2>
+                                        <p>Adds graph database capabilities for modeling many-to-many relationships.</p>
                                         <ul class="whats-new-widget__actions">
-                                            <li><a href="#">Try the preview</a></li>
                                             <li><a href="#">Learn more</a></li>
                                         </ul>
                                     </li>
 
                                     <li>
-                                        <h2>Deadlock details visualizer</h2>
-                                        <p>You can now easily see deadlocks some benefits.</p>
+                                        <h2>Improved temporal tables support</h2>
+                                        <p>Improved support in line with the new feature introduced in SQL Server 2017.</p>
+                                        <ul class="whats-new-widget__actions">
+                                            <li><a href="#">Learn more</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <h2>Azure Active Directory authentication</h2>
+                                        <p>With integrated and password authentication methods</p>
                                         <ul class="whats-new-widget__actions">
                                             <li><a href="#">Try it out</a></li>
-                                            <li><a href="#">Learn more</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li>
-                                        <h2>See deployments within SQL Monitor</h2>
-                                        <p>If you have the SQL Toolbelt you can now see the impact of your deployments</p>
-                                        <ul class="whats-new-widget__actions">
                                             <li><a href="#">Learn more</a></li>
                                         </ul>
                                     </li>
@@ -79,9 +78,9 @@
 
                                 <footer>
                                     <ul>
-                                        <li><a href="#">Full release notes</a></li>
+                                        <li><a href="#">What's new</a></li>
+                                        <li><a href="#">Release notes</a></li>
                                         <li><a href="#">Roadmap</a></li>
-                                        <li><a href="#">Guides &amp; tips</a></li>
                                     </ul>
                                 </footer>
                             </div>
@@ -95,8 +94,8 @@
                                 
                                 <ul>
                                     <li>
-                                        <h2>Blocking processes <span class="label label--small color--grey--9 background-color--blue--1">Beta</span></h2>
-                                        <p>Easily visualize blocking, and find the culprit.</p>
+                                        <h2>Improved HTML report generation <span class="label label--small color--grey--9 background-color--blue--1">Beta</span></h2>
+                                        <p>Making it easier for you to quickly see what’s changed and share with your team.</p>
                                         <ul class="whats-new-widget__actions">
                                             <li><a href="#">Try it out</a></li>
                                             <li><a href="#">Learn more</a></li>
@@ -104,27 +103,26 @@
                                     </li>
 
                                     <li>
-                                        <h2>Grouped alerts inbox</h2>
-                                        <p>Alerts are now grouped some benefits and what the new inbox is great for.</p>
+                                        <h2>SQL Graph support <span class="label label--small color--grey--9 background-color--blue--1">SQL Server 2017</span></h2>
+                                        <p>Adds graph database capabilities for modeling many-to-many relationships.</p>
                                         <ul class="whats-new-widget__actions">
-                                            <li><a href="#">Try the preview</a></li>
                                             <li><a href="#">Learn more</a></li>
                                         </ul>
                                     </li>
 
                                     <li>
-                                        <h2>Deadlock details visualizer</h2>
-                                        <p>You can now easily see deadlocks some benefits.</p>
+                                        <h2>Improved temporal tables support</h2>
+                                        <p>Improved support in line with the new feature introduced in SQL Server 2017.</p>
+                                        <ul class="whats-new-widget__actions">
+                                            <li><a href="#">Learn more</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <h2>Azure Active Directory authentication</h2>
+                                        <p>With integrated and password authentication methods</p>
                                         <ul class="whats-new-widget__actions">
                                             <li><a href="#">Try it out</a></li>
-                                            <li><a href="#">Learn more</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li>
-                                        <h2>See deployments within SQL Monitor</h2>
-                                        <p>If you have the SQL Toolbelt you can now see the impact of your deployments</p>
-                                        <ul class="whats-new-widget__actions">
                                             <li><a href="#">Learn more</a></li>
                                         </ul>
                                     </li>
@@ -132,9 +130,9 @@
 
                                 <footer>
                                     <ul>
-                                        <li><a href="#">Full release notes</a></li>
+                                        <li><a href="#">What's new</a></li>
+                                        <li><a href="#">Release notes</a></li>
                                         <li><a href="#">Roadmap</a></li>
-                                        <li><a href="#">Guides &amp; tips</a></li>
                                     </ul>
                                 </footer>
                             </div>
@@ -168,9 +166,9 @@
 
                         <h3>Footer links</h3>
                         <p>These links are flexible, but don’t use more than 3. We would suggest links to:</p>
-                        <p><strong>More what’s new -</strong> This would link to the what’s new page on the product website, here’s an example of the SQL Compare page</p>
-                        <p><strong>Roadmap -</strong> A link to the products roadmap, here’s an example of the SQL Compares roadmap</p>
-                        <p><strong>Release notes -</strong> A link to the products release notes found on the documentation site, here’s an example of the SQL Compares release notes</p>
+                        <p><strong><a href="https://www.red-gate.com/products/sql-development/sql-compare/roadmap#whats-new">More what’s new</a> -</strong> This would link to the what’s new page on the product website, here’s an example of the SQL Compare page</p>
+                        <p><strong><a href="https://www.red-gate.com/products/sql-development/sql-compare/roadmap#roadmap">Roadmap</a> -</strong> A link to the products roadmap, here’s an example of the SQL Compares roadmap</p>
+                        <p><strong><a href="https://documentation.red-gate.com/sc13/release-notes-and-other-versions/sql-compare-13-1-release-notes">Release notes</a> -</strong> A link to the products release notes found on the documentation site, here’s an example of the SQL Compares release notes</p>
                     </div>
                 </div>
                 <div class="grid__col grid__col--span-6-of-12">
@@ -179,8 +177,8 @@
                         
                         <ul>
                             <li>
-                                <h2>Blocking processes <span class="label label--small color--grey--9 background-color--blue--1">Beta</span></h2>
-                                <p>Easily visualize blocking, and find the culprit.</p>
+                                <h2>Improved HTML report generation <span class="label label--small color--grey--9 background-color--blue--1">Beta</span></h2>
+                                <p>Making it easier for you to quickly see what’s changed and share with your team.</p>
                                 <ul class="whats-new-widget__actions">
                                     <li><a href="#">Try it out</a></li>
                                     <li><a href="#">Learn more</a></li>
@@ -188,27 +186,26 @@
                             </li>
 
                             <li>
-                                <h2>Grouped alerts inbox</h2>
-                                <p>Alerts are now grouped some benefits and what the new inbox is great for.</p>
+                                <h2>SQL Graph support <span class="label label--small color--grey--9 background-color--blue--1">SQL Server 2017</span></h2>
+                                <p>Adds graph database capabilities for modeling many-to-many relationships.</p>
                                 <ul class="whats-new-widget__actions">
-                                    <li><a href="#">Try the preview</a></li>
                                     <li><a href="#">Learn more</a></li>
                                 </ul>
                             </li>
 
                             <li>
-                                <h2>Deadlock details visualizer</h2>
-                                <p>You can now easily see deadlocks some benefits.</p>
+                                <h2>Improved temporal tables support</h2>
+                                <p>Improved support in line with the new feature introduced in SQL Server 2017.</p>
+                                <ul class="whats-new-widget__actions">
+                                    <li><a href="#">Learn more</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <h2>Azure Active Directory authentication</h2>
+                                <p>With integrated and password authentication methods</p>
                                 <ul class="whats-new-widget__actions">
                                     <li><a href="#">Try it out</a></li>
-                                    <li><a href="#">Learn more</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <h2>See deployments within SQL Monitor</h2>
-                                <p>If you have the SQL Toolbelt you can now see the impact of your deployments</p>
-                                <ul class="whats-new-widget__actions">
                                     <li><a href="#">Learn more</a></li>
                                 </ul>
                             </li>
@@ -216,9 +213,9 @@
 
                         <footer>
                             <ul>
-                                <li><a href="#">Full release notes</a></li>
+                                <li><a href="#">What's new</a></li>
+                                <li><a href="#">Release notes</a></li>
                                 <li><a href="#">Roadmap</a></li>
-                                <li><a href="#">Guides &amp; tips</a></li>
                             </ul>
                         </footer>
                     </div>
