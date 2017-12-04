@@ -7,7 +7,7 @@
         </div>
     </footer>
 
-    <div class="whats-new-widget js-whats-new hidden">
+    <div class="whats-new-widget js-whats-new hidden hide-on-medium">
         <h1 class="visually-hidden">What's new</h1>
         
         <ul class="js-whats-new-list"></ul>

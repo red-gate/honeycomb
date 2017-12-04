@@ -20,6 +20,10 @@ const addHandlers = () => {
             hide();
         }
     });
+
+    window.addEventListener('resize', e => {
+        updateHeight();
+    })
 };
 
 const toggleElement = e => {
@@ -80,12 +84,6 @@ const writeContent = data => {
         for (let a=0; a<limit; a++) {
             let listItem = document.createElement('li');
 
-            // <h2>Blocking processes <span class="label label--ghost color--blue--6 border-color--blue--6">Beta</span></h2>
-            // <p>Easily visualize blocking, and find the culprit.</p>
-            // <ul class="whats-new-widget__actions">
-            //     <li><a href="#">Try it out</a></li>
-            //     <li><a href="#">Learn more</a></li>
-            // </ul>
             let heading = document.createElement('h2');
             heading.innerHTML = data[a].commit.message;
 
@@ -115,6 +113,21 @@ const formatDate = date => {
     const [d, m, dd, y, t] = date.split(' ');
     date = `${d} ${dd} ${m}, ${t}`;
     return date;
+};
+
+const updateHeight = () => {
+    if (!isVisible()) return false;
+
+    const windowHeight = window.innerHeight;
+    const bottomOfWidget = widget.offsetTop + widget.offsetHeight;
+    const allowance = 20;
+    const list = widget.querySelector('.js-whats-new-list');
+    if (!list) return false;
+
+    const difference = bottomOfWidget - windowHeight;
+    const listHeight = list.offsetHeight;
+
+    list.style.maxHeight = `${listHeight - difference - allowance}px`;
 };
 
 const init = () => {
