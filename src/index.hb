@@ -39,8 +39,8 @@
                             <ul>
                                 <li><a href="/ui/library/components/buttons">Buttons</a></li>
                                 <li><a href="/ui/library/components/navigation">Navigation</a></li>
-                                <li><a href="/ui/library/components/forms">Forms</a></li>
                                 <li><a href="/ui/library/components/messaging">Messaging</a></li>
+                                <li><a href="/ui/library/components/labels">Labels</a></li>
                             </ul>
                             <a href="/ui/library/components/avatars" class="icon--chevron-right icon--right">All components</a>
                         </div>
@@ -52,6 +52,7 @@
                             <h3><a href="/ui/library/patterns/whats-new">Patterns</a></h3>
                             <p>Patterns are elements and components functioning together.</p>
                             <ul>
+                                <li><a href="/ui/library/patterns/forms">Forms</a></li>
                                 <li><a href="/ui/library/patterns/whats-new">Whats new dropdown</a></li>
                             </ul>
                             <a href="/ui/library/patterns/whats-new" class="icon--chevron-right icon--right">All patterns</a>

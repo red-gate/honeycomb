@@ -21,7 +21,6 @@
                         <li><a href="/ui/library/components/buttons">Buttons</a></li>
                         <li><a href="/ui/library/components/cards">Cards</a></li>
                         <li><a href="/ui/library/components/carousel">Carousel</a></li>
-                        <li><a href="/ui/library/components/forms">Forms</a></li>
                         <li><a href="/ui/library/components/labels">Labels</a></li>
                         <li><a href="/ui/library/components/lightbox">Lightbox</a></li>
                         <li><a href="/ui/library/components/lists">Lists</a></li>
@@ -46,6 +45,7 @@
                 <li>
                     <a>Patterns <span class="nav--vertical__toggle"></span></a>
                     <ul>
+                        <li><a href="/ui/library/patterns/forms">Forms</a></li>
                         <li><a href="/ui/library/patterns/whats-new">Whats new dropdown</a></li>
                     </ul>
                 </li>
