@@ -27,11 +27,14 @@
                 <li>Reference the <code>honeycomb.css</code> CSS file from your project</li>
                 <li>Reference the <code>honeycomb.min.js</code> JavaScript file from your project
                     <ul>
-                        <li>Note: If referencing the JavaScript, add the following script to tell Honeycomb where it is, before referencing the Honeycomb JavaScript:<br/>
+                        <li>If referencing the JavaScript, add the following script to tell Honeycomb where it is, before referencing the Honeycomb JavaScript:<br/>
                             <code><script>window.Honeycomb = {
             path: '/path/to/honeycomb/'
         }</script></code>
                         </li>
+                        <li>Depending on your browser support you may need to include the babel polyfill before the Honeycomb JavaScript:<br/>
+                        <code><script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.16.0/polyfill.min.js"></script></code>
+                        <p><a href="https://babeljs.io/docs/usage/polyfill/" target="_blank" class="icon--external">More info on the Babel polyfill</a></li>
                     </ul>
                 </li>
             </ul>
