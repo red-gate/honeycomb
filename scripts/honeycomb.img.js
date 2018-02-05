@@ -5,10 +5,10 @@ const glob = require("glob");
 const vendorImgDir = 'dist/assets/images/vendor/';
 const vendorImageDirs = [
     {
-        src: 'node_modules/honeycomb/src/lightbox/vendor/images/fancybox',
+        src: 'node_modules/honeycomb-web-toolkit/src/lightbox/vendor/images/fancybox',
         dist: 'fancybox'
     }, {
-        src: 'node_modules/honeycomb/src/navigation/images',
+        src: 'node_modules/honeycomb-web-toolkit/src/navigation/images',
         dist: 'navigation'
     }
 ];

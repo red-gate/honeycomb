@@ -4,7 +4,7 @@ const glob = require("glob");
 
 const vendorDir = 'dist/assets/js/vendor/';
 
-glob('node_modules/honeycomb/**/vendor/**/*.js', (err, files) => {
+glob('node_modules/honeycomb-web-toolkit/**/vendor/**/*.js', (err, files) => {
     fs.ensureDir(vendorDir, err => {
         if(err) {
             console.error("Error creating vendor JS directory", err);
