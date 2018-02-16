@@ -2,9 +2,9 @@
 {{> header section=section}}
 
 <div class="grid__row">
-    <div class="band__inner-container">
+    {{#unless fullWidth}}<div class="band__inner-container">{{/unless}}
 {{> @partial-block}}
-    </div>
+    {{#unless fullWidth}}</div>{{/unless}}
 </div>
 
 {{> foot}}
