@@ -60,6 +60,65 @@
 
         <!-- TAB - Icons -->
         <div class="js-tab tabbed__content" id="icons">
+            <div class="band">
+                <div class="band__inner-container padded-top--none">
+                    <div class="grid__row">
+                        <div class="grid__col grid__col--span-5-of-12">
+                            <h1>Honeycomb product icons</h1>
+                            <h2 class="alpha text--normal padded-bottom">Simple, readable, and understandable</h2>
+                            <p class="beta padded-bottom--tight">The 4 key ingredients of Honeycomb product icons</p>
+                            <ol class="beta spaced-left text--normal">
+                                <li>Size</li>
+                                <li>Proportion</li>
+                                <li>Detail</li>
+                                <li>Shapes</li>
+                            </ol>
+                        </div>
+                        <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
+                            <img src="/assets/images/brand/illustration/icons-1.svg" class="image-center" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="band background-color--grey--9 color--white">
+                <div class="band__inner-container padded-v--loose">
+                    <div class="grid__col grid__col--span-5-of-12">
+                        <h1 class="color--white">1. Size</h1>
+                        <p class="beta text--normal color--white padded-bottom--tight">Each icon is created in 2 core sizes, 16x16 and 24x24 pixels, from which other required icon sizes can be created.</p>
+                        <p class="beta text--normal color--white">For icons that could be used on touch screens, a minimum icon size of 24x24 pixels is recommended.</p>
+                    </div>
+                    <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
+                        <img src="/assets/images/brand/illustration/pixel-sizes.svg" class="image-center" alt=""/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="band">
+                <div class="band__inner-container padded-v--loose">
+                    <div class="grid__col grid__col--span-5-of-12">
+                        <h1>2. Proportion</h1>
+                        <p class="beta text--normal padded-bottom--tight">Using the icon template guide helps get the correct proportions and padding. This creates balance between differently shaped icons when they sit together.</p>
+                        <p><a href="#" class="icon--download">Download icon template with examples</a></p>
+                    </div>
+                    <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
+                        <img src="/assets/images/brand/illustration/proportion.svg" class="image-center" alt=""/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="band background-color--grey--1">
+                <div class="band__inner-container padded-v--loose">
+                    <div class="grid__col grid__col--span-5-of-12">
+                        <h1>3. Detail</h1>
+                        <p class="beta text--normal padded-bottom--tight">Creating icons with the perfect amount of detail is difficult. Getting the perfect balance between simplicity and readability using just enough detail for each size of icon is key.</p>
+                        <p class="beta text--normal">The amount of detail can differ depending o the icon. For example, a camera (snapshot) icon needs slightly more detail than an eye (visible) icon to help it to be recognisable as a camera.</p>                        
+                    </div>
+                    <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
+                        <img src="/assets/images/brand/illustration/icon-detail.svg" class="image-center" alt=""/>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- TAB - Illustration -->
