@@ -25,3 +25,27 @@
 .nav-vertical-icon-db {
     background-image: url("/assets/images/misc/db.svg");
 }
+
+// Hacks for the icon and illustration guide.
+.brand-icon {
+
+    .tabbed__content {
+        padding-bottom: 0;
+    }
+
+    .icon-footer {
+        .icon--10x {
+            @include font-size(400px, 285px);
+        }
+
+        .flex-container {
+            display: flex;
+            align-items: center;
+            min-height: 300px;
+        }
+
+        p.beta {
+            width: 100%;
+        }
+    }
+}

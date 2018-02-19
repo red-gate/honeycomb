@@ -1,4 +1,4 @@
-{{#> layouts/global title="Iconography & illustration" section="brand" fullWidth="true"}}
+{{#> layouts/global title="Iconography & illustration" section="brand" fullWidth="true" class="brand-icon"}}
 
     <div class="tabbed js-tabbed">
 
@@ -100,6 +100,7 @@
                         <h1>2. Proportion</h1>
                         <p class="beta text--normal padded-bottom--tight">Using the icon template guide helps get the correct proportions and padding. This creates balance between differently shaped icons when they sit together.</p>
                         <p><a href="#" class="icon--download">Download icon template with examples</a></p>
+                        <p class="alpha color--red">@Pete, where's the "icon template guide"?</p>
                     </div>
                     <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
                         <img src="/assets/images/brand/illustration/proportion.svg" class="image-center" alt=""/>
@@ -116,6 +117,33 @@
                     </div>
                     <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
                         <img src="/assets/images/brand/illustration/icon-detail.svg" class="image-center" alt=""/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="band">
+                <div class="band__inner-container padded-v--loose">
+                    <div class="grid__col grid__col--span-5-of-12">
+                        <h1>4. Shapes</h1>
+                        <p class="beta text--normal padded-bottom--tight">Start with, and prioritize solid geometric shapes.</p>
+                        <p class="beta text--normal padded-bottom--tight">Use consistent line thicknesses (2px is preferred) and consistent corner radius (Use 0.5, 1 and 2px).</p>
+                        <p class="beta text--normal padded-bottom--tight">Use the Redgate database curve whenever suitable.</p>
+                        <p class="beta">Exceptions</p>
+                        <p class="beta text--normal">It's fine to make slight exceptions if sticking to the guidelines compromises the readability of the icon.</p>                        
+                    </div>
+                    <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
+                        <img src="/assets/images/brand/illustration/icon-shapes.svg" class="image-center" alt=""/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="band text--center background-color--grey--9 color--white icon-footer">
+                <div class="band__inner-container padded-v--loose">
+                    <div class="grid__col grid__col--span-5-of-12">
+                        <span class="icon--arrow-right icon--10x"></span>
+                    </div>
+                    <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12 flex-container">
+                        <p class="beta"><a href="/ui/library/elements/icons" class="icon--arrow-right icon--right">See what icons are in the Honeycomb web toolkit</a></p>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-{{> head title=title}}
+{{> head title=title class=class}}
 {{> header section=section}}
 
 <div class="grid__row">
