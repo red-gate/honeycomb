@@ -1,7 +1,7 @@
 {{#> layouts/global title="Writing Guide" section="writing-guide"}}
 
     <div class="grid__col grid__col--span-12-of-12">
-        <h1>Writing guide</h1>
+        <h1>Honeycomb </h1>
         <p class="beta">Resources to help write in style</p>
 
         <div class="grid__row">
