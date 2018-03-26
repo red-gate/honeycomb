@@ -22,8 +22,8 @@
                         <div class="grid__col grid__col--span-6-of-12">
                             <h1>Iconography &amp; illustration</h1>
                             <h2 class="alpha text--normal">Adding character and understanding</h2>
-                            <p class="beta text--normal padded-bottom">At Redgate we use iconography and illustration everywhere. From notifications inside our products, to laptop stickers, documentation, and much more.</p>
-                            <p class="beta text--normal padded-bottom">From 16x16 pixel icons to 10 feet tall exhibition stands, not only can iconography and illustration add charecter, increase interest, create empathy, and grab your attention—but can also guide and speed up understanding.</p>
+                            <p class="beta text--normal padded-bottom">At Redgate we use iconography and illustration everywhere. From notifications inside our products and 16x16 pixel icons in documentation, to laptop stickers and 10 feet tall exhibition stands.</p>
+                            <p class="beta text--normal padded-bottom">Not only can iconography and illustration add character, create empathy, and grab your attention — but can also guide and speed up understanding.</p>
                             <ul class="list--bare beta text--normal">
                                 <li><a href="#icons" class="icon--arrow-right icon--right">Product icon guide</a></li>
                                 <li><a href="#illustration" class="icon--arrow-right icon--right">Illustration guide</a></li>
@@ -85,7 +85,7 @@
                 <div class="band__inner-container padded-v--loose">
                     <div class="grid__col grid__col--span-5-of-12">
                         <h1 class="color--white">1. Size</h1>
-                        <p class="beta text--normal color--white padded-bottom--tight">Each icon is created in 2 core sizes, 16x16 and 24x24 pixels, from which other required icon sizes can be created.</p>
+                        <p class="beta text--normal color--white padded-bottom--tight">Each icon is created in two core sizes, 16x16 and 24x24 pixels, from which other required icon sizes can be created.</p>
                         <p class="beta text--normal color--white">For icons that could be used on touch screens, a minimum icon size of 24x24 pixels is recommended.</p>
                     </div>
                     <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
@@ -113,7 +113,7 @@
                     <div class="grid__col grid__col--span-5-of-12">
                         <h1>3. Detail</h1>
                         <p class="beta text--normal padded-bottom--tight">Creating icons with the perfect amount of detail is difficult. Getting the perfect balance between simplicity and readability using just enough detail for each size of icon is key.</p>
-                        <p class="beta text--normal">The amount of detail can differ depending o the icon. For example, a camera (snapshot) icon needs slightly more detail than an eye (visible) icon to help it to be recognisable as a camera.</p>                        
+                        <p class="beta text--normal">The amount of detail can differ depending on the icon. For example, a camera icon needs slightly more detail than an eye icon to help it to be recognisable as a camera.</p>
                     </div>
                     <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
                         <img src="/assets/images/brand/illustration/icon-detail.svg" class="image-center" alt=""/>
@@ -126,7 +126,7 @@
                     <div class="grid__col grid__col--span-5-of-12">
                         <h1>4. Shapes</h1>
                         <p class="beta text--normal padded-bottom--tight">Start with, and prioritize solid geometric shapes.</p>
-                        <p class="beta text--normal padded-bottom--tight">Use consistent line thicknesses (2px is preferred) and consistent corner radius (Use 0.5, 1 and 2px).</p>
+                        <p class="beta text--normal padded-bottom--tight">Use consistent line thicknesses (2px is preferred) and consistent corner radius (use 0.5, 1 and 2px).</p>
                         <p class="beta text--normal padded-bottom--tight">Use the Redgate database curve whenever suitable.</p>
                         <p class="beta">Exceptions</p>
                         <p class="beta text--normal">It's fine to make slight exceptions if sticking to the guidelines compromises the readability of the icon.</p>                        
@@ -191,7 +191,7 @@
                     <div class="grid__col grid__col--span-5-of-12">
                         <h1 class="color--white">2. Solid, bold, geometric shapes</h1>
                         <p class="beta text--normal color--white">Use solid geometric shapes in bold ways. This helps to reflect Redgate's simplicity and reliability.</p>
-                        <p class="spaced-top"><strong>Prioritize the Redgate database shape</strong><br/>We love the Redgate database shape (right), and use it whenever we can.</p>
+                        <p class="spaced-top"><strong>Prioritize the Redgate database shape</strong><br/>We love the Redgate database shape, and use it whenever we can.</p>
                     </div>
                     <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
                         <img src="/assets/images/brand/illustration/gatebase-shape.svg" class="image-center" alt=""/>
@@ -204,7 +204,7 @@
                     <div class="grid__col grid__col--span-5-of-12">
                         <h1>3. The rounded line</h1>
                         <p class="beta text--normal">Using the rounded lines in illustrations can help soften the solid geometric shapes - they can add movement, and help give a more approachable feel.</p>
-                        <p class="spaced-top"><strong>Use sparingly</strong><br/>Don't create illustrations soley from the rounded lines, use them sparingly.</p>
+                        <p class="spaced-top"><strong>Use sparingly</strong><br/>Don't create illustrations solely from the rounded lines, use them sparingly.</p>
                     </div>
                     <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
                         <img src="/assets/images/brand/illustration/rounded-line.svg" class="image-center" alt=""/>
@@ -216,7 +216,8 @@
                 <div class="band__inner-container padded-v--loose">
                     <div class="grid__col grid__col--span-5-of-12">
                         <h1 class="color--white">4. Just enough detail</h1>
-                        <p class="beta text--normal color--white">Keep it simple, only use the details you need. A great way of finding out if you need a certain detail is by deleting it. Is the illustration still understandable without the detail? Does it still support the message? Or is it now confusing without it?</p>
+                        <p class="beta text--normal color--white">Keep it simple, only use the details you need.</p>
+                        <p class="beta text--normal color--white">A great way of finding out if you need a certain detail is by deleting it. Is the illustration still understandable without the detail? Does it still support the message? Or is it more confusing without it?</p>
                     </div>
                     <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
                         <img src="/assets/images/brand/illustration/detail.svg" class="image-center" alt=""/>
@@ -246,12 +247,12 @@
 
                             <li class="spaced-bottom">
                                 <h3 class="beta">Brisk but not terse</h3>
-                                <p>Speed up understanding or guide someone in taking an action quicker. Or help hold someones interest for longer by breaking up content.</p>
+                                <p>Speed up understanding or guide someone in taking an action quicker. Or help hold someone's interest for longer by breaking up content.</p>
                             </li>
 
                             <li class="spaced-bottom">
-                                <h3 class="beta">Incisive yet human (not a faceless machine)</h3>
-                                <p>Use real objects, relatable situations, and people.</p>
+                                <h3 class="beta">Incisive yet human</h3>
+                                <p>Not a faceless machine. Use real objects, relatable situations, and people.</p>
                             </li>
 
                             <li class="spaced-bottom">
