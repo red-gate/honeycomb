@@ -21,7 +21,7 @@
                     <div class="grid__row">
                         <div class="grid__col grid__col--span-6-of-12">
                             <h1>Iconography &amp; illustration</h1>
-                            <h2 class="alpha text--normal">Adding character and understanding</h2>
+                            <h2 class="alpha text--normal padded-bottom">Adding character and understanding</h2>
                             <p class="beta text--normal padded-bottom">At Redgate we use iconography and illustration everywhere. From notifications inside our products and 16x16 pixel icons in documentation, to laptop stickers and 10 feet tall exhibition stands.</p>
                             <p class="beta text--normal padded-bottom">Not only can iconography and illustration add character, create empathy, and grab your attention — but can also guide and speed up understanding.</p>
                      
@@ -60,7 +60,7 @@
             <div class="band">
                 <div class="band__inner-container padded-top--none">
                     <div class="grid__row">
-                        <div class="grid__col grid__col--span-5-of-12">
+                        <div class="grid__col grid__col--span-6-of-12">
                             <h1>Honeycomb product icons</h1>
                             <h2 class="alpha text--normal padded-bottom">Simple, readable, and understandable</h2>
                             <p class="beta padded-bottom--tight">The 4 key ingredients</p>
@@ -71,7 +71,7 @@
                                 <li>Shapes</li>
                             </ol>
                         </div>
-                        <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
+                        <div class="grid__col grid__col--span-5-of-12 grid__col--push-1-of-12">
                             <img src="/assets/images/brand/illustration/icons-1.svg" class="image-center" alt=""/>
                         </div>
                     </div>
