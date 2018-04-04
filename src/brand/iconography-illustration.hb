@@ -96,8 +96,7 @@
                     <div class="grid__col grid__col--span-5-of-12">
                         <h1>2. Proportion</h1>
                         <p class="beta text--normal padded-bottom--tight">Using the icon template guide helps get the correct proportions and padding. This creates balance between differently shaped icons when they sit together.</p>
-                        <p><a href="#" class="icon--download">Download icon template with examples</a></p>
-                        <p class="alpha color--red">@Pete, where's the "icon template guide"?</p>
+                        <p class="gamma text--bold"> Icon templates with examples - available soon</p>
                     </div>
                     <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
                         <img src="/assets/images/brand/illustration/proportion.svg" class="image-center" alt=""/>
@@ -109,8 +108,8 @@
                 <div class="band__inner-container padded-v--loose">
                     <div class="grid__col grid__col--span-5-of-12">
                         <h1>3. Detail</h1>
-                        <p class="beta text--normal padded-bottom--tight">Creating icons with the perfect amount of detail is difficult. Getting the perfect balance between simplicity and readability using just enough detail for each size of icon is key.</p>
-                        <p class="beta text--normal">The amount of detail can differ depending on the icon. For example, a camera icon needs slightly more detail than an eye icon to help it to be recognisable as a camera.</p>
+                        <p class="beta text--normal padded-bottom--tight">Creating icons with the perfect amount of detail is difficult. Getting the perfect balance between simplicity and readability using just enough detail for each icon is key.</p>
+                        <p class="beta text--normal">The amount of detail can differ depending on the icon. For example, the camera (snapshot) icon needs slightly more detail than an eye (show) icon to help it to be recognisable as a camera.</p>
                     </div>
                     <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
                         <img src="/assets/images/brand/illustration/icon-detail.svg" class="image-center" alt=""/>
@@ -124,7 +123,6 @@
                         <h1>4. Shapes</h1>
                         <p class="beta text--normal padded-bottom--tight">Start with, and prioritize solid geometric shapes.</p>
                         <p class="beta text--normal padded-bottom--tight">Use consistent line thicknesses (2px is preferred) and consistent corner radius (use 0.5, 1 and 2px).</p>
-                        <p class="beta text--normal padded-bottom--tight">Use the Redgate database curve whenever suitable.</p>
                         <p class="spaced-top"><strong>Exception</strong><br/>It's fine to make slight exceptions if sticking to the guidelines compromises the readability of the icon.</p>                  
                     </div>
                     <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
