@@ -66,7 +66,7 @@
                         <div class="grid__col grid__col--span-5-of-12">
                             <h1>Honeycomb product icons</h1>
                             <h2 class="alpha text--normal padded-bottom">Simple, readable, and understandable</h2>
-                            <p class="beta padded-bottom--tight">The 4 key ingredients of Honeycomb product icons</p>
+                            <p class="beta padded-bottom--tight">The 4 key ingredients</p>
                             <ol class="beta spaced-left text--normal">
                                 <li>Size</li>
                                 <li>Proportion</li>
@@ -128,8 +128,7 @@
                         <p class="beta text--normal padded-bottom--tight">Start with, and prioritize solid geometric shapes.</p>
                         <p class="beta text--normal padded-bottom--tight">Use consistent line thicknesses (2px is preferred) and consistent corner radius (use 0.5, 1 and 2px).</p>
                         <p class="beta text--normal padded-bottom--tight">Use the Redgate database curve whenever suitable.</p>
-                        <p class="beta">Exceptions</p>
-                        <p class="beta text--normal">It's fine to make slight exceptions if sticking to the guidelines compromises the readability of the icon.</p>                        
+                        <p class="spaced-top"><strong>Exception</strong><br/>It's fine to make slight exceptions if sticking to the guidelines compromises the readability of the icon.</p>                  
                     </div>
                     <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
                         <img src="/assets/images/brand/illustration/icon-shapes.svg" class="image-center" alt=""/>
