@@ -63,7 +63,7 @@
                         <div class="grid__col grid__col--span-6-of-12">
                             <h1>Honeycomb product icons</h1>
                             <h2 class="alpha text--normal padded-bottom">Simple, readable, and understandable</h2>
-                            <p class="beta padded-bottom--tight">The 4 key ingredients</p>
+                            <p class="beta padded-bottom-v--tight">The 4 key ingredients</p>
                             <ol class="beta spaced-left text--normal">
                                 <li>Size</li>
                                 <li>Proportion</li>
@@ -153,7 +153,7 @@
                         <div class="grid__col grid__col--span-5-of-12">
                             <h1>Honeycomb illustrations</h1>
                             <h2 class="alpha text--normal padded-bottom">Simple, solid, and relatable</h2>
-                            <p class="beta padded-bottom--tight">The 5 fundamentals of Honeycomb illustrations</p>
+                            <p class="beta padded-bottom-v--tight">The 5 fundamentals</p>
                             <ol class="beta spaced-left text--normal">
                                 <li>A limited colour palette</li>
                                 <li>Solid, bold, geometric shapes</li>
@@ -187,7 +187,7 @@
                     <div class="grid__col grid__col--span-5-of-12">
                         <h1 class="color--white">2. Solid, bold, geometric shapes</h1>
                         <p class="beta text--normal color--white">Use solid geometric shapes in bold ways. This helps to reflect Redgate's simplicity and reliability.</p>
-                        <p class="spaced-top"><strong>Prioritize the Redgate database shape</strong><br/>We love the Redgate database shape, and use it whenever we can.</p>
+                        <p class="spaced-top"><strong>Prioritize the Redgate database shape (right),</strong> it's an important part of Redgate's visual identity.</p>
                     </div>
                     <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
                         <img src="/assets/images/brand/illustration/gatebase-shape.svg" class="image-center" alt=""/>
@@ -228,8 +228,7 @@
                         <p class="beta text--normal">Illustrations should have the same qualities we expect from our content, and in particular, our writing style.</p>
                         <img src="/assets/images/brand/illustration/content.svg" class="spaced-top image-center" alt=""/>
                     </div>
-                    <div class="grid__col grid__col--span-4-of-12 grid__col--push-1-of-12 spaced-top">
-                        <h2>Illustrations should be:</h2>
+                    <div class="grid__col grid__col--span-4-of-12 grid__col--push-1-of-12">
                         <ul class="list--bare">
                             <li class="spaced-bottom">
                                 <h3 class="beta">Informative</h3>
