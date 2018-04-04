@@ -24,10 +24,7 @@
                             <h2 class="alpha text--normal">Adding character and understanding</h2>
                             <p class="beta text--normal padded-bottom">At Redgate we use iconography and illustration everywhere. From notifications inside our products and 16x16 pixel icons in documentation, to laptop stickers and 10 feet tall exhibition stands.</p>
                             <p class="beta text--normal padded-bottom">Not only can iconography and illustration add character, create empathy, and grab your attention — but can also guide and speed up understanding.</p>
-                            <ul class="list--bare beta text--normal">
-                                <li><a href="#icons" class="icon--arrow-right icon--right">Product icon guide</a></li>
-                                <li><a href="#illustration" class="icon--arrow-right icon--right">Illustration guide</a></li>
-                            </ul>
+                     
                         </div>
                         <div class="grid__col grid__col--span-6-of-12">
                             <img src="/assets/images/brand/illustration/overview-1.svg" class="image-center" alt=""/>
