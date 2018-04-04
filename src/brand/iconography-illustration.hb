@@ -227,12 +227,12 @@
 
             <div class="band">
                 <div class="band__inner-container padded-v--loose padded-bottom--none">
-                    <div class="grid__col grid__col--span-5-of-12">
+                    <div class="grid__col grid__col--span-6-of-12">
                         <h1>5. Treat illustrations as content</h1>
                         <p class="beta text--normal">Illustrations should have the same qualities we expect from our content, and in particular, our writing style.</p>
                         <img src="/assets/images/brand/illustration/content.svg" class="spaced-top image-center" alt=""/>
                     </div>
-                    <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12 spaced-top">
+                    <div class="grid__col grid__col--span-4-of-12 grid__col--push-1-of-12 spaced-top">
                         <h2>Illustrations should be:</h2>
                         <ul class="list--bare">
                             <li class="spaced-bottom">
@@ -242,7 +242,7 @@
 
                             <li class="spaced-bottom">
                                 <h3 class="beta">Clear and concise</h3>
-                                <p>Get straight to the point, don't confuse or distract.</p>
+                                <p>Get straight to the point, don't confuse.</p>
                             </li>
 
                             <li class="spaced-bottom">
