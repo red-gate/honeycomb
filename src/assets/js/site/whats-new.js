@@ -85,7 +85,7 @@ const writeContent = data => {
             let listItem = document.createElement('li');
 
             let heading = document.createElement('h2');
-            heading.innerHTML = data[a].commit.message;
+            heading.innerHTML = data[a].commit.message.split("\n")[0];
 
             let para = document.createElement('p');
             let date = formatDate(data[a].commit.author.date);
