@@ -60,7 +60,7 @@
             <ul class="">
                 <li><a href="#default-roboto" class="js-scroll-to">Roboto is our default typeface</a></li>
                 <li><a href="#clear-hierarchy" class="js-scroll-to">Create clear hierarchy</a></li>
-                <li><a href="#line-length" class="js-scroll-to">Aim for a line-length of 50-80 charecters</a></li>
+                <li><a href="#line-length" class="js-scroll-to">Aim for a line-length of 50-80 characters</a></li>
                 <li><a href="#uppercase" class="js-scroll-to">Use UPPERCASE sparingly</a></li>
                 <li><a href="#contrast" class="js-scroll-to">Use enough contrast</a></li>
             </ul>
@@ -112,13 +112,13 @@
             <hr class="spaced-v" />
 
             <div class="grid__row">
-                <h3 id="line-length">Aim for a line-length of 50-80 charecters</h3>
+                <h3 id="line-length">Aim for a line-length of 50-80 characters</h3>
                 <div class="grid__col grid__col--span-6-of-12">
                     <div class="padded-right--tight"> 
                         <img class="js-svg spaced-bottom--tight" src="/assets/images/typography/ideal-line-length.svg" alt="UI with ideal line-length" width="220" height="152">                   
                         <p class="icon--tick icon--3x color--green"></p>
-                        <h4>50-80 charecters is the magic number</h4>
-                        <p>Most users will feel more comfortable reading with a line-length of 50-80 charecters, especially in long bodies of text. It could reduce fatigue, and increase retention rates.</p>
+                        <h4>50-80 characters is the magic number</h4>
+                        <p>Most users will feel more comfortable reading with a line-length of 50-80 characters, especially in long bodies of text. It could reduce fatigue, and increase retention rates.</p>
                     </div>
                 </div>
 
@@ -127,7 +127,7 @@
                         <img class="js-svg spaced-bottom--tight" src="/assets/images/typography/long-line-length.svg" alt="UI with long line-length" width="220" height="152">
                         <p class="icon--cross icon--3x color--red"></p>
                         <h4>Avoid long and short line-lengths</h4>
-                        <p>Line-lengths over 80 and under 50 charecters can feel daunting</p>
+                        <p>Line-lengths over 80 and under 50 characters can feel daunting</p>
                     </div>
                 </div>               
             </div>
