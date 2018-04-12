@@ -12,8 +12,8 @@
 
         <div class="js-tab tabbed__content" id="examples">
             <h2>Examples</h2>
-            <div class="grid">
-              <div class="grid">
+
+             <div class="grid">
               <div class="grid__col grid__col--span-3-of-12">
                   <p class="icon--email">Email</p>
               </div>
@@ -201,6 +201,9 @@
                   <p class="icon--folder">Folder</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                  <p class="icon--home">Home</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                   <p class="icon--history">History</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
@@ -279,6 +282,10 @@
               </div>
 
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--sql-change-automation">SQL Change Automation</p>
+              </div>
+
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--sql-compare">SQL Compare</p>
               </div>
 
@@ -288,6 +295,14 @@
 
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--sql-data-compare">SQL Data Compare</p>
+              </div>
+
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--sql-estate-manager">SQL Estate Manager</p>
+              </div>
+
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--data-masker">Data Masker</p>
               </div>
 
               <div class="grid__col grid__col--span-3-of-12">
