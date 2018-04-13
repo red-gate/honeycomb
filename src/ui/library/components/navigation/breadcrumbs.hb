@@ -6,7 +6,7 @@
             <ul class="tabs tabs--left">
                 <li><a href="#examples">Examples</a></li>
                 <li><a href="#guidelines">Guidelines</a></li>
-                 <li><a href="#code">Code</a></li>
+                <li><a href="#code">Code</a></li>
             </ul>
         </nav>
 
