@@ -21,11 +21,13 @@
 
             <h3>What are tabs?</h3>
             <p>Tabs are UI elements that make it possible to meaningfully separate content into different sections.</p>
+
             <h3>When to use tabs?</h3>
-             <p>Use tabs to switch between views within the same context, not to switch between totally different sections on the page (use main top navigation, horizontal nav bar or vertical nav bar for that). The content within each tab should be strongly related.</p>
+            <p>Use tabs to switch between views within the same context, not to switch between totally different sections on the page (use main top navigation, horizontal nav bar or vertical nav bar for that). The content within each tab should be strongly related.</p>
             <p>Tabs could exist at the top of the page under the main navigation but they could also be used within the body of the page to divide content into separate sections.</p>
+
             <h3>How to use tabs</h3>
-             <p>It depends on the context, but normally it is better not to use more than 5 tabs (2-3 could be an optimal number). They should fit into a single row and tab names should be short and meaningful.</p>
+            <p>It depends on the context, but normally it is better not to use more than 5 tabs (2-3 could be an optimal number). They should fit into a single row and tab names should be short and meaningful.</p>
         </div>
 
         <div class="js-tab tabbed__content" id="code">
