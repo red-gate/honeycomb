@@ -84,7 +84,7 @@
                                     <li><a title="Item 2 D">Item 2 D</a></li>
                                 </ul>
                             </li>
-                            <li><a class="nav-vertical-icon-cog" title="Item 3">Item 3 <span class="nav--vertical__toggle"></span></a>
+                            <li><a title="Item 3" class="icon--flag">Item 3 <span class="nav--vertical__toggle"></span></a>
                                 <ul>
                                     <li><a title="Item 3 A">Item 3 A</a></li>
                                     <li><a title="Item 3 B">Item 3 B</a></li>
@@ -92,7 +92,7 @@
                                     <li><a title="Item 3 D">Item 3 D</a></li>
                                 </ul>
                             </li>
-                            <li><a class="nav-vertical-icon-db" title="Item 4">Item 4</a></li>
+                            <li><a class="icon--dashboard" title="Item 4">Item 4</a></li>
                         </ul>
                     </nav>
                 </div>
