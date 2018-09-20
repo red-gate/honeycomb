@@ -50,6 +50,13 @@
         </div>
 
         <div class="grid__col grid__col--span-4-of-12 padded-v">
+            <a href="/assets/brand/product-logos/sql-change-automation.zip" class="link-image">
+                <img src="/assets/images/brand/product/sql-change-automation.png" alt="">
+                <p class="padded-top--tight">SQL Change Automation</p>
+            </a>
+        </div>
+
+        <div class="grid__col grid__col--span-4-of-12 padded-v">
             <a href="/assets/brand/product-logos/sql-clone.zip" class="link-image">
                 <img src="/assets/images/brand/product/sql-clone.png" alt="">
                 <p class="padded-top--tight">SQL Clone</p>
