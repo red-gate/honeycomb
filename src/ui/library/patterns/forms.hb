@@ -59,6 +59,18 @@
                         <label for="choice-3">Disabled</label>
                     </div>
 
+                    <h3>Toggle switches</h3>
+                    <div class="form__field-container">
+                        <span class="toggle-container"><input type="checkbox" name="toggle-1" id="toggle-1" value="Toggle 1" class="toggle"><label for="toggle-1"></label></span>
+                        <label for="toggle-1">Toggle (Unchecked)</label>
+
+                        <span class="toggle-container"><input type="checkbox" name="toggle-2" id="toggle-2" value="Toggle 2" class="toggle" checked><label for="toggle-2"></label></span>
+                        <label for="toggle-2">Toggle (Checked)</label>
+
+                        <span class="toggle-container"><input type="checkbox" name="toggle-3" id="toggle-3" value="Toggle 3" class="toggle" disabled><label for="toggle-3"></label></span>
+                        <label for="toggle-3">Toggle (Disabled)</label>
+                    </div>
+
                     <h3>Radio buttons</h3>
                     <div class="form__field-container">
                         <input type="radio" name="choice" id="radio-1" value="Choice 1" checked>
@@ -211,6 +223,18 @@
     
     <input type="checkbox" name="choice-3" id="choice-3" value="Choice 3" disabled> 
     <label for="choice-3">Disabled</label>
+</div>
+
+<h3>Toggle switches</h3>
+<div class="form__field-container">
+    <span class="toggle-container"><input type="checkbox" name="toggle-1" id="toggle-1" value="Toggle 1" class="toggle"><label for="toggle-1"></label></span>
+    <label for="toggle-1">Toggle (Unchecked)</label>
+
+    <span class="toggle-container"><input type="checkbox" name="toggle-2" id="toggle-2" value="Toggle 2" class="toggle" checked><label for="toggle-2"></label></span>
+    <label for="toggle-2">Toggle (Checked)</label>
+
+    <span class="toggle-container"><input type="checkbox" name="toggle-3" id="toggle-3" value="Toggle 3" class="toggle" disabled><label for="toggle-3"></label></span>
+    <label for="toggle-3">Toggle (Disabled)</label>
 </div>
 
 <h3>Radio buttons</h3>
