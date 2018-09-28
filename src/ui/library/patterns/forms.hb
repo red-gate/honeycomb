@@ -67,7 +67,7 @@
                         <span class="toggle-container"><input type="checkbox" name="toggle-2" id="toggle-2" value="Toggle 2" class="toggle" checked><label for="toggle-2"></label></span>
                         <label for="toggle-2">Toggle (Checked)</label>
 
-                        <span class="toggle-container"><input type="checkbox" name="toggle-3" id="toggle-3" value="Toggle 3" class="toggle" disabled><label for="toggle-3"></label></span>
+                        <span class="toggle-container toggle-container--disabled"><input type="checkbox" name="toggle-3" id="toggle-3" value="Toggle 3" class="toggle" disabled><label for="toggle-3"></label></span>
                         <label for="toggle-3">Toggle (Disabled)</label>
                     </div>
 
@@ -233,8 +233,13 @@
     <span class="toggle-container"><input type="checkbox" name="toggle-2" id="toggle-2" value="Toggle 2" class="toggle" checked><label for="toggle-2"></label></span>
     <label for="toggle-2">Toggle (Checked)</label>
 
-    <span class="toggle-container"><input type="checkbox" name="toggle-3" id="toggle-3" value="Toggle 3" class="toggle" disabled><label for="toggle-3"></label></span>
-    <label for="toggle-3">Toggle (Disabled)</label>
+    <span class="toggle-container toggle-container--disabled"><input type="checkbox" name="toggle-3" id="toggle-3" value="Toggle 3" class="toggle" disabled><label for="toggle-3"></label></span>
+    <label for="toggle-3" class="label--disabled">Toggle (Disabled)</label>
+    <!-- 
+        Note: To make a toggle label disabled use at least one of the following options:
+        A) Add the class "toggle-container--disabled" to the toggle container element (span), or
+        B) Add the generic "label--disabled" class to the label element.
+    -->
 </div>
 
 <h3>Radio buttons</h3>
