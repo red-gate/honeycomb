@@ -138,6 +138,9 @@
                 <p class="icon--edit">Edit</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--elastic-pool">Elastic pool</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--email">Email</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
@@ -259,6 +262,9 @@
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--save">Save</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--schema">Schema</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--script">Script</p>
