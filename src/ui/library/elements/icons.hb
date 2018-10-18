@@ -66,6 +66,9 @@
                 <p class="icon--azure">Azure</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--backup-database">Backup database</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--blocked">Blocked</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
