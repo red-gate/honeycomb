@@ -24,7 +24,7 @@
     "fs-extra": "^2.0.0",
     "glob": "^7.1.3",
     "handlebars": "^4.0.12",
-    "honeycomb-web-toolkit": "git://github.com/red-gate/honeycomb-web-toolkit.git#v10.11.11",
+    "honeycomb-web-toolkit": "git://github.com/red-gate/honeycomb-web-toolkit.git#v10.12.1",
     "node-sass": "^4.10.0",
     "opn": "^5.4.0",
     "postcss-cli": "^6.0.1",
