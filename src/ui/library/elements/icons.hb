@@ -75,6 +75,9 @@
                 <p class="icon--branch">Branch</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--briefcase">Briefcase</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--bullet">Bullet</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
@@ -387,6 +390,9 @@
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--sql-data-compare">SQL Data Compare</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--sql-data-catalog">SQL Data Catalog</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--sql-data-generator">SQL Data Generator</p>
