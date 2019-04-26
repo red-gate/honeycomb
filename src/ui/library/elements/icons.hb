@@ -228,6 +228,9 @@
                 <p class="icon--minus">Minus</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--minus-circle">Minus circle</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--more-actions-horizontal">More actions horizontal</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
