@@ -12,14 +12,7 @@
             <li>Variations in color / plain white</li>
         </ul>
         <p>For guidance on picking variations or positioning logos, take a look at <a href="/brand/logo">the page for the Redgate logo</a> - it's mostly the same advice.</p>
-        <p>Get in touch with <a href="mailto:outboundmarketing@red-gate.com">outboundmarketing@red-gate.com</a> if you have any questions.</p>
-
-        <div class="grid__col grid__col--span-6-of-12 padded-v">
-            <a href="/assets/brand/product-logos/data-platform-studio.zip" class="link-image">
-                <img src="/assets/images/brand/product/data-platform-studio.png" alt="">
-                <p class="padded-top--tight">Data Platform Studio</p>
-            </a>
-        </div>
+        <p>Get in touch with <a href="mailto:brand@red-gate.com">brand@red-gate.com</a> if you have any questions.</p>
 
         <div class="grid__col grid__col--span-6-of-12 padded-v">
             <a href="/assets/brand/product-logos/data-masker.zip" class="link-image">
@@ -29,23 +22,9 @@
         </div>
 
         <div class="grid__col grid__col--span-6-of-12 padded-v">
-            <a href="/assets/brand/product-logos/dlm-automation.zip" class="link-image">
-                <img src="/assets/images/brand/product/dlm-automation.png" alt="">
-                <p class="padded-top--tight">DLM Automation</p>
-            </a>
-        </div>
-
-        <div class="grid__col grid__col--span-6-of-12 padded-v">
             <a href="/assets/brand/product-logos/dlm-dashboard.zip" class="link-image">
                 <img src="/assets/images/brand/product/dlm-dashboard.png" alt="">
                 <p class="padded-top--tight">DLM Dashboard</p>
-            </a>
-        </div>
-
-        <div class="grid__col grid__col--span-6-of-12 padded-v">
-            <a href="/assets/brand/product-logos/readyroll.zip" class="link-image">
-                <img src="/assets/images/brand/product/readyroll.png" alt="">
-                <p class="padded-top--tight">ReadyRoll</p>
             </a>
         </div>
 
