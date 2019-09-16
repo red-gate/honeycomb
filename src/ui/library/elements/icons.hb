@@ -30,6 +30,9 @@
                 <p class="icon--arrow-circle">Arrow circle</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--arrow-circle-down">Arrow circle down</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--arrow-down-link">Arrow down link</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
@@ -362,6 +365,9 @@
 
           <h2 class="padded-top clearfix">Product icons</h2>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--data-compare-for-oracle">Data Compare for Oracle</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--data-masker">Data Masker</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
@@ -372,6 +378,12 @@
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--readyroll">Readyroll</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--schema-compare-for-oracle">Schema Compare for Oracle</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--source-control-for-oracle">Source Control for Oracle</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--sql-backup">SQL Backup</p>
