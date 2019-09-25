@@ -331,7 +331,7 @@
             <h2>G</h2>
 
             <dt>gender</dt>
-            <dd>Our software is used by men <i>and</i> women, and our writing should reflect that. Never say <i>his</i> to cover both men and women – instead use plural words like <i>their</i>. For example, <i>Users can link their database to their application version control<i>.<br/>
+            <dd>Our software is used by men <i>and</i> women, and our writing should reflect that. Never say <i>his</i> to cover both men and women – instead use plural words like <i>their</i>. For example, <i>Users can link their database to their application version control</i>.<br/>
                 To counter the predominantly male language of software and database development, it's also nice to include female names in screenshots, worked examples, and so on. For example, <i>Amanda creates a table in her database and goes to the Commit changes tab</i>.</dd>
 
             <dt>Git</dt>
