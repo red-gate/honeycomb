@@ -108,7 +108,7 @@
                             <li><a href="/writing-guide/">Why write in style?</a></li>
                             <li><a href="/writing-guide/applications/">Applications</a></li>
                             <li><a href="/writing-guide/website">Redgate website</a></li>                           
-                            <li><a href="/writing-guide/usage-dictionary">Usage Dictionary</a></li>
+                            <li><a href="/writing-guide/usage-dictionary">Usage dictionary</a></li>
                         </ul>
                     </div>
                 </div>
