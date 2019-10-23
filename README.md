@@ -8,7 +8,7 @@ In order to run the website locally you'll need [Node.js](https://nodejs.org/en/
 * Open the directory in your terminal of choice (`cd ~/my-honeycomb-directory/`).*
 * Run `npm run start`
 
-* Note that the build depends on the `cp` command, which might not exist on Windows machines. (It might, if you've installed Git for Windows with the option to include common unix tools in the system path.) If the build fails on the Windows command line, try running it in Git Bash. 
+\* Note that the build depends on the `cp` command, which might not exist on Windows machines. (It might, if you've installed Git for Windows with the option to include common unix tools in the system path.) If the build fails on the Windows command line, try running it in Git Bash. 
 
 The build task will download the required dependencies, build the website files and open the website in the browser, while watching for any changes.
 
