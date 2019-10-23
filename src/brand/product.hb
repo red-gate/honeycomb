@@ -181,6 +181,34 @@
                 <p class="padded-top--tight">SQL Toolbelt</p>
             </a>
         </div>
+
+        <div class="grid__col grid__col--span-6-of-12 padded-v">
+            <a href="/assets/brand/product-logos/data-compare-for-oracle.zip" class="link-image">
+                <img src="/assets/images/brand/product/data-compare-for-oracle.png" alt="">
+                <p class="padded-top--tight">Data Compare for Oracle</p>
+            </a>
+        </div>
+
+        <div class="grid__col grid__col--span-6-of-12 padded-v">
+            <a href="/assets/brand/product-logos/deployment-suite-for-oracle.zip" class="link-image">
+                <img src="/assets/images/brand/product/deployment-suite-for-oracle.png" alt="">
+                <p class="padded-top--tight">Deployment Suite for Oracle</p>
+            </a>
+        </div>
+
+        <div class="grid__col grid__col--span-6-of-12 padded-v">
+            <a href="/assets/brand/product-logos/schema-compare-for-oracle.zip" class="link-image">
+                <img src="/assets/images/brand/product/schema-compare-for-oracle.png" alt="">
+                <p class="padded-top--tight">Schema Compare for Oracle</p>
+            </a>
+        </div>
+
+        <div class="grid__col grid__col--span-6-of-12 padded-v">
+            <a href="/assets/brand/product-logos/source-control-for-oracle.zip" class="link-image">
+                <img src="/assets/images/brand/product/source-control-for-oracle.png" alt="">
+                <p class="padded-top--tight">Source Control for Oracle</p>
+            </a>
+        </div>
     </div>     
 
 {{/layouts/global}}
