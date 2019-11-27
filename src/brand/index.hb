@@ -51,7 +51,17 @@
                     <a href="/brand/photography">See the guide</a>
                 </div>
             </div>
+       
+            <div class="grid__col grid__col--span-3-of-12">
+                <div class="padded--tight">
+                    <a href="/brand/external-sites" class="link-image"><img src="/assets/images/brand/simple-talk-logo.svg" class="spaced-bottom--tight" alt=""></a>
+                    <h2 class="gamma"><a href="/brand/external-sites">Simple-talk</a></h2>
+                    <p>Logos for Simple-talk to download in a variety of formats, for print and screen.</p>
+                    <a href="/brand/external-sites">See the logos</a>
+                </div>
+            </div>
         </div>
+
     </div>     
 
 {{/layouts/global}}
