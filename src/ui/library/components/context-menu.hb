@@ -20,11 +20,11 @@
 
                 <ul class="js-context-menu__list">
                     <li>
-                        <a class="ssc-bbp-follow-btn" href="#follow" data-bbp-follow-user-id="6">Follow</a>
+                        <a href="#follow">Follow</a>
                     </li>
 
                     <li>
-                        <a href="#send-a-message" title="Send Sharie Buresh a Message" class="bbpm-contact-btn">
+                        <a href="#send-a-message">
                             <span>Send a Message</span>
                         </a>
                     </li>
@@ -44,11 +44,11 @@
 
                 <ul class="js-context-menu__list">
                     <li>
-                        <a class="ssc-bbp-follow-btn" href="#follow" data-bbp-follow-user-id="6">Follow</a>
+                        <a href="#follow">Follow</a>
                     </li>
 
                     <li>
-                        <a href="#send-a-message" title="Send Sharie Buresh a Message" class="bbpm-contact-btn">
+                        <a href="#send-a-message">
                             <span>Send a Message</span>
                         </a>
                     </li>
@@ -74,11 +74,11 @@
 
                             <ul class="js-context-menu__list">
                                 <li>
-                                    <a class="ssc-bbp-follow-btn" href="#follow" data-bbp-follow-user-id="6">Follow</a>
+                                    <a href="#follow">Follow</a>
                                 </li>
 
                                 <li>
-                                    <a href="#send-a-message" title="Send Sharie Buresh a Message" class="bbpm-contact-btn">
+                                    <a href="#send-a-message">
                                         <span>Send a Message</span>
                                     </a>
                                 </li>
@@ -104,11 +104,11 @@
 
     <ul class="js-context-menu__list">
         <li>
-            <a class="ssc-bbp-follow-btn" href="#follow" data-bbp-follow-user-id="6">Follow</a>
+            <a href="#follow">Follow</a>
         </li>
 
         <li>
-            <a href="#send-a-message" title="Send Sharie Buresh a Message" class="bbpm-contact-btn">
+            <a href="#send-a-message">
                 <span>Send a Message</span>
             </a>
         </li>
