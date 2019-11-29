@@ -4,6 +4,7 @@
   "private": true,
   "description": "Honeycomb",
   "scripts": {
+    "audit": "node scripts/audit",
     "handlebars": "node scripts/handlebars",
     "honeycomb": "node scripts/honeycomb.css.js && node scripts/honeycomb.js.js && node scripts/honeycomb.img.js && node scripts/honeycomb.assets.js && node scripts/honeycomb.php.js",
     "css": "node node_modules/postcss-cli/bin/postcss --no-map true --use autoprefixer -c scripts -r dist/assets/css/honeycomb.css",
