@@ -21,6 +21,7 @@
                         <li><a href="/ui/library/components/buttons">Buttons</a></li>
                         <li><a href="/ui/library/components/cards">Cards</a></li>
                         <li><a href="/ui/library/components/carousel">Carousel</a></li>
+                        <li><a href="/ui/library/components/context-menu">Context menu</a></li>
                         <li><a href="/ui/library/components/data-tables">Data tables</a></li>
                         <li><a href="/ui/library/components/labels">Labels</a></li>
                         <li><a href="/ui/library/components/lightbox">Lightbox</a></li>

@@ -40,6 +40,10 @@ window.addEventListener( "load", () => {
     content.init();
 });
 
+// Context menu
+import contextMenu from '../../../node_modules/honeycomb-web-toolkit/src/context-menu/js/honeycomb.context-menu';
+contextMenu.init();
+
 // Cookie
 import cookie from '../../../node_modules/honeycomb-web-toolkit/src/cookie/js/honeycomb.cookie';
 
