@@ -37,5 +37,5 @@ glob(`./src/ui/library/**/*.hb`, (err, files) => {
 
     console.table(auditComponents);
 
-    fs.writeFile('./component-audit.json', JSON.stringify(auditComponents) );
+    fs.writeFile('./src/assets/js/component-audit.json', JSON.stringify(auditComponents) );
 });
