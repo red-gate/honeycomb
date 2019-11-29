@@ -15,7 +15,6 @@ const fetchAuditData = el => {
         method: 'get'
     }).then(response => response.json())
     .then(data => {
-        console.log(data);
         printAuditTable(data, el);
     });
 };
