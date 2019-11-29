@@ -32,7 +32,7 @@ const printAuditTable = (data, el) => {
             <tbody>
     `;
 
-    Object.keys(data).map(component => {
+    Object.keys(data).sort().map(component => {
         let sitePath = data[component]['honeycomb.red-gate.com'];
         let toolkit =  data[component]['honeycomb-web-toolkit'];
 
