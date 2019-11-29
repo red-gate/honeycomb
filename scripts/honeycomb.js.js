@@ -20,3 +20,10 @@ glob('node_modules/honeycomb-web-toolkit/**/vendor/**/*.js', (err, files) => {
         });
     });
 });
+
+// Copy component audit JSON
+fs.copy('./src/assets/js/component-audit.json', './dist/assets/js/component-audit.json', err => {
+    if(err) {
+        console.error("Error copying vendor JavaScript: ", err);
+    }
+});
