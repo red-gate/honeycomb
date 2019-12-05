@@ -17,6 +17,10 @@
             <title>{{title}} - Honeycomb - Redgate's design system</title>
         {{/ifCond}}
 
+        {{#if noindex}}
+            <meta name="robots" content="noindex, nofollow">
+        {{/if}}
+
         <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
     </head>
     <body class="grid {{class}}">

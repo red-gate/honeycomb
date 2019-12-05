@@ -159,3 +159,6 @@ if (uri === "/") {
 
 import whatsNew from "./site/whats-new";
 whatsNew.init();
+
+import audit from "./site/audit";
+audit.init();

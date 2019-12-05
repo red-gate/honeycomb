@@ -16,16 +16,16 @@
                 <li>
                     <a>Components <span class="nav--vertical__toggle"></span></a>
                     <ul>
-                        <li><a href="/ui/library/components/avatars">Avatars</a></li>
+                        <li><a href="/ui/library/components/avatar">Avatar</a></li>
                         <li><a href="/ui/library/components/blockquote">Blockquote</a></li>
-                        <li><a href="/ui/library/components/buttons">Buttons</a></li>
-                        <li><a href="/ui/library/components/cards">Cards</a></li>
+                        <li><a href="/ui/library/components/button">Buttons</a></li>
+                        <li><a href="/ui/library/components/card">Cards</a></li>
                         <li><a href="/ui/library/components/carousel">Carousel</a></li>
                         <li><a href="/ui/library/components/context-menu">Context menu</a></li>
                         <li><a href="/ui/library/components/data-tables">Data tables</a></li>
                         <li><a href="/ui/library/components/labels">Labels</a></li>
                         <li><a href="/ui/library/components/lightbox">Lightbox</a></li>
-                        <li><a href="/ui/library/components/lists">Lists</a></li>
+                        <li><a href="/ui/library/components/list">Lists</a></li>
                         <li><a href="/ui/library/components/messaging">Messaging</a></li>
                         <li><a>Navigation <span class="nav--vertical__toggle"></span></a>
                             <ul>
@@ -39,9 +39,9 @@
                         <li><a href="/ui/library/components/progress">Progress bars</a></li>
                         <li><a href="/ui/library/components/segmented-controls">Segmented controls</a></li>
                         <li><a href="/ui/library/components/spinners">Spinners</a></li>
-                        <li><a href="/ui/library/components/tables">Tables</a></li>
+                        <li><a href="/ui/library/components/table">Tables</a></li>
                         <li><a href="/ui/library/components/tabs">Tabs</a></li>
-                        <li><a href="/ui/library/components/tooltips">Tooltips</a></li>
+                        <li><a href="/ui/library/components/tooltip">Tooltips</a></li>
                     </ul>
                 </li>
                 <li>
