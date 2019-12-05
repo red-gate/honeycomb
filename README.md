@@ -23,7 +23,7 @@ The website is built using the [Handlebars HTML templating language](https://han
 ### Website structure
 The website files are stored in the `/src/` directory. 
 
-The structure of the files is representative of the website URL structure. For example, the Handlebars file which compiles to http://honeycomb.red-gate.com/ui/library/components/buttons can be found at `/src/ui/library/components/buttons.hb`.
+The structure of the files is representative of the website URL structure. For example, the Handlebars file which compiles to http://honeycomb.red-gate.com/ui/library/components/buttons can be found at `/src/ui/library/components/button.hb`.
 
 #### Partials
 Handlebars partials are used to provide common components to the pages. For example, headers and footers. Partials are stored in the `/src/_partials/` directory.

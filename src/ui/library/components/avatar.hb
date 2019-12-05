@@ -1,5 +1,5 @@
-{{#> layouts/ui-library title="Avatars"}}
-    <h1>Avatars</h1>
+{{#> layouts/ui-library title="Avatar"}}
+    <h1>Avatar</h1>
 
     <div class="js-tabbed tabbed" data-tabs-pagination="true">
         <nav>

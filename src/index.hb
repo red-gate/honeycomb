@@ -33,16 +33,16 @@
 
                     <div class="grid__col grid__col--span-4-of-12">
                         <div class="padded--tight">
-                            <a href="/ui/library/components/avatars" class="link-image"><img src="/assets/images/homepage/components.svg" alt="" class="spaced-bottom--tight" /></a>
-                            <h3><a href="/ui/library/components/avatars">Components</a></h3>
+                            <a href="/ui/library/components/avatar" class="link-image"><img src="/assets/images/homepage/components.svg" alt="" class="spaced-bottom--tight" /></a>
+                            <h3><a href="/ui/library/components/avatar">Components</a></h3>
                             <p>Components are basic elements functioning together as a unit.</p>
                             <ul>
-                                <li><a href="/ui/library/components/buttons">Buttons</a></li>
+                                <li><a href="/ui/library/components/button">Buttons</a></li>
                                 <li><a href="/ui/library/components/navigation">Navigation</a></li>
                                 <li><a href="/ui/library/components/messaging">Messaging</a></li>
                                 <li><a href="/ui/library/components/labels">Labels</a></li>
                             </ul>
-                            <a href="/ui/library/components/avatars" class="icon--chevron-right icon--right">All components</a>
+                            <a href="/ui/library/components/avatar" class="icon--chevron-right icon--right">All components</a>
                         </div>
                     </div>
 
