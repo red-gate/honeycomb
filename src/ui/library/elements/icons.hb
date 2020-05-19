@@ -108,6 +108,9 @@
                 <p class="icon--clock">Clock</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--cloud-server">Cloud server</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--column">Column</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
