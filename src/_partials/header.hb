@@ -4,7 +4,7 @@
         <a href="/" class="header--primary__app-logo-container"><img src="/assets/images/header/gatebase-white.svg" alt=""></a>
         <a href="/" class="header--primary__app-name-container">Honeycomb</a>
         
-        <span class="hide-on-medium">
+        <div class="hide-on-medium flex-grow">
             <ul>
                 <li><a href="/ui/" {{#ifCond section "ui"}} class="active" {{/ifCond}}>Creating UIs</a></li>
                 <li><a href="/writing-guide/" {{#ifCond section "writing-guide"}} class="active" {{/ifCond}}>Writing guide</a></li>
@@ -13,11 +13,11 @@
 
             <div class="float-right spaced-right">
                 <ul>
-                    <li><a href="#" class="label label--small label--ghost color--blue--1 border-color--blue--1 js-whats-new-trigger">What's new</a></li>
+                    <li><a href="#" class="js-whats-new-trigger">What's new</a></li>
                     <li><a href="https://redgate.slack.com/messages/honeycomb/" target="_blank" class="icon--external icon--right">Requests or questions: #Honeycomb</a></li>
                 </ul>
             </div>
-        </span>
+        </div>
 
         <span class="hide-on-max show-on-medium float-right">
             <ul>
