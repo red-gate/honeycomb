@@ -124,7 +124,6 @@
                             <li><a href="/brand/logo">Redgate logo</a></li>
                             <li><a href="/brand/product">Product logos</a></li>
                             <li><a href="/brand/powerpoint">Powerpoint</a></li>
-                            <li><a href="/brand/business-cards">Business cards</a></li>
                         </ul>
                     </div>
                 </div>
