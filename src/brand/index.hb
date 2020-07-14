@@ -32,26 +32,8 @@
                 </div>
             </div>
 
-            <div class="grid__col grid__col--span-3-of-12">
-                <div class="padded--tight">
-                    <a href="/brand/business-cards" class="link-image"><img src="/assets/images/brand/business-cards.png" class="spaced-bottom--tight" alt=""></a>
-                    <h2 class="gamma"h2><a href="/brand/business-cards">Business cards</a></h2>
-                    <p>If you're going to an event or a conference, you can get some business cards printed.</p>
-                    <a href="/brand/business-cards">Get some Business cards</a>
-                </div>
-            </div>
         </div>
 
-        <div class="grid__row">
-            <div class="grid__col grid__col--span-3-of-12">
-                <div class="padded--tight">
-                    <a href="/brand/photography" class="link-image"><img src="/assets/images/brand/photography/colour.png" class="spaced-bottom--tight" alt=""></a>
-                    <h2 class="gamma"><a href="/brand/photography">Photography</a></h2>
-                    <p>Guidlines for using and choosing photographs including the fundamentals, and a few examples.</p>
-                    <a href="/brand/photography">See the guide</a>
-                </div>
-            </div>
-        </div>
     </div>     
 
 {{/layouts/global}}
