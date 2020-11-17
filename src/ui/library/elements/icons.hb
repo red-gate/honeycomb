@@ -252,6 +252,9 @@
                 <p class="icon--phone">Phone</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--pin">Pin</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--pipeline">Pipeline</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
@@ -348,7 +351,10 @@
                 <p class="icon--tick">Tick</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
-                <p class="icon--user">user</p>
+                <p class="icon--unpin">Unpin</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--user">User</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--users">Users</p>
@@ -381,6 +387,9 @@
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--dlm-dashboard">DLM Dashboard</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--flyway">Flyway</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--readyroll">Readyroll</p>
