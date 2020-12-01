@@ -246,6 +246,9 @@
                 <p class="icon--more-actions-vertical">More actions vertical</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--pause">Pause</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--pdf">PDF</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
