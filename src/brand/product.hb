@@ -22,8 +22,8 @@
         </div>
 
         <div class="grid__col grid__col--span-6-of-12 padded-v">
-            <a href="/assets/brand/product-logos/dlm-dashboard.zip" class="link-image">
-                <img src="/assets/images/brand/product/dlm-dashboard.png" alt="">
+            <a href="/assets/brand/product-logos/redgate-deploy.zip" class="link-image">
+                <img src="/assets/images/brand/product/redgate-deploy.png" alt="">
                 <p class="padded-top--tight">Redgate Deploy</p>
             </a>
         </div>
