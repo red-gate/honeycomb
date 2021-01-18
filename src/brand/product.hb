@@ -15,7 +15,7 @@
         <p>Get in touch with <a href="mailto:brand@red-gate.com">brand@red-gate.com</a> if you have any questions.</p>
 
         <div class="grid__col grid__col--span-6-of-12 padded-v">
-            <a href="src/assets/brand/product-logos/flyway.zip" class="link-image">
+            <a href="/assets/brand/product-logos/flyway.zip" class="link-image">
                 <img src="/assets/images/brand/product/flyway.png" alt="">
                 <p class="padded-top--tight">Flyway</p>
             </a>
