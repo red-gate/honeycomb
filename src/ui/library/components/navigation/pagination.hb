@@ -17,9 +17,10 @@
 
                 <ul class="pagination__index">
                     <li><a href="#">1</a></li>
-                    <li>2</li>
+                    <li class="pagination__index--active"><a href="#">2</a></li>
                     <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
+                    <li class="pagination__index__more">...</li>
+                    <li><a href="#">6</a></li>
                 </ul>
             </nav>
         </div>
@@ -34,9 +35,10 @@
 
     <ul class="pagination__index">
         <li><a href="#">1</a></li>
-        <li>2</li>
+        <li class="pagination__index--active"><a href="#">2</a></li>
         <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
+        <li class="pagination__index__more">...</li>
+        <li><a href="#">6</a></li>
     </ul>
 </nav>
             {{/code-sample}}
