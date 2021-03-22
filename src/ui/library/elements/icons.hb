@@ -159,6 +159,12 @@
                 <p class="icon--email">Email</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--emoji-happy">Emoji happy</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--emoji-sad">Emoji sad</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--expand">Expand</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
@@ -220,6 +226,9 @@
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--map_pin">Map pin</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--medium-tiles">Medium tiles</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--merge-branch">Merge branch</p>
@@ -316,6 +325,12 @@
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--sort-arrows">Sort arrows</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--sort-arrows-by-name">Sort arrows by name</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--sort-arrows-by-size">Sort arrows by size</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--star-circle">Star circle</p>
