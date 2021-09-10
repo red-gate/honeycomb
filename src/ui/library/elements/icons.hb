@@ -255,6 +255,9 @@
                 <p class="icon--more-actions-vertical">More actions vertical</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--offline-cloud">Offline cloud</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--pause">Pause</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
