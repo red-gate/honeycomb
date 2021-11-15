@@ -1,5 +1,5 @@
 const fs = require("fs-extra");
-const sass = require("node-sass");
+const sass = require("sass");
 const outFile = "dist/assets/css/honeycomb.css";
 const fonts = [
     "node_modules/honeycomb-web-toolkit/src/type/vendor/",
