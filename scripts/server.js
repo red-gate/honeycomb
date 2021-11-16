@@ -1,5 +1,5 @@
 const express = require('express');
-const opn = require('opn');
+const opn = require('open');
 
 const app = express();
 const domain = 'http://localhost';
