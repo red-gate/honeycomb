@@ -8,7 +8,11 @@ cd ../
 [[ ! -v OCTOPUS_API_KEY ]] &&  echo "No OCTOPUS_API_KEY environment variable set" && exit 1
 
 # Append the branch name to our version string if we're not on master
-[[ $BUILD_BRANCH != "master" ]] && export BUILD_VERSION="$BUILD_VERSION-$BUILD_BRANCH"
+if [ $BUILD_BRANCH != "master" ]; then
+	# Replace any /'s or \'s in the branch name with _
+	BUILD_BRANCH=$(echo $BUILD_BRANCH | sed -r 's/\/\\/_/g' )
+	export BUILD_VERSION="$BUILD_VERSION-$BUILD_BRANCH"
+fi
 echo "NuGet version: $BUILD_VERSION"
 
 # Install build dependencies
