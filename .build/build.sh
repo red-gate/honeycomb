@@ -21,7 +21,8 @@ npm run build || exit 1
 
 # Package up the dist directory ready to push to Octopus
 echo "##teamcity[progressMessage 'Zipping package']"
-PACKAGE_FILE=Honeycomb.Website.$BUILD_VERSION.tar.gz
+PACKAGE_FILE=Honeycomb.Website.${BUILD_VERSION//[^A-Za-z0-9]/-}.tar.gz
+echo "Package file: $PACKAGE_FILE"
 rm -rf packages/
 mkdir packages
 tar -C dist/ -cvzf packages/$PACKAGE_FILE . || exit 1
