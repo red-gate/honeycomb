@@ -2,6 +2,33 @@
     <h1>Toolkits</h1>
 
     <div class="grid__row spaced-bottom">
+        <h2>MUI theme [Homeycomb MUI]</h2>
+
+        <div class="grid__col grid__col--span-5-of-12">
+            <p>Since Q1 2023 this has been our prefered way of implementing Honeycomb in products with web front ends.</p>
+            <p>See the <a href="https://mui.com/material-ui/getting-started/overview/">MUI docs</a> and <a href="https://mui.com/x/introduction/">MUI X docs</a> for component scope and examples, as well as <a href="https://redgate365.sharepoint.com/:p:/s/Honeycomb/Edsi0249t1hKhcLKvufds4EBqp9hF75LC4O7GVCsmJp1ZA?e=qXqaIz">guidance for product teams</a> [private].</p>
+            <a href="https://github.com/red-gate/honeycomb-mui-theme#honeycomb-mui-monorepo" class="button icon--external icon--right" target="_blank">Installation instructions</a>
+        </div>
+
+        <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
+            <h3>How to use Honeycomb MUI in your project</h3>
+
+            <h4>React single page apps</h4>
+            <ul>
+                <li>Follow <a href="https://github.com/mui/material-ui/tree/master#material-ui">MUI's installation instuctions</a>.</li>
+                <li>Follow the instuctions to import the <a href="https://github.com/red-gate/honeycomb-mui-theme/blob/main/packages/mui-theme/README.md">Honeycomb MUI theme</a>, <a href="https://github.com/red-gate/honeycomb-mui-theme/blob/main/packages/fonts/README.md">Honeycomb fonts</a> and <a href="https://github.com/red-gate/honeycomb-mui-theme/blob/main/packages/icons/README.md">Honeycomb icons</a>.</li>
+                <li>Checkout <a href="https://red-gate.github.io/honeycomb-mui-theme/?path=/docs/button--docs">Storybook</a> for live examples of patterns.</li>
+            </ul>
+            <h4>Bundled without a server</h4>
+            <p>Only recommended if you don't care about bundle size and you are not air-gapped.</p>
+            <ul>
+                <li>Follow MUIs the instructions for <a href="https://github.com/mui/material-ui/tree/master/examples/material-via-cdn">including the MUI library via a CDN</a>.</li>
+                <li>Have your bundler import the <a href="https://github.com/red-gate/honeycomb-mui-theme">Honeycomb MUI theme</a> into your index.html</li>
+            </ul>
+        </div>
+    </div>
+
+     <div class="grid__row spaced-bottom">
         <h2>Web toolkit</h2>
 
         <div class="grid__col grid__col--span-5-of-12">
@@ -41,37 +68,6 @@
         </div>
     </div>
 
-    <div class="grid__row spaced-bottom">
-        <h2>Design toolkit (<a href="https://www.sketchapp.com" target="_blank">Sketch</a> library)</h2>
-        
-        <div class="grid__col grid__col--span-5-of-12">
-            <p>The design toolkit is a <a href="https://www.sketchapp.com" target="_blank">Sketch</a> pattern library that lives in <a href="https://brand.ai/" target="_blank">Brand.ai</a>. </p>
-            <a href="https://brand.ai/redgate/honeycomb" class="button icon--external icon--right" target="_blank">Get the toolkit</a>
-        </div>
-
-        <div class="grid__col grid__col--span-6-of-12 grid__col--push-1-of-12">
-            <h3>How to use the design toolkit in your project</h3>
-            <p><a href="https://drive.google.com/open?id=0Bx9ZRhhuN1sNWFE4cmhLS19uN28" target="_blank">Video walkthrough (No audio)</a></p>
-
-            <ul>
-                <li>Ensure you have the <a href="https://www.sketchapp.com/updates/" target="_blank">latest version of Sketch</a> (<em>if you haven’t moved Sketch to the Apps folder you won’t get updates</em>)</li>
-                <li>Ensure you have installed Roboto and Segoe UI (otherwise the elements will look weird and be misaligned).</li>
-                <li>Install and log in to the Brand.ai sketch plugin:
-                    <ul>
-                        <li><a href="https://brand.ai/sketch" target="_blank">Download</a> and run the plugin. This will install the plugin and launch Sketch</li>
-                        <li>In Sketch, create a new document, or open an existing Sketch document</li>
-                        <li>Open the Brand.ai window from the Sketch Menu <em>(Plugins>Brand.ai)</em> or <em>CMD+Shift+D</em></li>
-                        <li>Log in to Brand.ai</li>
-                    </ul>
-                </li>
-                <li>Hopefully you’re now ready start using Brand.ai in sketch – you should now be able to insert components and style existing elements with the Brand.ai plugin.</li>
-            </ul>
-
-            <h4>Ensure you’re always using the latest version of the Honeycomb Library</h4>
-            <p>Click ‘Sync to Document’ at the bottom of the Brand.ai window to update your document to use the latest Honeycomb styles.</p>
-
-        </div>
-    </div>
 
     <div class="grid__row spaced-bottom">
         <h2>Winforms toolkit <em>(Private)</em></h2>

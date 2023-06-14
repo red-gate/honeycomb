@@ -65,6 +65,12 @@
                         <ul>
                             <li>
                                 <a href="/ui/toolkits/">
+                                    <h3 class="color--white">MUI theme</h3>
+                                    <p class="color--blue--2">An implementation of Honeycomb using the MUI React library</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ui/toolkits/">
                                     <h3 class="color--white">Web toolkit</h3>
                                     <p class="color--blue--2">HTML, CSS and JavaScript component library</p>
                                 </a>
