@@ -7,7 +7,7 @@
             <div class="grid__col grid__col--span-4-of-12">
                 <div class="padded--tight">
                     <h2>Redgate Powerpoint template</h1>
-                    <a href="/assets/brand/powerpoint/redgate-template.pptx?v=2" class="link-image spaced-bottom--tight">
+                    <a href="/assets/brand/powerpoint/redgate-template.pptx?v=3" class="link-image spaced-bottom--tight">
                         <img src="/assets/images/brand/powerpoint/thumbnail.png" alt="">
                     </a>
                 </div>
