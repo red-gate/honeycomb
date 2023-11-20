@@ -153,6 +153,9 @@
                 <p class="icon--dock">Dock</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--docker-logo">Docker logo</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--download">Download</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
@@ -193,6 +196,9 @@
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--folder">Folder</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--git-logo">Git logo</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--globe">Globe</p>
@@ -435,6 +441,9 @@
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--readyroll">Readyroll</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--redgate-test-data-manager">Redgate Test Data Manager</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--schema-compare-for-oracle">Schema Compare for Oracle</p>
