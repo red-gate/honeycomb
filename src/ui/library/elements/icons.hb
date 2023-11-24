@@ -33,6 +33,9 @@
                 <p class="icon--arrow-circle-down">Arrow circle down</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--arrow-down">Arrow down</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--arrow-down-link">Arrow down link</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
@@ -52,6 +55,9 @@
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--arrow-right">Arrow right</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--arrow-up">Arrow up</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--arrow-up-link">Arrow up link</p>
