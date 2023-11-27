@@ -29,6 +29,13 @@
         </div>
 
         <div class="grid__col grid__col--span-6-of-12 padded-v">
+            <a href="/assets/brand/product-logos/redgate-test-data-manager.zip" class="link-image">
+                <img src="/assets/images/brand/product/redgate-test-data-manager.png" alt="">
+                <p class="padded-top--tight">Redgate Test Data Manager</p>
+            </a>
+        </div>
+
+        <div class="grid__col grid__col--span-6-of-12 padded-v">
             <a href="/assets/brand/product-logos/data-masker.zip" class="link-image">
                 <img src="/assets/images/brand/product/data-masker.png" alt="">
                 <p class="padded-top--tight">Data Masker</p>
