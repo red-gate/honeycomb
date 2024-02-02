@@ -9,6 +9,11 @@ import googleAnalytics from '../../../node_modules/honeycomb-web-toolkit/src/ana
 googleAnalytics.setAccountId('UA-90206-156');
 googleAnalytics.init();
 
+// Cookie consent.
+// Import this above everything else so we can use it to determine whether to
+// load in other modules/scripts.
+import cookieConsent from 'honeycomb-web-toolkit/src/cookie-consent/js/honeycomb.cookie-consent';
+cookieConsent.init();
 
 // Pingdom.
 import pingdom from '../../../node_modules/honeycomb-web-toolkit/src/analytics/js/honeycomb.analytics.pingdom';
