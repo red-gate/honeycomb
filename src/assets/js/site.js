@@ -3,12 +3,18 @@
 /**
  * Honeycomb web toolkit
  */
-// Google analytics V3.
-// NB - Google Analytics V4 gets loaded further down as part of the site modules.
-import googleAnalytics from '../../../node_modules/honeycomb-web-toolkit/src/analytics/js/honeycomb.analytics.google';
-googleAnalytics.setAccountId('UA-90206-156');
-googleAnalytics.init();
 
+// Cookie consent.
+// Import this above everything else so we can use it to determine whether to
+// load in other modules/scripts.
+import cookieConsent from 'honeycomb-web-toolkit/src/cookie-consent/js/honeycomb.cookie-consent';
+cookieConsent.init();
+
+// Google analytics (v4)
+import googleAnalytics from 'honeycomb-web-toolkit/src/analytics/js/honeycomb.analytics.google';
+googleAnalytics.setAccountId('G-H00C5P2HQR');
+googleAnalytics.setCrossDomainAccountId('G-X7VDRWRT4P');
+googleAnalytics.init();
 
 // Pingdom.
 import pingdom from '../../../node_modules/honeycomb-web-toolkit/src/analytics/js/honeycomb.analytics.pingdom';
@@ -143,10 +149,6 @@ video.init({
  * Honeycomb website
  */
 const uri = window.location.pathname;
-
-// Google Analytics V4
-import googleAnalyticsV4 from "./site/analytics.google.v4.js";
-googleAnalyticsV4.init();
 
 import gitHubCommits from "./site/github-commits";
 gitHubCommits.init();

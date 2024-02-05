@@ -4,6 +4,7 @@ $hc-navigation-images-dir: "../images/vendor/navigation/";
 $fancyboxImagesDir: "../images/vendor/fancybox";
 
 @import "honeycomb-web-toolkit/src/honeycomb";
+@import "honeycomb-web-toolkit/src/cookie-consent/css/main";
 @import "./_prism.scss";
 
 @import "./_site.scss";
