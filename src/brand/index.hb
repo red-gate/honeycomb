@@ -16,7 +16,7 @@
 
             <div class="grid__col grid__col--span-3-of-12">
                 <div class="padded--tight">
-                    <a href="/brand/product" class="link-image"><img src="/assets/images/brand/product.svg" class="spaced-bottom--tight" alt=""></a>
+                    <a href="/brand/product" class="link-image"><img src="/assets/images/brand/product.svg?v=1" class="spaced-bottom--tight" alt=""></a>
                     <h2 class="gamma"><a href="/brand/product">Product logos</a></h2>
                     <p>All of our SQL product logos in one place to download in a variety of formats, for print and screen.</p>
                     <a href="/brand/product">See the product logos</a>
