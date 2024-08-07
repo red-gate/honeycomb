@@ -53,7 +53,6 @@
                     <!-- Writing guide -->
                     <li><a href="/writing-guide/applications/">Applications</a></li>
                     <li><a href="/writing-guide/usage-dictionary">Usage dictionary</a></li>
-                    <li><a href="/writing-guide/tone-of-voice">Tone of voice</a></li>
 
                     {{!--<li><a class="text--strikethrough color--grey--4">Redgate website</a></li>
                     <li><a class="text--strikethrough color--grey--4">Case study</a></li>
