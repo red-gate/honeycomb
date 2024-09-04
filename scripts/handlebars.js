@@ -95,7 +95,7 @@ runHandlebars = () => {
                                     if (err) {
                                         console.error(err);
                                     } else {
-                                        console.log(`Compiled HTML saved to ${distFile}.`);
+                                        // console.log(`Compiled HTML saved to ${distFile}.`);
                                     }
                                 });
                             });
