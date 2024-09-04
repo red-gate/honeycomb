@@ -10,7 +10,10 @@ const fontsDir = "dist/assets/fonts/";
 // Compile Sass.
 sass.compileAsync("src/assets/css/honeycomb.scss", {
     loadPaths: [ "node_modules" ],
-    style: "compressed"
+    style: "compressed",
+    silenceDeprecations: [
+        'mixed-decls'
+    ]
 }).then(result => {
     fs.writeFile(outFile, result.css, (err) => {
         if(err) {
