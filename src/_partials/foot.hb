@@ -20,7 +20,7 @@
     </div>
 
     <!-- JavaScripts -->
-    <script src="https://cdn.red-gate.com/assets/scripts/jquery-3.5.1.min.js?v=25479"></script>
+    <script src="https://cdn.red-gate.com/assets/scripts/jquery-3.7.1.min.js?v=25479"></script>
     <script src="/assets/js/site.min.js?v=1636973494"></script>
 </body>
 </html>
