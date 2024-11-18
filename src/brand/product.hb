@@ -22,9 +22,9 @@
         </div>
 
         <div class="grid__col grid__col--span-6-of-12 padded-v">
-            <a href="/assets/brand/product-logos/flyway.zip" class="link-image">
-                <img src="/assets/images/brand/product/flyway.png" alt="">
-                <p class="padded-top--tight">Flyway</p>
+            <a href="/assets/brand/product-logos/redgate-flyway.zip" class="link-image">
+                <img src="/assets/images/brand/product/redgate-flyway.png" alt="">
+                <p class="padded-top--tight">Redgate Flyway</p>
             </a>
         </div>
 
