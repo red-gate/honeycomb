@@ -360,7 +360,13 @@
                 <p class="icon--sort-arrows-by-size">Sort arrows by size</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--star">Star</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--star-circle">Star circle</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--star-outline">Star outline</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--stop">Stop</p>
@@ -449,7 +455,16 @@
                 <p class="icon--readyroll">Readyroll</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--redgate-pgcompare">Redgate pgCompare</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--redgate-pgnow">Redgate pgNow</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--redgate-test-data-manager">Redgate Test Data Manager</p>
+              </div>
+              <div class="grid__col grid__col--span-3-of-12">
+                <p class="icon--schema-compare-for-mysql">Schema Compare for MySQL</p>
               </div>
               <div class="grid__col grid__col--span-3-of-12">
                 <p class="icon--schema-compare-for-oracle">Schema Compare for Oracle</p>
